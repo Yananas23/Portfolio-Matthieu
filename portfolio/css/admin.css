@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+h2 {
+    margin-bottom: 0;
+}
+
+ 
+#retour{
+    padding: 10px;
+    background-color: #181818;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#retour:hover{
+    background-color: #ae8800;
+}
+
+
+.form-container {
+    background: #dab200;
+    padding: 20px;
+    border: solid 1px #181818;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+
+.form-add, .form-mod {
+    background: #dab200;
+    padding: 20px;
+    border: solid 1px #181818;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+form .box {
+    padding: 10px;
+    border: 1px solid #181818;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #181818;
+}
+
+form .box:focus {
+    outline: none;
+    border-color: #ae8800;
+    box-shadow: 0 0 4px #dab200;
+}
+
+form button, #btn-add, #btn-mod, #connect, #acceuil {
+    padding: 10px;
+    background-color: #181818;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+}
+
+form button:hover, #btn-add:hover, #btn-mod:hover, #connect:hover, #acceuil:hover {
+    background-color: #ae8800;
+}
+
+.general {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 300px;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  
+  .general > * {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .general .duo {
+    align-items: flex-start;
+  }
+
+  .general#G2{
+    grid-template-columns: 1fr;
+    height: auto; 
+  }
+  
+
+  @media (max-width: 600px) {
+    .general {
+      grid-template-columns: 1fr;
+      height: auto; 
+    }
+  }
+
+#with-img img{
+    max-width: 200px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 2%;
+}
+
+
+#synopsis-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.synopsis {
+    flex: 1;
+    text-align: center;
+}
+
+.synopsis textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+#resume-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.resume {
+    flex: 1;
+    text-align: center;
+}
+
+.resume textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+@media screen and (max-width: 900px) {
+    #add-projet {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #synopsis-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .synopsis {
+        max-width: none;
+        width: 100%;
+    }
+
+    #resume-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume {
+        max-width: none;
+        width: 100%;
+    }
+
+    .avis {
+        max-width: none;
+        width: 100%;
+    }
+
+    
+}
+
+#avis_perso{
+    height: 150px;
+    resize: vertical;
+}
+
+/* Conteneur des objectifs */
+#objectifs-container, #etapes-container {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .objectif, .etape {
+    border: 2px solid #000000; 
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffd18d;
+    overflow: hidden;
+  }
+
+  .objectif input[type="text"], .etape input[type="text"] {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  .objectif textarea, .etape textarea {
+    width: 100%; 
+    height: 100px; 
+    resize: none;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow-y: auto; 
+  }
+
+#suppr{
+    float: right;
+}
+
+.error-message {
+    color: #ff0000;
+    background-color: #ffecec;
+    border: 1px solid #ff5e5e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+ }
+ 

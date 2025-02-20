@@ -1,0 +1,1002 @@
+/*Ajout des polices d'écriture*/
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/poppins.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'TitanOne';
+    src: url(../fonts/TitanOne-Regular.ttf);
+}
+
+/*Regles générales*/
+#demo, #last_title, #liste_title, #projet_title, h1, h4, h3, #p_other, #titre_projet{
+    font-family: 'TitanOne';
+    text-transform: uppercase;
+}
+
+p, #infos_projet, .cv_parts h4{
+    font-family: 'Poppins';
+}
+
+h1, h2, h3, h4, #p_other, #presentation, #projet_title, footer, footer li, footer p, .contact, #credits, #titre_projet, #nav_projet{
+    text-align: center;
+}
+
+h3{
+    font-size: 1.4em;
+    line-height: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e9b960;
+    color: #181818;
+    transform: scale(1);
+}
+
+section{
+    width: 100%;
+}
+
+a{
+    color: #181818;
+    text-decoration: none;
+}
+
+/*Boutons Changement de langue*/
+#div_lang{
+    width: 90px;
+}
+
+#lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0.5%;
+    top: 10px;
+}
+
+#lang button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#lang button:hover {
+    transform: scale(1.05);
+}
+
+#lang button img.resize {
+    width: 45px;
+    height: 27px;
+    border-radius: 5px;
+    border: solid 3px #18181800;
+}
+
+#active_lang{
+    background-color: aliceblue;
+}
+
+/*Séparateur de sections*/
+#separateur{
+    background: url('../images/separateurv2.png') repeat-x center;
+    height: 20px;
+    background-size: 5%;
+}
+
+/*Header - Entête*/
+#up{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_up{
+    display: inline-block;
+}
+
+#tete{
+    height: 150px;
+    border-radius: 75px;
+    margin: 10px;
+}
+
+h1{
+    font-size: 2.4em;
+}
+
+/*Navigation*/
+nav{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#nav_accueil{
+    margin-left: -25px;
+}
+
+nav a, article a, #p_other a{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover, article a:hover{
+    color: #360000;
+    border-bottom: 3px solid #360000;
+}
+
+/*Section Présetntation*/
+#last_projects h2, #projet_title{
+    margin-right: 500px;
+}
+
+#demo{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-size: 1.7em;
+    margin: 10px;
+    font-weight: lighter;
+}
+
+#article_bande_demo{
+    margin: 10px 20px;
+    width: auto;
+    max-width: 1474px;
+    height: auto;
+}
+
+#vid_bande_demo{
+    float: left;
+    margin: 18px;
+    margin-right: 10px;
+    height: 300px;
+    width: 533px;
+    border-radius: 5px;
+    border: 1px solid #181818;
+}
+
+#div_text_BD{
+    padding: 0;
+    height: 310px;
+}
+
+#bande_demo h2{
+    margin-top: 25px;
+    margin-left: 533;
+}
+
+#presentation{
+    font-size: 21px;
+    margin: 10px;
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+#presentation a:hover{
+    text-decoration: underline;
+    border: none;
+}
+
+/*Section Projets Récents*/
+#liste_last_projets{
+    display: flex;
+    justify-content: safe center;
+    margin-bottom: 10px;
+}
+
+#liste_last_projets article{
+    font-size: 16px;
+}
+
+#liste_last_projets li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+article{
+    margin-right: 40px;
+    background-color: #dab200;
+    border: solid 2px #181818;
+    border-radius: 10px;
+    height: 500px;
+    width: 310px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+h4{
+    margin: 5px;
+    padding: 0px;
+    font-size: 1.3em;
+}
+
+.videoYT{
+    height: 168px;
+    width: 300px;
+    margin-left: 4px;
+    border-radius: 5px;
+    border: 1px solid #181818;
+}
+
+#other{
+    width: 150px;
+}
+
+#p_other{
+    font-size: 1em;
+    position: relative;
+    bottom: 15px;
+}
+
+#p_other a:hover{
+    padding-bottom:0px;
+    border: none;
+    color: #360000;
+    text-decoration: underline;
+}
+
+#img_plus{
+    margin: 0 10px;
+    width: 130px;
+    border-radius: 5px;
+    border: 1px #181818 solid;
+}
+
+#img_plus2{
+    width: 0;
+}
+
+
+/*Page Liste des projets*/
+#liste_page_projets article{
+    margin: auto;
+    font-size: 16px;
+}
+
+#liste_page_projets article h3, #liste_last_projets article h3{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.projets {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.projets p{
+    margin-top: 0;
+}
+
+article p{
+    margin: 10px;
+    text-align: justify;
+}
+
+#plus{
+    text-align: right;
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+}
+
+article a{
+    font-size: 1em;
+}
+
+.projets img{ /*Ajout de projet - Uniquement dans la page Admin*/
+    cursor: pointer;
+}
+
+#add {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+}
+
+#la {
+    font-size: 5rem;
+    border-bottom: 0;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+#add:hover #la {
+    transform: scale(1.1);
+    font-size: 6rem;;
+} /*fin section ajout de projet*/
+
+
+/*Footer - Pied de page*/
+footer{
+    background-color: #181818;
+    color: white;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.div_footer{
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+#footer_nav{
+    position: relative;
+    right: 22px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.05em;
+}
+
+footer #nav_accueil{
+    margin-left: 0;
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li a:hover{
+    color: #dab200;
+    border-bottom: 3px solid #dab200;
+}
+
+footer p{
+    font-size: 1.1em;
+    margin: 0;
+}
+
+#infos{
+    padding-top: 5px;
+}
+
+#info{
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.contact{
+    padding-top: 5px;
+    display: inline-block;
+}
+
+#contact1{
+    padding-top: 5px;
+}
+
+#contact2{
+    margin: 0;
+}
+
+#credits{
+    padding-bottom: 0px;
+}
+
+
+/* Page Fiche Projet */
+.article_proj, .projet p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+/*Section Titre*/
+#projet_title{
+    margin: 100px 0;
+}
+
+#titre_projet{
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+#infos_projet{
+    font-size: 1.2em;
+    text-transform: none;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 0;
+}
+
+#infos_projet a{
+    text-decoration: underline;
+}
+
+#infos_projet a:hover{
+    text-decoration: none;
+    color: #360000;
+    border-bottom: 3px solid #360000;
+}
+
+.projet h2{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/*Section Vue d'ensemble*/
+#vue_dEnsemble{
+    display: flex;
+    justify-content: space-around;
+}
+
+#article_projet{
+    padding-bottom: 0;
+}
+
+#div_synopsis {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+    height: auto; 
+}
+
+.media_container {
+    flex: 0 0 auto;
+}
+
+.text_container {
+    flex: 1; 
+}
+
+#vid_PR{
+    float: left;
+    margin: 18px;
+    height: 300px;
+    width: 533px;
+    border-radius: 5px;
+    border: 1px solid #181818;
+}
+
+a #vid_PR:hover{
+    transform: scale(1.03);
+}
+
+#synopsis{
+    padding: 18px;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+}
+
+#resume_PR{
+    margin:18px;
+    margin-top: 0;
+    padding: 0 10px;
+}
+
+.projet article{
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: 1474px;
+    margin: 10px 20px;
+    padding-bottom: 20px;
+}
+
+/*Section Objectifs et Etapes*/
+#etapes h2, #avis_final h2{
+    font-size: 2em;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+#etapes ul, #objectif ul{
+    list-style-type: none;
+}
+
+#objectifs{
+    width: 400px;
+    float: left;
+    margin: 10px;
+    background-color: #ffd18d;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+#page_desfac_pilote #objectifs{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#objectifs li, #etapes li{
+    margin-left: -20px;
+    margin-right: 20px;
+    
+}
+
+#objectifs p{
+    padding: 5px;
+    margin: 0;
+}
+
+/*Section Avis Global Personnel*/
+#avis_final p{
+    padding: 5px 10px;
+}
+
+#retour{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#img_lien{
+    width: 95%;
+    height: auto;
+    position: relative;
+    left: 2.5px;
+}
+
+#lien_img:hover, #img_lien:hover{
+    transform: scale(0.98);
+    text-decoration: none;
+}
+
+#liste_page_projets ul{
+    list-style-type: none;
+}
+
+#liste_page_projets li{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-bottom: 40px;
+    position: relative;
+    right: 20px;
+}
+
+#liste_page_projets{
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.active{
+    border-bottom: #181818 solid 3px;
+}
+
+#credits a{
+    color: white;
+}
+
+#credits a:hover{
+    text-decoration: underline;
+}
+
+/*Partie navigation entre les projets*/
+#nav_projet{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_projet{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    border-bottom: 3px solid;
+}
+
+.nav_projet:hover{
+    color: #360000;
+    border-bottom: 3px solid #360000;
+}
+
+
+/*Page à propos*/
+/*Section présentation rapide*/
+#resume_container{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_resume_cv{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.resume_cv{
+    text-align: center;
+    padding: 10px 10%;
+    margin: auto;
+}
+
+/*Section Détail du CV*/
+#detail_cv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: safe center;
+}
+
+.cv_parts{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.cv_parts li{
+    position: relative;
+    right: 20px;
+    margin-top: 30px;
+}
+
+.cv_parts h4, .cv_parts h5{
+    text-decoration: none;
+    font-weight: 100;
+    margin: 0;
+}
+
+.cv_info h4{
+    text-transform: none;
+    font-size: 1em;
+}
+
+h4 strong{
+    font-weight: bold;
+}
+
+.cv_parts p{
+    margin-top: 5px;
+}
+
+.cv_parts a:hover, .resume_cv a:hover{
+    border: none;
+    text-decoration: underline;
+}
+
+.cv article, .cv_info article{
+    height: auto;
+    width: auto;
+}
+
+#competences p{
+    text-align: left;
+    line-height: 35px;
+}
+
+#competences #soft_skills{
+    text-align: center;
+    line-height: 25px;
+}
+
+.comp{
+    border: #181818 solid 2px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 0 5px 5px 5px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.img_comp{
+    height: 30px;
+    position: relative;
+    top: 8px;
+}
+
+
+/*adapter la taille du texte dans les articles car la taille par défaut est trop grande*/
+html.linux-firefox ul article p, #liste_last_projets li p{
+    font-size: 14px;
+}
+
+html.linux-firefox ul article, #liste_last_projets li{
+    height: auto;
+    padding-bottom: 30px;
+}
+/*Fin du CSS Général pour un écran moyen*/
+
+
+@media (min-width: 1400px){/*Pour un écran grand*/
+    #up, #detail, #retour #liste_projets, #retour, #bande_demo{
+        width: auto;
+        margin: 0 10%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #liste_page_projets{
+        margin: auto;
+        width: 80%;
+    }
+
+    article{
+        margin-right: 100px;
+    }
+
+    #div_lang{
+        width: 75px;
+    }
+}
+
+
+@media (max-width: 1113px){/*Pour un écran moyen-petit*/
+
+    #article_projet{
+        height: auto;
+        width: 569px;
+        padding-bottom: 20px;
+    }
+
+    #div_synopsis{
+        height: 356px;
+        width: 569px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: space-evenly;
+        height: auto; 
+    }
+
+    #synopsis{
+        margin-left: 25px;
+        padding-right: 15px;
+    }
+
+    .media_container {
+        margin-right: 0;
+    }
+    
+    .text_container {
+        margin-left: 0;
+    }
+
+    #vid_PR{
+        float: none;
+    }
+
+    #synopsis{
+        height: auto;
+    }
+
+    #liste_page_projets li{
+        width: 40%;
+        margin-left: 50px;
+        position: relative;
+        right: 20px;
+    }
+
+    #lang {
+        top: 5px;
+    }
+
+    #lang button img.resize {
+        width: 25px;
+        height: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+@media (max-width: 966px){/*pour un petit écran / écran de téléphone*/
+    #tete{
+        height: 110px;
+        position: absolute;
+        margin: 5px;
+        top: 5px;
+        right: 5px;
+    }
+
+    h1{
+        font-size: 1.7em;
+        padding-right: 110px;
+        padding-top: 20px;
+        margin: 5px;
+    }
+    
+    nav{
+        text-align: center;
+    }
+
+    nav li{
+        margin: 0;
+        padding-right: 20px;
+    }
+
+    #nav_accueil{
+        margin-left: 0px;
+    }
+
+    #bande_demo{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #article_bande_demo{
+        width: 388px;
+        height: auto;
+    }
+
+    #vid_bande_demo{
+        float: top;
+        margin: 3%;
+        height: 198px;
+        width: 94%
+    }
+
+    #div_text_BD{
+        height: auto;
+    }
+
+    #presentation{
+        font-size: 20px;
+        text-align: justify;
+        padding: 3px;
+    }
+
+    #last_projects h2{
+        margin-right: 0px;
+    }
+
+    #liste_last_projets li{
+        display: block;
+    }
+
+    #liste_last_projets{
+        justify-content: space-around;
+    }
+
+    #liste_page_projet li{
+        display: block;
+    }
+
+    #liste_page_projets{
+        display: flex;
+        justify-content: safe center;
+        margin-bottom: 10px;
+    }
+
+    ul article{
+        margin: 0;
+        margin-right: 35px;
+        margin-bottom: 30px;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #other{
+        width: 310px;
+        height: 325px;
+        margin-bottom: 5px;
+    }
+
+    #img_plus{
+        width: 0;
+        border: none;
+    }
+
+    #img_plus2{
+        width: 289px;
+        margin: 0 10px;
+        position: relative;
+        bottom: 25px;
+        border-radius: 5px;
+        border: 1px #181818 solid;
+    }
+
+    #p_other{
+        font-size: 0.8em;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #p_other a:hover{
+        color: #360000;
+        border-bottom: 3px solid #360000;
+        padding-bottom: 3px;
+        text-decoration: none;
+    }
+
+    #objectifs{
+        width: auto;
+        margin: 10px;
+        float: none;
+    }
+
+    #detail_cv, .cv_parts{
+        display: block;
+    }
+
+    .cv_parts{
+        width: 90%;
+        margin: 0 7%;
+    }
+
+    .div_resume_cv{
+        display: block;
+        width: 95%;
+    }
+
+    #resume_container{
+        padding: 0 2%;
+        display: block;
+    }
+}
+
+@media (max-width: 866px){ /*écrans de téléphone*/
+    #liste_page_projets li{
+        width: 100%;
+        margin-left: 0;
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media (max-width: 655px){/*petit écran de téléphone*/
+    #vid_PR {
+        width: 330px;
+        height: 186px;
+    }
+
+    #article_projet, #div_synopsis{
+        width: 366px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: space-evenly;
+        height: auto; 
+    }
+
+    .comp{
+        font-size: 13px;
+    }
+
+    .cv_parts{
+        width: 90%;
+        margin: 0 8.5%;
+    }
+}
+
+
+@media (max-width: 521px){/*très petit écran de téléphone*/
+    #tete{
+        height: 100px;
+        position: absolute;
+        margin: 5px;
+        top: 5px;
+        right: 5px;
+    }
+
+    #resume_cv h2{
+        width: 60%;
+        text-align: center;
+        padding: 0 15%;
+    }
+}

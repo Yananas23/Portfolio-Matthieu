@@ -1,0 +1,881 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Portfolio de Matthieu Thiesset"
+msgstr "Matthieu Thiesset's Portfolio"
+
+msgid "ACCUEIL"
+msgstr "HOME"
+
+msgid "PROJETS"
+msgstr "PROJECTS"
+
+msgid "À PROPOS"
+msgstr "ABOUT"
+
+msgid "© Site créé par Matthieu Thiesset avec l'aide de "
+msgstr "© Website created by Matthieu Thiesset helped by "
+
+msgid "Présentation"
+msgstr "Presentation"
+
+msgid "Actuellement étudiant en Audiovisuel, je suis passionné de création audio et créateur de fictions audio au sein de la "
+msgstr "Currently audiovisual student, I am passionate about audio creation, and audio series creator within the "
+
+msgid "Je participe aussi régulièrement à la réalisation de courts-métrages avec mes amis et j'aime beaucoup écrire des histoires. Motivé et passionné, je m'amuse beaucoup à donner vie à tout ce qui me passe par la tête&nbsp;!"
+msgstr "I regularly take part in realization of short films with friends too, and really like to write stories. Strongly motivated and deeply passionate, I have a lot of fun in bringing my ideas to life!"
+
+msgid "Mes derniers Projets"
+msgstr "Last Projects"
+
+msgid "EN SAVOIR PLUS"
+msgstr "KNOW MORE"
+
+msgid "Autres Projets"
+msgstr "OTHER PROJECTS"
+
+msgid "Découvre tous mes projets"
+msgstr "Discover all my projects"
+
+msgid "Liste des projets auxquels j'ai participé"
+msgstr "List of the projects I took part in"
+
+msgid "Vue d'ensemble"
+msgstr "Overview"
+
+msgid "Objectifs"
+msgstr "Goals"
+
+msgid "Grandes étapes"
+msgstr "Main Steps"
+
+msgid "Avis global personnel"
+msgstr "Personal Opinion"
+
+msgid "Né le 12 Septembre 2005 (19&nbsp;ans),"
+msgstr "Born on 12 September 2005 (19&nbsp;years&nbsp;old)"
+
+msgid "Étudiant en Audiovisuel et créateur de fictions audio au sein de la "
+msgstr "Student in audiovisual and creator of audio series  within the "
+
+msgid ", je me passionne pour la création sonore, le montage audio et le sound design."
+msgstr ", I’m fascinated by audio creation, audio editing and sound design."
+
+msgid "Experiences"
+msgstr "Experiences"
+
+msgid "Bénévole"
+msgstr "Volunteer"
+
+msgid "AVRIL 2021 - AUJOURD'HUI"
+msgstr "APRIL 2021 - TODAY"
+
+msgid "J’ai rejoint l’association Mauriennisez-Vous, qui a pour objet de valoriser la Maurienne, et j’ai ainsi participé à l’organisation et à l’animation de quelques soirées d’astronomie pendant l’été. J’ai aussi pu voir comment fonctionne la chaîne de TV : Maurienne TV qui est gérée par l’association."
+msgstr "I’ve joined the organization Mauriennisez-Vous, which valorize Maurienne valley. In this way, I took part in the organization of some astronomy nights in summer, and had the opportunity to see how <em>Maurienne TV</em>, their TV channel works"
+
+msgid "Stagiaire Montage Vidéo"
+msgstr "Internship as Video Editor"
+
+msgid "6 MAI 2024 - 5 JUILLET 2024"
+msgstr "6 MAY 2024 - 5 JULY 2024"
+
+msgid "Stage de technicien en tant que monteur pour les réseaux sociaux de Vadrouille. Très enrichissant, autant en technique qu’en appréhension de l’environnement professionnel."
+msgstr "Technician internship as video editor for the social networks of Vadrouille. Very enlightening as much the technical as the discovery of professional workspace."
+
+msgid "rapport de stage"
+msgstr "internship report"
+
+msgid "Ouvrier de Chantier"
+msgstr "Construction Worker"
+
+msgid "5 JUIN 2023 - 28 JUILLET 2023"
+msgstr "5 JUNE 2023 - 28 JULY 2023"
+
+msgid "J’ai assisté l’entreprise sur ses chantiers, pour la pose, le changement ou la réparation de fenêtres, portes-fenêtres, portes de garage, portes d’entrée, volets et stores. C’est-à-dire que j’ai participé à démonter ce que l’on change, préparer le nouveau, préparer la zone pour le poser, le poser, le fixer, et nettoyer. Les dernières semaines, je changeais une fenêtre seul."
+msgstr "I assisted the company in the building sites, to put, change or repair windows, doors, or shutters."
+
+msgid "Formation"
+msgstr "Qualifications"
+
+msgid "Licence"
+msgstr "Bachelor"
+
+msgid "SEPTEMBRE 2022 - AUJOURD'HUI"
+msgstr "SEPTEMBER 2022 - TODAY"
+
+msgid "Licence Science et Technologie parcours Audiovisuel et Média Numériques. 3<sup>e</sup> année de Licence en cours. 2<sup>e</sup> année en mobilité internationale à l’Université du Québec en Abitibi-Témiscamingue (UQAT)."
+msgstr "Bachelor in Science and Technology option audiovisual and numeric. 3<sup>rd</sup> year in progress. 2<sup>nd</sup> year on global mobility at UQAT."
+
+msgid "JUIN 2022"
+msgstr "JUNE 2022"
+
+msgid "Baccalauréat général, Spécialité Mathématiques et Sciences Physique Chimie. Mention Très Bien."
+msgstr "Scientific Baccalaureate, qualification very good."
+
+msgid "Compétences"
+msgstr "Skills"
+
+msgid "Autonome, Riguoureux, Organisé, Curieux et Créatif, j'adore découvrir et apprendre de nouvelles choses."
+msgstr "Autonomous, Rigorous, Organized, Curious and Creative, I enjoy discovering and learning new things."
+
+msgid "Mixage Audio&nbsp;:"
+msgstr "Audio Editing:"
+
+msgid "Sound Design&nbsp;:"
+msgstr "Sound Design:"
+
+msgid "Bruitages&nbsp;/&nbsp;Ambiances&nbsp;/&nbsp;Voix"
+msgstr "Sound&nbsp;Effects&nbsp;/&nbsp;Ambiances&nbsp;/&nbsp;Voices"
+
+msgid "Montage Vidéo&nbsp;:"
+msgstr "Video Editing:"
+
+msgid "Montage Photo&nbsp;:"
+msgstr "Photo Editing:"
+
+msgid "Programmation&nbsp;:"
+msgstr "Programming:"
+
+msgid "Langues&nbsp;:"
+msgstr "Languages:"
+
+msgid "Centres d'intérêt"
+msgstr "Hobbies"
+
+msgid "Création de Fictions Audio&nbsp;: "
+msgstr "Audio Series Creation:"
+
+msgid "Depuis 3 ans, je crée de manière très sérieuse des fictions audio. Et depuis début octobre,  je suis membre de la "
+msgstr "Since 3 years, I create audio series, and since last year, I do it as a member of the "
+
+msgid "Création de Courts-Métrages&nbsp;: "
+msgstr "Short Films Creation: "
+
+msgid "Depuis 7 ans, je co réalise et réalise des courts-métrages avec des amis."
+msgstr "For the past 7 years, I've been realizing and co-realizing short films with my friends"
+
+msgid "Cyclisme (sur route)&nbsp;: "
+msgstr "Cycling:"
+
+msgid "Depuis 7 ans, je fais du vélo, je profite d’être proche des cols montés par le  Tour de France pour les faire."
+msgstr "Since 2018 I ride bike, taking advantage of living near to a lot of Tour de France pass."
+
+msgid "Guitare&nbsp;: "
+msgstr "Guitar"
+
+msgid "Depuis quelques mois, je joue de la guitare sur mon temps libre."
+msgstr "Since a few months, I play guitar on my free time."
+
+msgid "Membre de la LPO et de Servas&nbsp;: "
+msgstr "Member of the LPO and Servas:"
+
+msgid "Je suis, via mes parents, membre de la "
+msgstr "I’m by my parents, member of the "
+
+msgid " (Ligue de Protection des Oiseaux), et de l'association "
+msgstr " (French league for the protection of birds), and of the organization "
+
+msgid " (réseau mondial et multiculturel de personnes partageant la vision qu'il est possible de rendre le monde plus pacifique)."
+msgstr "."
+
+msgid "Mono MP3"
+msgstr "Audio Fiction"
+
+msgid "L’inspecteur Baptiste Desfac, célèbre pour son manque de logique et sa confiance inébranlable, est appelé avec son acolyte Johnson pour enquêter sur un meurtre. Tandis que Johnson, pragmatique, découvre un couteau qu’il pense être l’arme du crime, Desfac se concentre sur des miettes de brownie trouvées sur la victime, convaincu qu’elles détiennent la clé du mystère. Ils se lancent alors dans une enquête autant absurde qu'improbable, allant jusqu’à interroger une boulangère prétendument spécialiste des brownies"
+msgstr "Detective Baptiste Desfac, famed for his lack of logic and unwavering confidence, is called in with his sidekick Johnson to investigate a murder. While Johnson, pragmatic, discovers a knife he believes to be the murder weapon, Desfac focuses on brownie crumbs found on the victim, convinced they hold the key to the mystery. They then embark on an investigation as absurd as it is improbable, going so far as to question a baker who supposedly specializes in brownies."
+
+msgid "L’inspecteur Desfac enquête avec son acolyte Johnson sur un meurtre. Tandis que Johnson trouve un couteau suspect, Desfac se focalise sur des miettes de brownie, persuadé d’y trouver la clé du mystère."
+msgstr "Inspector Desfac investigates a murder with his sidekick Johnson. While Johnson finds a suspicious knife, Desfac focuses on brownie crumbs, convinced he has the key to the mystery."
+
+msgid "Avec Yanis Boulogne, un été, on a eu l’idée d’un inspecteur débile, qui dirait des évidences, on l’a noté, et quand on s’est vu en vrai, on l’a écrit. Ce projet a vite pris vie, en un mono humoristique que nous avons beaucoup aimé faire, et on a tellement aimé cet inspecteur qu’une série se prépare…"
+msgstr "With Yanis Boulogne, one summer, we had the idea of a dumb inspector, who would say the obvious, we wrote it down, and when we saw each other in real life, we wrote it. This project quickly came to life, in a humorous monologue that we loved to do, and we loved this inspector so much that a series is being prepared…"
+
+msgid "Avec Yanis Boulogne, un été, on a eu l’idée d’un inspecteur débile, qui dirait des évidences…"
+msgstr "With Yanis Boulogne, one summer, we had the idea of a stupid inspector, who would say the obvious…"
+
+msgid "C’est un projet que j’ai beaucoup aimé faire, par le personnage et l’histoire que je trouve géniaux, mais aussi surtout, parce que via ce projet, j'ai retrouvé ce qui m’avait manqué sur mes derniers projets : faire quelque chose à deux sans prétentions, le mieux qu’on peut dans la bonne humeur avec un ami. J’ai retrouvé ce qui m’avait fait aimer la création audiovisuelle avec Baptiste Martin il y a quelques années, parce que pendant l’année, être dans une licence d’audiovisuel avec d’autres personnes qui font de l’audiovisuel met une pression, et les projets que j’ai faits avec mes amis de ma promo étaient trop “structurés” pour moi, trop à chercher le pro. Dans ce projet, j’ai retrouvé l’esprit bon enfant où on se lance sans trop savoir ce que ça va donner, mais on sera content du résultat dans tous les cas. Et en effet, je suis très fier du résultat final, on a réussi à faire ce que l’on imaginait, et on a découvert la puissance de la communauté de la fiction audio française lorsqu’il s’agit de chercher des comédien(nes). Bref, que du positif sur tout le processus de création !"
+msgstr "It's a project that I really enjoyed doing, because of the character and the story that I think are great, but also, because through this project, I found what I had been missing from my last projects: doing something as a couple without pretensions, the best you can in a good mood with a friend. I found what made me love audiovisual creation with Baptiste Martin a few years ago, because during the year, being in an audiovisual license with other people who do audiovisual is a pressure, and the projects I did with my friends from my promotion were too “structured“ for me, too much to look for the pro. In this project, I found the spirit of a good child, where you start without really knowing what it's going to be, but you'll be happy with the result either way. And indeed, I'm very proud of the end result, we managed to do what we envisioned, and we discovered the power of the French audio fiction community when it comes to finding actors. In short, it's a positive for the whole creative process!"
+
+msgid "Faire une fiction audio à 2"
+msgstr "Making an audio fiction at 2"
+
+msgid "On a eu l’idée à 2, et Yanis m’aidait un peu pour les Guimauves Tueuses, alors il a été presque naturel pour nous de chercher à créer cette fiction audio à 2, sur toutes les étapes"
+msgstr "We had the idea at 2, and Yanis was helping me a little bit for <em>Les Guimauves Tueuses</em>, so it was almost natural for us to try to create this audio fiction at 2, at all stages."
+
+msgid "Écriture"
+msgstr "Writing"
+
+msgid "On avait déjà prévu de se voir, donc on a décidé d’écrire cette histoire ensemble à ce moment-là. C’était réellement cool, on a très peu bloqué, quand l’un de nous bloquait, l’autre avait des idées. Et on était tous les deux d’accord sur la direction que l’histoire prenait. On a donc eu en quelques jours un premier jet dont on était très satisfaits, que l’on a que très peu modifié, en changeant juste des tournures de phrases."
+msgstr "We had already planned to see each other, so we decided to write this story together at that time. It was really cool, we blocked very little, when one of us blocked the other had ideas. And we both agreed on the direction the story was going. So within a few days we had a first draft that we were very happy with, that we changed very little, just changing turns of phrase."
+
+msgid "Casting et Enregistrements"
+msgstr "Casting and Recording"
+
+msgid "Pour le casting, nous avons fait le choix de ne pas faire appel à nos amis, non seulement pour tester le fait de demander dans la communauté de la fiction Audio en France, et parce que nous éprouvions ce besoin de faire ce projet à l’abri de leurs regards. Surement par peur de leur avis, c’était notre bébé, et on l’a gardé pour nous jusqu’à une semaine avant la sortie. Nous avons donc fait le Casting via les salons de recrutements sur deux serveurs discord de fiction audio (Audiodidact et Fiction Sonore), et nous avons eu plusieurs propositions, ce qui nous a permis de choisir le meilleur. Ensuite, j’étais en vacances, et j’ai donc laissé Yanis gérer les enregistrements, il me tenait au courant de la fin des Castings, et je lui donnais mon avis, puis faisait les enregistrements en vocal avec les comédiens, pour leur donner les indications. Tout s’est très bien passé."
+msgstr "For the casting, we made the choice not to call on our friends, not only to test the fact of asking in the audio fiction community in France, but because we felt this need to do this project away from their gaze. Probably out of fear of their opinion, it was our baby, and we kept it to ourselves until a week before the release. So we did the casting via the recruitment salons on two audio fiction discord servers (Audiodidact and Fiction Sonore), and we had several proposals, which allowed us to choose the best one. Then I was on vacation, so I let Yanis manage the recordings, he kept me informed about the end of the castings, and I gave him my opinion, then did the vocal recordings with the actors, to give them directions. Everything went very well."
+
+msgid "Mixage Audio et Montage"
+msgstr "Audio Mixing and Editing"
+
+msgid "À ce moment, nous n’avions eu que les retours des comédiens, et ils étaient tous très positifs. On a mis un peu de temps à se mettre au mixage, et début septembre, on s’est séparé le script en 2, et en une dizaine de jours, on a chacun mixé notre partie, en tenant au courant l’autre, et en lui demandant son avis / son aide par moments. Au final, nous avons demandé un avis extérieur sur le serveur Audiodidact. Le retour était positif, et notre seul changement a été de baisser le volume de la musique. Ensuite, tout était prêt, et on l’a sorti le dimanche qui a suivi."
+msgstr "At that point, we had only had feedback from the actors, and they were all very positive. It took us a while to start mixing, and in early September, we split the script into two, and in about 10 days, we each mixed our part, keeping each other informed, and asking for their opinion/help at times. In the end, we asked for an outside opinion on the Audiodidact server. The feedback was positive, and our only change was to turn down the volume of the music. Then everything was ready, and we published it the following Sunday."
+
+msgid "Publication et Remaster"
+msgstr "Publicaion and Remaster"
+
+msgid "Après avoir rejoint le groupe Javras, nous avons retravaillé le mixage de cet épisode pilote, avec tout ce que nous avions appris en un an et les retours de l’équipe. Et c’est avec plaisir que nous sortons cette série sur <strong><a target='_blank' href='https://javras.fr'> Javras</a></strong>."
+msgstr "After joining Javras we reworked the mix for this pilot episode, with everything we'd learned in a year and the feedback from the team. We're excited to bring this series to "
+
+msgid "Donner vie à cet inspecteur"
+msgstr "Giving life to this inspector"
+
+msgid "C’est un personnage que nous avons imaginé, et beaucoup aimé avant même d’écrire l’histoire, et après, alors on avait qu’une hâte, qu’il prenne vraiment vie, une fois que le mono serait sorti."
+msgstr "It’s a character that we imagined, and loved, before we even wrote the story, and after, so we were in a hurry, that he would really come to life, once the monkey was out."
+
+msgid "Refaire le Son"
+msgstr "Rework Sound"
+
+msgid "Découvrez le récit qui se cache derrière l’une des plus grandes rivalités d’Overwatch dans le troisième épisode de notre série d’animation : Dragons."
+msgstr "Discover the story behind one of Overwatch’s biggest rivalries in the third episode of our animated series: Dragons."
+
+msgid "Cet été, je me suis amusé à prendre ce court-métrage d’animation du jeu Overwatch et à recréer tout le son excepté la musique."
+msgstr "This summer, I had fun taking this animated short film from the Overwatch game and recreating all the sound except the music."
+
+msgid "Je me suis beaucoup amusé, et j’ai senti que je m'améliorais au cours de ce projet, et même si je vois des défauts, je suis content d’avoir réussi à faire cela seul, avec ce que j’avais sous la main."
+msgstr "I had a lot of fun, and I felt like I was getting better during this project, and even though I see flaws, I’m glad I was able to do it on my own, with what I had in hand."
+
+msgid "Faire du Sound Design"
+msgstr "Practice Sound Design"
+
+msgid "l’objectif principal était de pratiquer en s'amusant pour m’améliorer car je n’avais pas de projet au stade du sound design à ce moment."
+msgstr "the main goal was to practice while having fun to improve because i didn’t have a project in the sound design stage at that time."
+
+msgid "Planification"
+msgstr "Planning"
+
+msgid "Tout d’abord, j’ai visionné plusieurs fois la cinématique pour anticiper la manière de réaliser chaque son, et je me suis fait une liste de son, ainsi qu’une liste des répliques."
+msgstr "First of all, I watched the kinematics several times to anticipate how to make each sound, and I made a list of sounds, as well as a list of replicas."
+
+msgid "Voix"
+msgstr "Voices"
+
+msgid "J’ai ensuite enregistré les répliques de Hanzo et Genji, en essayant de modifier ma voix pendant l’enregistrement, et ensuite en post-production pour avoir des rendus proches des voix initiales, mais cela reste très imparfait. Mon petit regret est d’avoir fait ce petit projet seul, et de ne pas avoir cherché à avoir d’autres personnes pour les voix."
+msgstr "I then recorded the Hanzo and Genji lines, trying to modify my voice during recording, and then in post-production to have renderings close to the original voices, but it remains very imperfect. My small regret is that I did this little project alone, and that I didn't seek to have other people for the voices."
+
+msgid "Bruitages"
+msgstr "Sound Effects"
+
+msgid "Enfin, le plus gros morceau, mais le plus fun, j’ai fait plusieurs passages par scène, à faire les pas, les coups, réfléchir à la nécessité de l’ambiance, comment avoir un son réaliste sans en faire trop… "
+msgstr "Finally, the biggest piece, but the most fun, I did several passages per scene, to do the steps, the beats, think about the need for ambience, how to have a realistic sound without doing too much..."
+
+msgid "Court-Métrage"
+msgstr "Short Film"
+
+msgid "Lors d’une soirée improvisée, 2 jeunes décident de s’évader en fumant…"
+msgstr "During an impromptu party, 2 young people decide to escape by smoking…"
+
+msgid "Dans le cadre du cours de Design Sonore de Billy Larivière, nous avons réalisé un court métrage dont nous avons ensuite refait tout le son. Pour ce projet, j’étais avec Alexandre Gomez, Eugénie Rizzon, Malo Chardronnet, Lucas Bouchez, Lilou Dubuis et Antoine Videau."
+msgstr "As part of Billy Larivière's Sound Design course, we made a short film which we then redid all the sound. For this project, I was with Alexandre Gomez, Eugénie Rizzon, Malo Chardronnet, Lucas Bouchez, Lilou Dubuis and Antoine Videau."
+
+msgid "C’était un projet sur lequel j’ai pris beaucoup de plaisir à participer. Je me suis principalement investi sur la partie sonore, et j’ai beaucoup aimé reprendre les voix, recréer les ambiances, ajouter les bruitages, mixer et spatialiser le tout en 5.1. C'est un projet sur lequel j’ai énormément appris et où j’ai découvert un aspect du montage que j’adore : le design sonore !"
+msgstr "It was a project that I had a lot of fun working on. I mainly invested in the sound part, and I really enjoyed picking up the voices, recreating the ambiences, adding the noises, mixing and spatializing the whole thing. It was a project where I learned a lot and discovered an aspect of editing that I love: the sound design!"
+
+msgid "Profiter d'une église skatepark"
+msgstr "Enjoying a church skatepark"
+
+msgid "Nous avions découvert une église transformée en skatepark, et ce lieu nous intriguait, ce qui nous a donné envie d’y tourner."
+msgstr "We had discovered a church transformed into a skatepark, and this place intrigued us, which made us want to go there."
+
+msgid "L'idée et l'écriture"
+msgstr "Idea and Scenario"
+
+msgid "Nous nous sommes vus quelques fois pour discuter de l’idée, que quelques-uns écrivent, puis que l’on rediscute, adapte les idées et réécrive le tout jusqu’à atteindre une version que l’on aimait tous."
+msgstr "We met a few times to discuss the idea, which a few of us write, then we re-discuss, adapt the ideas and rewrite the whole thing until we all came up with a version that we all liked."
+
+msgid "Tournage et Montage du Picture Lock"
+msgstr "Shooting and Editing the Picture Lock"
+
+msgid "Lucas et Malo ont supervisé la partie Tournage, et Alexandre s’est occupé de la prise son terrain pour avoir un son témoin. Le tournage s’est bien passé, bien qu’ambitieux et se passant dans 3 lieux différents sur une semaine, nous avons réussi à avoir les images que l’on voulait, puis Lucas a fait le montage du picture lock, que nous avons tous validé."
+msgstr "Lucas and Malo supervised the shooting part, and Alexandre took care of taking his land to have a sound witness. The shooting went well, although ambitious and taking place in 3 different locations over a week, we managed to get the images we wanted, then Lucas did the editing of the picture lock, which we all validated."
+
+msgid "Sur toute la partie recréation du son j’étais derrière l’ordinateur à faire la technique, et j’ai donc participé à toutes les étapes avec, à chaque fois, un autre membre de l’équipe.<br><br><strong>- Planifier :</strong> Tout d’abord, nous avons fait un visionnage ensemble, et, avec les conseils de Billy, nous avons planifié quels sons allaient être utilisés, et quels effets sonores nous voulions créer, dans le but de créer quelles réactions chez le spectateur.<br><br><strong>- Les voix :</strong> Ensuite, avec Lilou, nous avons retrouvé tous les acteurs un à un pour qu’ils enregistrent la réplique. Le procédé était simple, on passait plusieurs fois la réplique à l’acteur, et ensuite, l’acteur faisait plusieurs prises, jusqu’à ce qu’on ait la bonne.<br><br><strong>- Les ambiances :</strong> Pendant ces enregistrements, Eugénie a listé tous les bruitages nécessaires aux ambiances et est allée les enregistrer. Elle m’a ensuite rejoint, et nous avons composé ces ambiances à l’aide des bruitages qu’elle avait pris, en commençant un peu à mixer le tout pour avoir un résultat clair à montrer à Billy. Lucas avait aussi demandé à Etienne Bultot de nous composer une musique inspirée de celle utilisée comme témoin pour le picture lock, pour coller à l’ambiance que l’on souhaitait créer.<br><br><strong>- Les bruitages :</strong> Un peu plus tard, j’ai retrouvé Malo qui avait apporté de quoi enregistrer les bruitages en studio, et nous avons passé le court métrage plusieurs fois pour enregistrer et placer tous les bruitages (une passe pour les pas, une passe pour les bruits de main, …)<br><br><strong>- Mixer le tout :</strong> Enfin, j’ai vu Billy pour parler du mixage, il m’a montré l’utilisation des BUS, et j’ai donc trié plus proprement la timeline, et fait plusieurs passes pour ajouter la réverbération, puis spatialiser le tout en 5.1, tout en harmonisant le tout à -24LUFS."
+msgstr "On the whole part of the sound, I was behind the computer doing the technique, so I participated in every step with a different team member each time.<br><br><strong>- Plan:</strong> First, we did a screening together, and, with Billy's advice, we planned out what sounds were going to be used, and what sound effects we wanted to create, with the goal of creating what reactions in the viewer.<br><br><strong>- The voices:</strong> Then, with Lilou, we got all the actors one by one to record the replica. The process was simple, we passed the replica to the actor several times, and then the actor did several takes, until we got the right one.<br><br><strong>- The ambiences:</strong> During these recordings, Eugénie listed all the noises needed for the ambiences and went to record them. She then joined me, and we composed these ambiences using the noises she had taken, starting to mix it up a little bit to have a clear result to show to Billy. Lucas had also asked Etienne Bultot to compose us some music inspired by the one used as a control for the picture lock, to stick to the atmosphere we wanted to create.<br><br><strong>- Sound Effects:</strong> A little later, I found Malo who had brought the noises to the studio, and we went through the short film several times to record and place all the noises (a pass for the steps, a pass for the hand noises, ...)<br><br><strong>- Mix it all:</strong> Finally, I met Billy to talk about mixing, he showed me how to use the BUS, and so I sorted the timeline more neatly, and made several passes to add the reverberation, then spatialize everything in 5.1, while harmonizing everything to -24LUFS."
+
+msgid "Rendu et Making Of"
+msgstr "Rendering and Making Of"
+
+msgid "Après quelques visionnages, nous étions tous satisfaits, et nous avons rendu ce film à Billy pour qu’il prépare un DCP pour le visionnage qui était prévu au cinéma. Antoine a aussi réalisé un <strong><a target='_blank' href='https://youtu.be/IM-N591v8Nc'>Making Of.</a></strong>"
+msgstr "After a few screenings, we were all satisfied, and we returned the film to Billy to prepare a DCP for the screening that was planned at the cinema. Billy also made a DCP. And Antoine Realized a <strong><a target='_blank' href='https://youtu.be/IM-N591v8Nc'>Making Of.</a></strong>"
+
+msgid "Faire un projet qualitatif en tous points"
+msgstr "Making a qualitative project in all points"
+
+msgid "notre groupe étant plus grand que d’habitude, nous souhaitions tous mettre nos connaissances et capacité en commun pour atteindre le meilleur possible, sur les conditions de tournage, la qualité vidéo, la qualité sonore, l’entente dans le groupe…"
+msgstr "our group being bigger than usual, we all wanted to share our knowledge and ability to achieve the best possible, on shooting conditions, video quality, sound quality, agreement in the group…"
+
+msgid "Deux amis, Maël et Corentin, vont, après quelques recherches, se décider sur quel film regarder : « Les Chausses-Pieds du Havre », une comédie musicale. Cependant, avant de pouvoir regarder leur film, ils vont devoir subir l’une des caractéristiques principales de la télévision : les publicités…"
+msgstr "Two friends, Maël and Corentin, will, after some research, decide which movie to watch: « Les Chausses-Pieds du Havre », a musical. Before they can watch their movie, however, they will have to endure one of the main features of television: commercials…"
+
+msgid "Court-métrage réalisé par Daniel Le Toriellec dans le cadre du concours ¾ de cinéma, dans lequel j’ai participé à l’écriture et au design sonore. Vainqueur du prix du montage de ce concours."
+msgstr "Short film directed by Daniel Le Toriellec as part of the 3⁄4 film competition, in which I participated in the writing and sound design. Winner of the editing prize of this competition."
+
+msgid "Court-métrage réalisé par Daniel Le Toriellec dans le cadre du concours ¾ de cinéma, dans…"
+msgstr "Short film directed by Daniel Le Toriellec as part of the 3⁄4 film competition, in…"
+
+msgid "C’était un super projet, on s’est beaucoup amusé à le créer, et on est tous très content du résultat qui nous fait toujours autant rire."
+msgstr "It was a great project, we had a lot of fun creating it, and we’re all very happy with the result that always makes us laugh."
+
+msgid "Participer au concours"
+msgstr "Take part in the contest"
+
+msgid "Ce concours était une bonne excuse pour se retrouver entre potes et faire un court-métrage, alors on en a profité !"
+msgstr "This contest was a good excuse to get together and make a short film, so we took advantage of it!"
+
+msgid "écriture"
+msgstr "writing"
+
+msgid "On s'est retrouvé plusieurs fois en appel pour écrire, brainstormer, trouver des idées, qui ont évolué, et quand on a eu l’idée du zapping, on a fait une liste d’émissions et de publicités qu’il pourrait y avoir, pour ensuite sélectionner celles que nous écrirons, en fonction de la faisabilité, de la cohérence et de nos préférences."
+msgstr "We got together several times to write, brainstorm, find ideas, which evolved, and when we had the idea of zapping, we made a list of shows and commercials that could be there, and then select those that we would write, according to feasibility, consistency and our preferences."
+
+msgid "Tournage"
+msgstr "Shooting"
+
+msgid "N’étant pas en France pendant cette période, le tournage s'est déroulé sans moi, sans accroc."
+msgstr "Not being in France during this period, the shooting took place without me, without a hitch."
+
+msgid "Montage"
+msgstr "Editing"
+
+msgid "Daniel a fait tout le montage visuel, et j’ai créé des ambiances pour 2 passages, ainsi que fait une voix pour une publicité, et après avoir validé avec l’équipe, nous avons rendu notre court métrage."
+msgstr "Daniel did all the visual editing, and I created atmospheres for 2 passages, as well as did a voice for a commercial, and after validating with the team, we made our short film."
+
+msgid "Faire un film qui nous ferait rire"
+msgstr "Making a movie that would make us laugh"
+
+msgid "Avec l’idée que nous avions d’un zapping, on cherchait beaucoup d’idées qui nous feraient rire, en pensant que ça ferait ensuite rire le public."
+msgstr "With the idea of zapping, we were looking for a lot of ideas that would make us laugh, thinking that it would make the audience laugh."
+
+msgid "An 2352, l’IA contrôle le monde, il n’y a plus de gouvernements, et les hommes sont gérés par des IA pour être le plus productif possible. Même la justice est gérée par des IA. Est-ce que cela est bien ? C’est discutable."
+msgstr "In the year 2352, AI controls the world, there are no more governments, and humans are managed by AI to be as productive as possible. Even justice is managed by AI. Is this a good thing? It's debatable."
+
+msgid "Ce projet était initialement destiné à un concours dont le thème était “Le Monde de Demain”, mais dans l’impossibilité de le réaliser dans les temps, nous l’avons fait pour nous."
+msgstr "This project was originally intended for a contest whose theme was “Le Monde de Demain”, but in the impossibility of realizing it in time, we did it for ourselves."
+
+msgid "Ce projet était initialement destiné à un concours dont le thème était “Le Monde de Demain”, mais dans l’impossibilité de le réaliser dans les temps, nous…"
+msgstr "This project was originally intended for a contest whose theme was “Le Monde de Demain”, but in the impossibility of realizing it in time, we did it for ourselves…"
+
+msgid "C’était très cool de faire ce Court-Métrage, premièrement, car ça faisait un moment qu’on avait rien tourné, donc on a retrouvé l’ambiance, l'excitation et la joie, et ça a été très formateur pour moi pour faire un montage efficace, en sachant quelles choses j’oublie avec la pression du temps. Au final, je suis très fier du résultat, car je trouve que l’idée générale qu’on avait imaginée est bien retranscrite, et le résultat visuel et sonore est bon."
+msgstr "It was very cool to make this short film, first of all, because it had been a while since we had shot anything, so we got back the atmosphere, the excitement and the joy, and it was very instructive for me to make an effective montage, knowing what things I forget with the pressure of time. In the end, I'm very proud of the result, because I think the general idea that we had imagined is well transcribed, and the visual and sound result is good."
+
+msgid "Faire un court-métrage ensemble"
+msgstr "Making a short film together"
+
+msgid "Avec le début de nos études, nous avons eu moins de temps pour faire des courts-métrages, ce concours était l’occasion de refaire quelque chose."
+msgstr "With the beginning of our studies, we had less time to make short films, this contest was an opportunity to do something again."
+
+msgid "Avec Baptiste, nous avons passé une petite heure à brainstormer sur nos idées sur le thème, puis après en avoir trouvé une que nous aimions tous les 2, nous avons avancé chacun de notre côté , en relisant ce que l’autre avait fait dans les semaines qui ont suivi."
+msgstr "With Baptiste, we spent a little hour brainstorming about our ideas on the topic, then after finding one that we both liked, we each advanced on our side, rereading what the other had done in the weeks that followed."
+
+msgid "Initialement, nous avions le temps, mais avec les aléas de la vie, et nos disponibilités compliquées, nous n’avons pu tourner que le 19 février, en pensant que la date limite de rendu était le 10. Nous avons donc tourné un peu dans le rush, mais tout s’est bien passé, nous avons l’habitude de ce genre de tournage."
+msgstr "Initially, we had time, but with the vagaries of life, and our complicated schedules, we could only shoot on the 19th of February, thinking that the deadline for rendering was the 10th. So we shot in a bit of a rush, but everything went well, we're used to this kind of shooting."
+
+msgid "Comme précisé au dessus, initialement, je pensais avoir uniquement 1 nuit, donc j’ai fait une V1 en 3h, qui était assez bien, et quand j’ai appris que j’avais plus de temps, j’ai pris le temps de repasser sur le montage en 1 semaine, pour faire quelque chose de bien et le sortir."
+msgstr "As stated above, initially I thought I only had 1 night, so I did a V1 in 3h, which was pretty good, and when I found out I had more time, I took the time to go over the assembly in 1 week, to do something good and get it out."
+
+msgid "Participer à un concours"
+msgstr "Take part in a contest"
+
+msgid "L’idée était aussi de participer à un premier concours, pour participer à d’autres plus tard."
+msgstr "The idea was also to participate in a first competition, to participate in others later."
+
+msgid "Quand pour un acteur réalité et fiction se mélangent, où se trouve le réel danger ?"
+msgstr "When for an actor reality and fiction mix, where is the real danger?"
+
+msgid "Comme pour Perdu, dans le cadre du cours de mise en scène de Jean-François Perron à l’UQAT, nous devions réaliser 2 courts métrages au cours du trimestre. Pour chacun d’eux, nous avons eu environ 6 semaines pour les produire. Celui-ci est le deuxième que nous avons fait. Pour ce projet, j’était en équipe avec Martin Foucher, Antoine Videau, Gabriel Herchy, Florian Couttenier et Sarah-Jeanne Mantha.<br><br>Comme pour Perdu, l’idée était de travailler la mise en scène, l’anticiper, et apprendre ainsi tous les aspects importants à prévoir au niveau des lieux, accessoires, costumes, plans de caméra, dynamique de montage, etc… à anticiper à l’étape de pré-production."
+msgstr "As for Perdu, as part of Jean-François Perron's directing course at UQAT, we had to make two short films during the quarter. For each of them, we had about 6 weeks to produce them. This is the second we did. For this project, I was in a team with Martin Foucher, Antoine Videau, Gabriel Herchy, Florian Couttenier and Sarah-Jeanne Mantha.As for Perdus the idea was to work on the staging, anticipate it, and learn all the important aspects to anticipate in terms of locations, props, costumes, camera shots, editing dynamics, etc... to anticipate in the pre-production stage."
+
+msgid "Comme pour Perdu, dans le cadre du cours de mise en scène de Jean-François Perron à l’UQAT, nous devions réaliser 2 courts métrages au cours du trimestre. Pour chacun d’eux, nous avons eu environ 6 semaines pour les produire. Celui-ci est le deuxième que nous avons fait. Pour ce projet, j’étais en équipe…"
+msgstr "As with Perdu, as part of Jean-François Perron's directing course at UQAT, we had to make two short films during the quarter. For each of them, we had about six weeks to produce them. This is the second we did. For this project, I was in a team…"
+
+msgid "Ce court-métrage m’a plus perturbé que d’autres, jusqu'au rendu final je ne savais pas vraiment si le résultat serait à la hauteur de nos attentes, mais c’était aussi une première expérience de travail de colorimétrie qui m’a beaucoup apporté. Je suis au final très content de ce que nous avons produit, même si je trouve que certaines choses auraient pu être faites différemment."
+msgstr "This short film disturbed me more than others, until the final rendering I didn't really know if the result would live up to our expectations, but it was also a first experience working with colorimetry that brought me a lot. In the end, I'm very happy with what we produced, even though I think some things could have been done differently."
+
+msgid "Expérimenter"
+msgstr "Experience"
+
+msgid "Avec l’idée qu’on avait, quelques doutes nous habitent, mais nous avons décidé de profiter de l’opportunité de ce cours pour expérimenter quelque chose contenant moins de dialogue, et reposant plus sur la mise en scène, ce qui en plus, était en cohérence avec le cours."
+msgstr "With the idea we had, we had some doubts, but we decided to take the opportunity of this course to experiment with something containing less dialogue, and more based on the staging, which was also consistent with the course."
+
+msgid "Nous n’avions pas vraiment d’idée, et Sarah-Jeanne nous a proposé un scénario qu’elle avait écrit, nous l’avons lu et avons fait des retours, puis Sarah l’a retravaillé à la suite d’une discussion et de conseils de Jean-François, qui nous a montré des points forts selon lui, ce qui nous a aidé aussi pour penser la mise en scène du court-métrage."
+msgstr "We didn’t really have an idea, and Sarah-Jeanne offered us a script she had written, we read it and gave feedback, and then Sarah reworked it after a discussion and advice from Jean-François, who showed us some strengths according to him, which also helped us to think about the direction of the short film."
+
+msgid "Préproduction et Tests"
+msgstr "Pre-production and testing"
+
+msgid "Comme pour Perdu, nous avons fait un découpage technique et une horaire de tournage détaillé, ainsi que préparé les lieux de tournage. Nous avons fait des tests de plans et de colorimétrie. Et j’étais sur la partie direction artistique avec Florian. Nous avons donc réfléchi aux couleurs et aux tons que l’on voulait donner, notamment pour la différence entre fiction et réalité. L’acteur étant en dépression, avoir une fiction très saturée, trop saturée en couleur et une réalité très désaturée. Et tout cela s'atténuera pour se mélanger, et s’inverser avec le temps. Nous avons aussi réfléchi à un moyen de différencier la réalité et la fiction, et avons pensé à un objet personnel du personnage principal : sa bague, qu’il n'aurait pas lorsqu’il joue dans un film."
+msgstr "As with Perdu, we did a technical cutout and a detailed shooting schedule, as well as preparing the locations. We did tests of shots and colorimetry. And I was on the art direction side with Florian. So we thought about the colors and tones that we wanted to give, especially for the difference between fiction and reality. The actor being depressed, having a fiction that is very saturated, too saturated in color and a reality that is very unsaturated. That will all fade to blend and reverse over time. We also thought about a way to differentiate between reality and fiction, and thought about a personal item of the main character: his ring, which he wouldn't have when he's in a movie."
+
+msgid "A cause de quelques imprévus, nous avons dû réadapter nos horaires de tournage, mais nous avons su nous adapter et tout s'est bien passé."
+msgstr "Because of some unforeseen events, we had to re-adapt our shooting schedules, but we were able to adapt and everything went well."
+
+msgid "Le montage devait être fait par Gabriel et c'est lui qui en a fait la majorité, mais comme il a manqué de temps je lui ai donné un coup de main en montant une partie. Il a ensuite terminé, et avec Florian, nous nous sommes occupés de la colorimétrie. Et après un visionnage tous ensemble, nous avons rendu le film."
+msgstr "The editing had to be done by Gabriel and he did most of it, but as he ran out of time I gave him a hand by editing some of it. Then he finished, and with Florian, we took care of the colorimetry. And after a screening together, we returned the film."
+
+msgid "Faire un tournage de plus grande ampleur"
+msgstr "Making a larger scale filming"
+
+msgid "Nous cherchions à faire mieux qu’avant, et à être plus ambitieux."
+msgstr "We were looking to do better than before, and to be more ambitious."
+
+msgid "Raphaël, Aby et Mattéo, trois étudiants en histoire, vont, pendant leurs révisions, être témoins d'un étrange événement…"
+msgstr "Raphaël, Aby and Mattéo, three history students, will, during their revisions, witness a strange event…"
+
+msgid "2<sup>e</sup> création du Placard Production, réalisée dans le cadre du concours 3/4 de semaine, organisé par 3/4 de Pouce (et vainqueur ;), avec une plus petite équipe que sur d'autres projets."
+msgstr "2<sup>nd</sup> creation of Placard Production, made as part of the 3/4 week competition, organized by 3/4 de Pouce (and winner;), with a smaller team than on other projects."
+
+msgid "Nous sommes tous très fier du résultat (et nous avons gagné). Je retire beaucoup de positif de cette expérience, notamment sur l'organisation, et le fait que nous étions moins que pour la Coloc, mais que personne n’a manqué. Je compare ça avec mes anciennes et toujours actuelles expériences avec Baptiste Martin, où nous sommes en dehors des acteurs 2 tout le temps, avec par moment l’aide pour le cadrage. Comme quoi, pas besoin d’être beaucoup pour faire quelque chose de bien. Là, le fait d’être 7 nous a bien permis de nous organiser, sans être trop. Pour le tournage aussi, où nous n’étions pas tous les 7 là les 2 jours, 6 un jour et 5 l’autre, les personnes inutiles ne sont pas venues, ce qui a aidé la productivité. Je suis donc globalement très content de ce qu’on a fait."
+msgstr "We are all very proud of the result (and we won). I take a lot of positives from this experience, especially about the organization, and the fact that we were less than for the Coloc, but that no one missed. I compare this to my past and still current experiences with Baptiste Martin, where we are apart from the 2 actors all the time, with the occasional help for the framing. You don't have to be a lot to do something well. Being 7 allowed us to organize ourselves, without being too much, and also for the shoot, where we weren't all 7 there the 2 days, 6 one day and 5 the next, the useless people didn't come, which helped the productivity. So overall I’m very happy with what we’ve done."
+
+msgid "Faire mieux qu'avant"
+msgstr "Doing better than before"
+
+msgid "Nous étions un peu déçu du résultat final de nos premiers projets ensemble, et sommes donc revenus plus que motivés pour faire quelque chose de bien mieux pour ce nouveau concours."
+msgstr "We were a little disappointed with the end result of our first projects together, so we came back more than motivated to do something much better for this new competition."
+
+msgid "Après un rapide brainstorm et qu’une idée se soit dégagée, Daniel, Gabriel et Célestin se sont retrouvé pour écrire, et je les ai aidé pour finir (pendant un cours). Tout le groupe était content de l’histoire."
+msgstr "After a quick brainstorm and an idea emerged, Daniel, Gabriel and Celestin got together to write, and I helped them finish (during a class). The whole group was happy with the story."
+
+msgid "Cette fois, le tournage était bien organisé, divisé sur 2 jours, mais bien organisé, de telle sorte que tous les plans sont rentrés parfaitement dans le planning, et mieux annoncé et autre pour le monteur (Daniel). C’était très cool de faire ce tournage en tant qu’acteur, tout le monde était efficace, motivé, et connaissait son rôle, il n’y avait donc personne non occupé pour perturber les autres."
+msgstr "This time the shoot was well organised, split over two days, but well organised, so that all the plans fit perfectly into the schedule, and better announced and so on for the editor (Daniel). It was very cool to do this shoot as an actor, everyone was efficient, motivated, and knew their role, so there was no one unoccupied to disturb the others."
+
+msgid "Je n’ai pas participé au montage, Daniel et Célestin qui l’ont fait, ils se sont bien réparti les tâches pour le finir dans les temps."
+msgstr "I did not participate in the editing, Daniel and Célestin who did it very well, they distributed the tasks well to finish it on time."
+
+msgid "Participer au 3/4 de semaine"
+msgstr "Participate in 3/4 de semaine"
+
+msgid "Encore une fois, c’est un concours qui nous motive à trouver le temps de faire un court-métrage. Ce concours consiste à créer un court-métrage en 1 semaine."
+msgstr "Again, this is a competition that motivates us to find the time to make a short film. This competition is about creating a short film in one week."
+
+msgid "An 2223, 2 Guimauves vivantes et intelligentes terrorisent l'humanité qui va bientôt s'éteindre par leur faute. […] Tout semble perdu, jusqu'à ce qu'un jour, des amis découvrent le moyen de voyager dans le temps… Entre présent et passé, la fuite éternelle s'arrêtera-t-elle un jour ?"
+msgstr "In the year 2223, two intelligent marshmallows terrorize humanity that will soon be extinguished through their own fault. […] All seems lost, until one day, friends discover a way to travel back in time. Between the present and the past, will the eternal flight ever stop?"
+
+msgid "Fiction audio que j’ai créé dans le cadre du <strong><a target='_blank' href='https://2023.sagadelete.fr'>concours de la Saga de l’été</a></strong>, concours qui consiste à créer une fiction audio de plus de 15 minutes en 3 mois entre le 1er juin et début septembre. À partir de plusieurs pistes d’idées , j’ai écrit, puis réalisé Les Guimauves Tueuses."
+msgstr "Audio Fiction I create for the <strong><a target='_blank' href='https://2023.sagadelete.fr'>concours de la Saga de l’été</a></strong>, contest that consists in creating an audio fiction of more than 15 minutes in 3 months between the 1st of June and the beginning of September. From several tracks of ideas, I wrote and then directed Les Guimauves Tueuses."
+
+msgid "Fiction audio que j’ai créé dans le cadre du <strong><a target='_blank' href='https://2023.sagadelete.fr'>concours de la Saga de l’été</a></strong>, concours qui consiste à créer…"
+msgstr "Audio Fiction I create for the <strong><a target='_blank' href='https://2023.sagadelete.fr'>concours de la Saga de l’été</a></strong>, contest that consists in creating…"
+
+msgid "C’était une super expérience, je suis très content d’avoir fini, et je suis très content de ce que j’ai sorti ! J’ai été étonné de tous les retours positifs et toutes les personnes qui l’ont vu. J'ai aussi eu certains retours sur la problématique de qualité de micro trop variée entre chaque acteur, qui sortait l'auditeur de l'histoire. Ce que j'ai compris, et pris en compte pour mes prochaines créations"
+msgstr "It was a great experience, I'm very glad I finished and I'm very happy with what I got out of it. I was amazed by all the positive feedback and all the people who saw it. I've also had some feedback on the issue of microphone quality being too varied between each actor, which took the listener out of the story. What I learned, and take into account for my next creations."
+
+msgid "Faire une Saga de l'été"
+msgstr "Create a <em>Saga de l'été</em>"
+
+msgid "C’est un concours dont j’avais entendu parler, et l’ambiance du concours est très motivante, donc je me suis lancé."
+msgstr "It’s a contest I’d heard about, and the atmosphere of the contest is very motivating, so I got started."
+
+msgid "Au début j’ai envoyé un message pour chercher des acteurs pour savoir qui serait dispo, avoir une idée du nombre de personnages que je pourrais faire. J’ai mis quelques jours à avoir l’idée, puis le soir pendant le mois de juin, j’avançais tous les jours un petit peu sur l’écriture. Ça a bien avancé, et fin juin je l’ai envoyé à mes amis pour relecture. Et après quelques modifications et améliorations, le script final était validé, et j’en étais content."
+msgstr "In the beginning I sent a message to look for actors to see who would be available, to get an idea of how many characters I could play. It took me a few days to get the idea, and then in the evenings during the month of June, I was working on the writing a little bit, and at the end of June I sent it to my friends for rereading. And after a few tweaks and improvements, the final script was validated, and I was happy with that."
+
+msgid "Enregistrements"
+msgstr "Recordings"
+
+msgid "Pour éviter de prendre trop de temps, j’ai sélectionné les rôles pour chaque comédien moi-même, sans test, en les connaissant, et en sachant ce qu’ils peuvent bien faire. Et je leur ai donc laissé 3 semaines pour faire les enregistrements, ce qui m’a aussi fait une pause. Pause qui m’a amené la volonté de faire plein d’autres choses, mais aussi des doutes, sur l’histoire, est-ce qu’elle est vraiment bien ? Et sur mes capacités pour le mixage."
+msgstr "To avoid taking up too much time, I selected the roles for each actor myself, without testing, knowing them, and knowing what they can do well. And so I gave them three weeks to do the recordings, which also gave me a break. A break that gave me the desire to do lots of other things, but also doubts, about the story, is it really good? And about my ability to mix."
+
+msgid "Montage / Mixage"
+msgstr "Editing / Mixing"
+
+msgid "J’ai mis un peu de temps pour me mettre au mixage, et j’ai eu de l’aide de Yanis, qui m’a trouvé la majorité des bruitages. Ensuite, j’y ai passé quelques moments, une fois de temps en temps et j’ai eu quelques frayeurs sur les délais, puis j’ai fini 2 semaines avant la date butoire, j’ai donc pu avoir un retour de 3 personnes, et de l’améliorer, tout en le sortant 1 semaine avant la date butoire."
+msgstr "It took me a little bit of time to get into the mix, and I had help from Yanis, who found me the majority of the noises. Then I spent a little bit of time, once in a while, and I had a few scares about deadlines, and then I finished two weeks before the deadline, so I was able to get a feedback from three people, and improve it, while getting it out one week before the deadline."
+
+msgid "Publication"
+msgstr "Publication"
+
+msgid "J’avais tout prévu pour le sortir à 18h le dimanche, et j’ai eu un week-end très éprouvant, et j’ai oublié la publication, et étant au canada, je l’ai sorti à 21h heure canadienne ,un peu de retard…"
+msgstr "I had everything planned to get it out at 6pm on Sunday, and I had a very hard weekend, and I forgot the publication, and being in canada, I got it out at 9pm Canadian time, a little late…"
+
+msgid "Finir un gros projet de ficiton audio"
+msgstr "Finish a big audio ficiton project"
+
+msgid "Avec d’autres idées de fiction audio qui n'avançaient pas, je commençais à douter de mes capacités à finir une fiction audio, et la limite de temps m’a aidé à me dire que j’allais finir un premier gros projet."
+msgstr "With other audio fiction ideas not moving forward, I was starting to doubt my ability to finish an audio fiction, and the time limit helped me tell myself that I was going to finish a first big project."
+
+msgid "Saga mp3"
+msgstr "Audio Serie"
+
+msgid "Astéria, déesse des étoiles, décide de mener une expérience sur les étoiles le soir de noël en permettant à certaines constellations de se déplacer afin d'étudier leur comportement."
+msgstr "Asteria, goddess of the stars, decides to conduct an experiment on the stars on Christmas Eve by allowing certain constellations to move around in order to study their behavior."
+
+msgid "C’est un projet assez ambitieux d’une série audio de 25 épisodes au format calendrier de l’avent, que j’ai co-réalisé avec Yanis Boulogne. C’est via ce projet que nous avons rejoint le groupe Javras. Et comme nous avons eu l’idée en Septembre, pour nous lancer seulement en Octobre, les deadlines étaient assez courtes, ce qui a créé un challenge très motivant."
+msgstr "It's a rather ambitious project of a 25-episode audio series in the advent calendar format, which I co-directed with Yanis Boulogne. It was through this project that we joined the Javras group. And as we had the idea in September, only to launch in October, the deadlines were quite short, which created a very motivating challenge."
+
+msgid "C’est un projet assez ambitieux d’une série audio de 25 épisodes au format calendrier de l’avent, que j’ai co-réalisé avec Yanis Boulogne. C’est via ce projet que nous avons rejoint…"
+msgstr "It's a rather ambitious project of a 25-episode audio series in the advent calendar format, which I co-directed with Yanis Boulogne. It was through this project that we joined…"
+
+msgid "C’était un vrai challenge, mais nous sommes vraiment contents d’en être arrivés à bout, et nous sommes très fiers de ce que nous avons fait. Nous avons pu apprendre et nous perfectionner tout au long de la création. La limite de temps a été un moteur dans la création de cette fiction, et nous motive à en créer beaucoup d’autres. Un élément très important pour nous est aussi d’avoir rejoint la Team Javras, qui nous motive aussi à continuer. Bref, j’ai adoré créer cette fiction, j’ai en parallèle appris beaucoup avec mes cours, et tout mettre en parallèle ne m’apporte que du positif !"
+msgstr "It was a real challenge, but we're really happy that we made it through, and we're very proud of what we did. We were able to learn and improve throughout the creation. The time limit was a driving force in the creation of this fiction, and motivates us to create many more. Joining Team Javras is also a very important element for us, which also motivates us to keep going. In short, I loved creating this fiction, I learned a lot in parallel with my classes, and putting everything in parallel only brings me positive!"
+
+msgid "Finir"
+msgstr "Finish"
+
+msgid "Étant donné que nous avons eu l’idée assez tardivement, réaliser ce projet de manière complète était un vrai défi pour nous."
+msgstr "Since we came up with the idea quite late, it was a real challenge for us to complete this project."
+
+msgid "Organisation"
+msgstr "Organization"
+
+msgid "Tout d’abord, en Septembre quand nous avons eu l’idée d’une série audio calendrier de l’avent, nous pensions le faire dans 1 an. Puis quand j’ai eu une idée, fin septembre, on en a parlé, on s’est dit “En vrai… Il y a un monde où ça le fait”. Nous avons donc planifié toute la réalisation de cette fiction audio, pour la réaliser en 2 mois, pour que tout se passe au mieux et soit réalisable."
+msgstr "First of all, in September when we had the idea of an audio calendar of the advent calendar, we thought we would do it in 1 year. Then when I had an idea, at the end of September, we talked about it, we said, <em>Really? There's a world where it does it</em>. So we planned the whole creation of this audio fiction, to make it in 2 months, so that everything would go as well as possible."
+
+msgid "Après avoir validé l’idée initiale, je me suis lancé sur une semaine à l’écriture d’une trame générale pour chaque épisode, et nous avions ensuite planifié 2 semaines d’écriture pour chaque bloc de 6 épisodes. Au début j’ai suivi ce rythme, et après le difficulté que j’ai eu à me replonger dedans pour l’écriture de l’épisode 7, j’ai décidé de ne plus faire de pause de plus de 1 jour dans l’écriture, et de toujours faire quelque chose pour avancer chaque jour (même si c’est juste envoyer un message). Et à ce rythme, j’ai fini l’écriture début Novembre, en étant plutôt serein sur nos deadlines d’écriture, mais peu rassuré sur les deadlines de montage."
+msgstr "After validating the initial idea, I embarked on a week of writing a general plot for each episode, and we then planned 2 weeks of writing for each block of 6 episodes. At first I followed this pace, and after the difficulty I had in getting back into it for writing episode 7, I decided not to take a break of more than a day in writing, and to always do something to move forward each day (even if it's just sending a message). And at this pace, I finished writing in early November, being pretty serene about our writing deadlines, but uneasy about the editing deadlines."
+
+msgid "Dans ce projet, nous avons tout mélangé, c'est-à-dire que dans notre planification, pendant l’écriture de 6 épisodes, les 6 épisodes précédents étaient enregistrés. Donc nous avons fait un casting pendant l’écriture des 6 premiers épisodes, en envoyant des messages sur plusieurs serveurs discord faisant de la fiction audio où nous sommes. Nous pensions avoir du mal à trouver 21 voix, mais finalement, nous avons même eu quelques personnes en trop, ce qui nous a permis de choisir les meilleures voix, et nous sommes très content des voix que nous avons choisies. C’est aussi pendant le casting que nous avons été approché par Richoult pour que la Team Javras nous aide dans la production de cette série (car c’était vraiment un gros défi), et ainsi rejoindre la Team Javras pour de prochaines créations. Et nous avons donc accepté cette aide, qui nous a été très précieuse tout au long de la réalisation. Ainsi, pour les enregistrements, nous avons enregistré avec certaines personnes en direct, et reçu les enregistrements puis fait des retours pour d’autres, en fonction de la préférence, et tout s’est bien passé. Nous avons eu quelques oublis, mais c’est compréhensible dans un projet comme celui-là, et cela ne nous a pas ralenti dans le mixage."
+msgstr "In this project, we mixed everything up, which means that in our planning, during the writing of 6 episodes, the previous 6 episodes were recorded. So we cast during the writing of the first 6 episodes, sending messages to several discord servers doing audio fiction where we are. We thought we would have a hard time finding 21 voices, but in the end we even had a few extra people, which allowed us to choose the best voices, and we are very happy with the voices we chose. It was also during the casting that we were approached by Richoult for Team Javras to help us with the production of this series (because it was really a big challenge), and to join Team Javras for future creations. And so we accepted this help, which was very valuable to us throughout the process.So, for the recordings, we recorded with some people live, and received the recordings and then did feedback for others, depending on preference, and everything went well. We had a few omissions, but that's understandable in a project like this, and it didn't slow us down in the mix."
+
+msgid "Mixage"
+msgstr "Mixing"
+
+msgid "Pour le mixage, nous nous sommes séparé les épisodes en 2, je mixait les épisodes impairs, et Yanis les pairs. Pour sortir cette série sur le site de la Team Javras, il fallait avoir les épisodes prêts en avance pour les sortir en avant première aux mécènes sur Tipeee et Patreon. Ainsi, nous avons vu avec Richoult, pour planifier toutes les deadlines pour chaque bloc d’épisodes, et nous nous sommes lancés. Comme j’avais globalement plus de temps libre que Yanis, surtout sur la fin, j’ai monté certains des épisodes qu’il devait monter quand il n’avait pas le temps et que je l’avais. C’était l’avantage d’être à 2 sur ce projet, pouvoir se soulager l’un et l’autre d’une charge de travail, en fonction de nos activités extérieures et de nos cours qui nous occupaient une majorité de notre temps."
+msgstr "For mixing, we split the episodes into 2, I mixed the odd episodes, and Yanis the peers. To release this series on the Team Javras website, we had to have the episodes ready in advance to premiere them to patrons on Tipee and Patreon. So, we saw with Richoult, to schedule all the deadlines for each block of episodes, and we got started. As I had more free time overall than Yanis, especially at the end, I edited some of the episodes that he had to edit when he didn't have the time and I did. It was the advantage of being 2 on this project, being able to relieve both of a workload, depending on our outdoor activities and our classes that took up a majority of our time."
+
+msgid "Illustration, Composition et Diffusion"
+msgstr "Illustration, Composition and Publication"
+
+msgid "Pour tout ce qui concerne l’illustration, la composition d’un jingle, et la diffusion, un grand merci à Richoult qui a tout géré, nous demandant des directives et nous faisant valider (superbe pochette réalisée par Fafodill, et jingle incroyable composé par Kayji). Et cela a été très cool pour nous, de pouvoir nous concentrer sur le mixage sans avoir à nous soucier de tout ça."
+msgstr "For everything related to the illustration, the composition of a jingle, and the broadcasting, a big thank you to Richoult who handled everything, asking us for directions and getting us validated (great cover art by Fafodill, and amazing jingle composed by Kayji). And it was really cool for us, to be able to focus on the mixing without having to worry about all that."
+
+msgid "Travailler notre adaptation"
+msgstr "Working our adaptation"
+
+msgid "Via ce projet, nous sortions de notre zone de confort en deadline, et nous avons dû adapter l’organisation de notre temps et de nos activités pour mener à bien ce projet ."
+msgstr "With this project, we were getting out of our comfort zone on deadline, and we had to adapt the organization of our time and activities to carry out this project."
+
+msgid "Faire quelque chose de qualitatif"
+msgstr "Doing something qualitative"
+
+msgid "En nous lançant, nous ne voulions pas juste le faire pour le faire, nous voulions le faire et avoir un résultat qui nous plait, et qui serait qualitatif. Le fait de rejoindre la Team Javras pour le faire a augmenté cette volonté."
+msgstr "When we started, we didn't just want to do it to do it, we wanted to do it and get a result that we like, and that would be qualitative. Joining Team Javras to do it increased that desire."
+
+msgid "Trois gangsters reçoivent une lettre qu'ils ont récupérée pour leur Boss, sans savoir ce qu'il y a dedans. Ils vont donc se demander s’il faut l'ouvrir ou pas. Cependant, un inspecteur de police se lance à leur poursuite afin de récupérer cette mystérieuse lettre…"
+msgstr "Three gangsters receive a letter they retrieved for their boss, not knowing what's inside. They decide whether to open it or not. However, a police inspector sets out to retrieve the mysterious letter…"
+
+msgid "3ème création du Placard Production, pour le 3ème concours de courts-métrages de cette année, le concours 3/4 de cinéma, créer un court-métrage en 1 mois."
+msgstr "3rd creation of the Placard Production, for the 3rd short film competition of this year, the 3/4 film competition, create a short film in 1 month."
+
+msgid "3ème création du Placard Production, pour le 3ème concours de courts-métrages de cette année, le…"
+msgstr "3rd creation of the Placard Production, for the 3rd short film competition of this year, the"
+
+msgid "Pour le fait de créer en 1 mois, je n’ai pas été très impliqué, à part à la fin, donc j’en retire plus une expérience de montage en groupe sous la pression du temps, qui était, même si compliquée, très sympa à vivre avec des amis, tous dans le même bâteau. Comme dit précédemment, il y avait des détails que j’aurais aimé plus travailler, mais j’étais quand même très fier de ce que l’on avait fait, et voir son court-métrage projeté sur grand écran est quelque chose de très gratifiant."
+msgstr "To create in a month, I wasn't very involved, except at the end, so I get more of a group editing experience under the pressure of time, which was, although complicated, very nice to live with friends, all in the same boat. As I said before, there were details I would have liked to have worked on more, but I was still very proud of what we'd done, and to see his short film projected on the big screen is something very rewarding."
+
+msgid "Participer au concours 3/4 de cinéma"
+msgstr "Participate in contest 3/4 de Cinéma"
+
+msgid "Voyant la possibilité de faire un court-métrage dans le cadre d’un concours, nous avons décidé de nous lancer, et d’essayer de faire un court-métrage plus important que nos premières créations"
+msgstr "Seeing the possibility of making a short film as part of a competition, we decided to go for it, and try to make a short film more important than our first creations."
+
+msgid "Pour ce court-métrage, nous étions beaucoup, j’ai donc souhaité ne pas m’imposer, et faire la partie que je préfère : le Montage. J’ai donc donné mon avis sur le scénario, mais pas plus, et n’ai pas participé au tournage (ils étaient assez sur place). Pour le montage, suite à un problème de communication et d’organisation, Célestin et moi avons reçu les rushs 5h30 avant l'heure de rendu, pas besoin d’être un génie pour savoir que nous avons été pressés. Daniel nous avait bien mâché le travail en nous coupant toutes les séquences et en les nommant, mais nous avons passé ces 5h30 en vocal à travailler sur tous les détails que l’on pouvait améliorer, à peu manger pendant ces 5h. Pour au final rendre avec des défauts que nous n’avions pas eu le temps de corriger, à 22h59 (pour 23h au plus tard) C’était très intense, mais très cool à faire, même si décevant de laisser des défauts, notamment sur le son, que l’on a pas eu le temps de vraiment beaucoup retravailler. Daniel est ensuite repassé sur notre montage pour faire ces améliorations avant la publication sur YouTube."
+msgstr "For this short film, there were a lot of us, so I wanted not to impose myself, and do the part I prefer: the editing. So I gave my opinion on the script, but no more, and did not participate in the shoot (they were quite on site). For the editing, due to a communication and organization problem, Celestin and I were given the 5:30 rush before the rendering time, no need to be a genius to know that we were in a hurry. Daniel had done us a good job by cutting out all the sequences and naming them, but we spent those 5:30 working on every detail that could be improved, just about eating during those 5 hours. To finally render with defects that we had not had time to correct, at 22:59 (for 23:00 at the latest) It was very intense, but very cool to do, even if disappointing to leave defects, especially on the sound, that we did not have time to really rework much. Daniel then went over to our editing to make these improvements before posting on YouTube."
+
+msgid "2 amis partent en forêt, mais se retrouvent aspirés par une lumière blanche. Ils se réveillent dans un monde où tout est cubique (Minecraft). L’un est très doué, mais l’autre, encore attaché à notre monde découvre Minecraft et ses incohérences…"
+msgstr "Two friends set off into the forest, but find themselves sucked into a white light. They wake up to a world where everything is cubic (Minecraft). One is very gifted, but the other, still attached to our world, discovers Minecraft and its inconsistencies…"
+
+msgid "2 amis partent en forêt, mais se retrouvent aspirés par une lumière blanche. Ils se réveillent dans un monde où tout est cubique…"
+msgstr "Two friends set off into the forest, but find themselves sucked into a white light. They wake up to a world where everything is cubic…"
+
+msgid "La Découverte d’un Nouveau Monde est ma première série audio, et c’est une parodie du jeu Minecraft. Je me suis inspiré de Javras, qui a fait des séries audio parodiant des jeux vidéo."
+msgstr "La Découverte d’un Nouveau Monde is my first audio series, and it's a parody of the game Minecraft. I was inspired by Javras, who made audio series parodying video games."
+
+msgid "La Découverte d’un Nouveau Monde est ma première série audio, et c’est une parodie du jeu Minecraft. Je me suis inspiré de Javras, qui a fait des séries audio parodiant des jeux vidéo…"
+msgstr "La Découverte d’un Nouveau Monde is my first audio series, and it's a parody of the game Minecraft. I was inspired by Javras, who made audio series parodying video games…"
+
+msgid "C’était une très bonne expérience, qui m’a fait beaucoup aimer beaucoup d’aspects des fictions audio, notamment le fait de ne pas avoir besoin de faire venir tout le monde à un même endroit un même jour, chacun enregistre de chez lui. Et même si la fin de cette série a mis du temps à être faite*, j’aurais ainsi pu évoluer dans ma manière de créer les épisodes, entre le premier et le dernier. J’ai aussi évolué sur les visuels, qui ne sont plus statiques à 100%."
+msgstr "It was a really good experience, and it made me really like a lot of aspects of audio fiction, including not having to have everyone come to the same place on the same day, everyone recording from home. And even though the end of this series took a while to make, it allowed me to evolve in the way I created the episodes, between the first and the last. I also evolved on the visuals, which are no longer 100% static."
+
+msgid "Faire ma toute première série audio"
+msgstr "Making my first ever audio series"
+
+msgid "Ayant écouté pas mal de fictions audio pendant les 2 années précédant le premier épisode de cette série, et co-réalisant déjà des séries, j’ai eu envie de m’essayer à l’exercice d’une fiction audio, et donc d’en découvrir les codes, les difficultés, et les facilités par rapport à un court-métrage ou une série."
+msgstr "Having listened to a lot of audio fictions during the 2 years before the first episode of this series, and already co-directing series, I had the desire to try out an audio fiction, and thus to discover the codes, the difficulties, and the facilitations compared to a short film or a series."
+
+msgid "Au début, je me suis fait un schéma de tout ce qu’il devait se passer. Et ensuite, pour chaque épisode, il y avait environ 1 semaine d’écriture, où, en me posant, les idées venaient toutes seules. Pour les 2 premiers épisodes j’ai été aidé par Baptiste Martin."
+msgstr "In the beginning, I sketched out everything that needed to happen. And then, for each episode, there was about a week of writing, where, as I wondered, the ideas came on their own. For the first two episodes, I was helped by Baptiste Martin."
+
+msgid "Distribution et Enregistrements"
+msgstr "Casting and Recordings"
+
+msgid "C’était ma première fiction audio, et j’ai donc expérimenté le fait de faire jouer 2 rôles ou plus à une même personne, sans que cela ne se remarque, et donc partager les 5-6 rôles par épisodes, aux 3 à 4 acteurs que nous étions. Au final rien de très compliqué."
+msgstr "It was my first audio fiction, and so I experimented with having two or more roles played by the same person, without it being noticed, and so sharing the 5-6 roles per episode, with the 3 or 4 actors we were. In the end, nothing very complicated."
+
+msgid "Première expérience aussi en montage audio, que je négligeais jusqu’alors. J’ai découvert la joie de pouvoir ajouter les bruitages, modifier les voix, remodeler les phrases sans que ça ne s’entende. Mais aussi, ce que j’ai appris plus vers les derniers épisodes, plus prendre le temps, parce que mon montage restait très simple."
+msgstr "My first experience was also in audio editing, which I had neglected until then. I discovered the joy of being able to add noises, change voices, reshape sentences without it making sense. But also, what I learned the more towards the last few episodes, the more time consuming because my editing remained very simple."
+
+msgid "Autre"
+msgstr "Other"
+
+msgid "Les 2 derniers épisodes ont été écrits avant que je ne prenne plus le temps de faire mes fictions audio, mais monté après. Il n’y a donc pas vraiment d’évolution sur l’écriture, mais j’ai essayé de faire un meilleur mixage, ils m’ont permis de prendre en main le logiciel Reaper avant de me lancer dans le mixage de ma saga de l’été (Les Guimauves Tueuses) même si le sujet ne menait pas à de grandes difficultés de montage. Et c’est en partie pour ça que je l’ai choisi, recréer l’univers sonore de minecraft est assez simple, en reprenant les bruitages du jeu, qui a une vraie identité sonore pour tous les joueurs."
+msgstr "The last two episodes were written before I took the time to do my audio fiction, but after that, I've been working on it. So there's not really an evolution on the writing, but I tried to do a better mix, they allowed me to pick up the Reaper software before I started mixing my summer saga (Killing Marshmallows) even though the subject matter didn't lead to major editing difficulties. And that's partly why I chose it, recreating the sound universe of Minecraft is pretty simple, taking the noises from the game, which has a true sonic identity for all players."
+
+msgid "M'amuser à faire un truc drôle"
+msgstr "Have fun in creating a funny thing"
+
+msgid "C’est une parodie, et donc forcément, l’objectif était d’apporter beaucoup de blagues à cette fiction audio, je voulais que ça me fasse rire. "
+msgstr "It’s a parody, so the goal was to bring a lot of jokes to this audio fiction, I wanted it to make me laugh."
+
+msgid "Mono mp3"
+msgstr "Audio Fiction"
+
+msgid "La nuit du 24 Décembre, le père noël part faire sa distribution, comme tous les ans, accompagné de 2 lutins, mais cette année, tout ne se passe pas comme prévu…"
+msgstr "On the night of December 24th, Santa Claus goes to make his distribution, as every year, accompanied by 2 elfs, but this year, everything does not go as planned…"
+
+msgid "2 semaines avant noël, je m’ennuyais, je ne savais pas quoi faire, et j’ai voulu faire une fiction audio pour noël. Je l’ai donc écrite, trouvé les acteurs et fait enregistrer dans la semaine, puis monté dans la semaine qui a suivi, pour que tout soit prêt pour noël."
+msgstr "two weeks before christmas, i was getting bored, i didn't know what to do, and i wanted to do an audio play for christmas. So I wrote it, found the actors and recorded it in the week, and then mixed it the week after, so that everything was ready for Christmas."
+
+msgid "2 semaines avant noël, je m’ennuyais, je ne savais pas quoi faire, et j’ai voulu faire une fiction audio pour noël. Je l’ai donc écrite, trouvé les acteurs et fait enregistrer dans la semaine, puis monté dans la semaine qui a suivi, pour…"
+msgstr "2 weeks before christmas, i was getting bored, i didn't know what to do, and i wanted to do an audio play for christmas. So I wrote it, found the actors and recorded it in the week, and then mixed it…"
+
+msgid "Je suis finalement très fier du résultat, malgré quelques détails que je remarque uniquement parce que j’ai fait le montage, j’aime, moi-même beaucoup écouter cette fiction. Faire cette fiction m’a apporté une nouvelle expérience d’audio, pour que je sois plus confiant de mes capacité, après le Mono MP3 Course Contre l’IA, qui m’avait remis le pied à l’étrier de la création de fictions audio."
+msgstr "In the end, I am very proud of the result, despite some details that I notice only because I did the editing, I like to listen to this fiction a lot. Doing this fiction gave me a new audio experience, to be more confident of my abilities, after the audio fiction Course Conte l'IA, which put me back in the driving seat of creating audio fictions."
+
+msgid "Faire une fiction Audio"
+msgstr "Create an Audio Fiction"
+
+msgid "J’étais en plein dans l’écriture de l’Ordre des Brownies (une grosse fiction audio que je préparais), et j’avais besoin, pour moi, de faire une première fiction audio moi à 100%, avec un temps raisonnable, et j’avais envie de faire du montage et du mixage."
+msgstr "I was in the middle of writing the Order of Brownies (a big audio fiction that I was preparing), and I needed, for me, to make a first audio fiction myself 100%, with a reasonable time, and I wanted to do editing and mixing."
+
+msgid "Comme je l’ai précisé, la création de cette fiction audio est tombée au milieu de l’écriture de l’Ordre des Brownies, ce qui m’a influencé sur le fait de faire une histoire vraiment différente de ce que j’écrivais. En plus, l’idée d’écrire quelque chose de court, après avoir passé plusieurs semaines sur une histoire longue pas encore terminée était très motivante."
+msgstr "As I said, the creation of this audio fiction fell in the middle of writing the Order of the Brownies, which influenced me to make a story that was really different from what I was writing. Also, the idea of writing something short, after spending several weeks on a long story that wasn't yet finished was very motivating."
+
+msgid "J’ai du trouver les acteurs et les faire enregistrer en une semaine, ce qui est un défi, quand tout le monde a des cours ou des partiels, mais au final, cela a apporté un moment de pause dans la semaine à chacun des doubleurs, et les enregistrements se sont très bien passés."
+msgstr "I had to find the actors and record them in a week, which is a challenge, when everyone has classes or part-time, but in the end, it brought a moment of break in the week for each of the dubbers, and the recordings went very well."
+
+msgid "Au moment des enregistrements, j’étais assez stressé par le manque de temps au moment du Montage, mais au final, il s’est avéré qu’une semaine était largement suffisante. J’ai expérimenté via cette fiction audio une nouvelle manière de faire les visuels, en ajoutant une onde visible du son, pour qu’il y ait de l’activité visuelle."
+msgstr "At the time of the recordings, I was quite stressed about the lack of time at the time of editing, but in the end, it turned out that a week was quite enough. I experimented with a new way of doing visuals, adding a visible wave of sound, so that there was visual activity."
+
+msgid "Une fiction tout public"
+msgstr "A fiction for everyone"
+
+msgid "Toujours dans l’écriture de l'Ordre des Brownies, qui est une histoire un peu sombre, non destinée à tous les publics, j’avais la volonté de faire un fiction pour les familles, que tout le monde pourrait écouter et aimer. "
+msgstr "Still in the writing of the Order of Brownies, which is a somewhat dark story, not intended for all audiences, I wanted to make a fiction for families, that everyone could listen to and love."
+
+msgid "An 2352, l’IA contrôle le monde, et tous les humains sont dans une routine pour être le plus productifs possible."
+msgstr "Year 2352, AI controls the world, and all humans are in a rut to be as productive as possible."
+
+msgid "J’ai créé ce mono mp3 lors d’une journée d’apprentissage de la fiction audio organisé par Javras. L’idée était de créer une bande annonce pour un film qui ne sortirait pas. J’ai décidé de faire une bande annonce pour un prochain court-métrage que j’écrivais (Souris !), puis au final nous avons écrit souris avec un autre angle donc ce mono mp3 est juste resté une histoire dans le même univers."
+msgstr "I created this audio fiction during an audio fiction learning day organized by Javras. The idea was to create a trailer for a movie that wouldn't come out. I decided to make a trailer for an upcoming short film that I was writing (Souris!), and then in the end we wrote mouse with a different angle so this mono mp3s just stayed a story in the same universe."
+
+msgid "J’ai créé ce mono mp3 lors d’une journée d’apprentissage de la fiction audio organisé par Javras. L’idée était de créer une bande annonce pour un film qui ne sortirait pas. J’ai décidé de faire une bande annonce pour un prochain court-métrage que j’écrivais (Souris !), puis au final…"
+msgstr "I created this audio fiction during an audio fiction learning day organized by Javras. The idea was to create a trailer for a movie that wouldn't come out. I decided to make a trailer for an upcoming short film that I was writing (Souris!), and then…"
+
+msgid "La création de ce mono a été très intéressante, j’ai appris beaucoup, et je me suis peu de temps après lancé dans la création de nouvelles fictions audio, qui me permettent de faire des fictions avec des gens, sans avoir à se voir tous un jour à un endroit en présentiel, voir même ne jamais nous voir, juste discuter par internet."
+msgstr "The creation of this mono was very interesting, I learned a lot, and soon after I started creating new audio fictions, which allow me to make fictions with people, without having to see each other one day at a place in person, or even never see each other, just chat over the internet."
+
+msgid "Apprendre les principales étapes de création d’une fiction audio"
+msgstr "Learn the main steps of creating audio fiction"
+
+msgid "Comme dit plus tôt, j’ai réalisé ce mono mp3 lors d’un atelier de création de fiction audio, et l’objectif était de voir toutes les étapes, pour pouvoir ensuite en faire seul."
+msgstr "As I said earlier, I made this mono mp3 during an audio fiction creation workshop, and the goal was to see all the steps, and then be able to do it myself."
+
+msgid "L'exercice d’écrire pour une fiction ne m'était pas étranger, et je me suis vite habitué à la subtilité qu’il faut ajouter aux dialogues, et aux détails de bruitages qu’il faut mettre pour rendre la scène réaliste sans images."
+msgstr "The practice of writing for fiction was no stranger to me, and I quickly got used to the subtlety that has to be added to the dialogue, and the details of noises that have to be put to make the scene realistic without images."
+
+msgid "Enregistrements et Montage"
+msgstr "Recording and Editing"
+
+msgid "Pour l’enregistrement, rien de nouveau non plus, enregistrer sans pause, mais la nouveauté : faire plusieurs fois chaque réplique avec différentes intonations, pour choisir la meilleure au montage. Au niveau du montage, j’ai découvert des fonctionnalités sur audacity, et des sites pour récupérer des bruitages et des musiques, ce qui est très utile pour tous les prochains projets."
+msgstr "For recording, nothing new either, recording without pause, but the novelty of doing each line several times with different intonations, to choose the best one for editing. At the editing level, I discovered features on audacity, and sites for retrieving noises and music, which is very useful for all future projects."
+
+msgid "Export et Tags du fichier mp3"
+msgstr "Render and Tags MP3 file"
+
+msgid "Enfin, j’ai découvert des pré-réglages d’exports classiques pour avoir un bon son restitué, et l’application MP3Tag, qui permet de changer les propriétés d’un fichier mp3, notamment le titre, l’année, l’auteur, les participants, la pochette du mono mp3… "
+msgstr "Finally, I discovered classic export presets to have a good sound, and the MP3Tag application, which allows you to change the properties of an mp3 file, including the title, year, author, participants, the cover of the mono mp3…"
+
+msgid "Me (re)mettre à faire des fictions audio"
+msgstr "(Re)start making audio fictions"
+
+msgid "J’avais commencé une saga mp3 (La Découverte d’un Nouveau Monde), et participé à quelques fictions audio en prêtant ma voix, et je souhaitai finir cette saga mp3, et me lancer sur de plus gros projets de fiction audio, qui, pour moi, offrent plus de possibilité que la vidéo avec moins de moyens (un micro, et audacity et on peut déjà faire un truc qualitatif), particulièrement dans des idées qui seraient farfelues, où étranges, tous les moyen nécessaires pour trouver un lieu, et faire les effets spéciaux (en réel ou en post-prod) ne sont pas nécessaires. "
+msgstr "I had started an mp3 saga (The Discovery of a New World), and participated in some audio fictions lending my voice, and I wanted to finish this mp3 saga, and start on bigger audio fiction projects, which, for me, offer more possibility than video with less means (a microphone, and audacity and we can already do a qualitative thing), especially in ideas that would be wacky, where strange, all the means necessary to find a place, and do the special effects (real or post-prod) are not necessary."
+
+msgid "Un Homme du futur se retrouve le jour du nouvel an en 2022, il découvre cette tradition très ancienne pour lui, et s’interroge sur la raison de sa présence ici, avant de comprendre…"
+msgstr "A Man from the future finds himself on New Year’s Day in 2022, he discovers this very old tradition for him, and questions about the reason for his presence here, before understanding…"
+
+msgid "Avec ce court-métrage, nous voulions juste faire un court-métrage ensemble, parce que cela faisait quelques mois que nous n’en avions pas fait, nous l’avons donc écrit, puis tourné dans la foulée."
+msgstr "With this short film, we just wanted to make a short film together, because it had been a few months since we had done it, so we wrote it, and then shot it."
+
+msgid "Je suis très content de ce qu'on a fait, d'autant plus que je voulais vraiment faire un petit truc pour le nouvel an, et faire un petit court métrage sans prise de tête, histoire de faire une pause dans l'écriture d'un court métrage plus long et pour lequel on prendrait plus le temps.<br><br>C'est le court-métrage le plus ancien que le met dans mon portfolio, car, aujourd'hui, je considère que c'est le premier qui vaut le coup, tout ce que j'ai fait avant étant maintenant plutôt classé au rang d'expérimentations dans ma tête. Si vous souhaitez tout de même voir tout cela, ce sont les vidéos les plus anciennes de la chaîne <strong><a target='_blank' href='https://www.youtube.com/@les-jeunes-createurs'>Les Jeunes Créateurs</a></strong>. Libre à vous d'aller voir. "
+msgstr "I'm very happy with what we've done, especially since I really wanted to do a little trick for the new year, and make a short film without taking a head, story of taking a break in the writing of a longer short film and for which we would take more time.<br><br>It's the oldest short film that puts it in my portfolio, because, today, I consider it the first one that is worth it, everything I've done before is now rather classified as experiments in my head. If you still want to see all this, these are the oldest videos of the channel <strong><a target='_blank' href='https://www.youtube.com/@les-jeunes-createurs'>Les Jeunes Createurs</a></strong>. You're free to go and see."
+
+msgid "Faire un petit court-métrage"
+msgstr "Make a short short film"
+
+msgid "Ça faisait quelques mois qu'on avait fini la série Doctor Who, et on se lançait dans l'écriture de Assassin'S Creed : Nouvelle Ère. Ce petit court métrage nous a donc permis de faire un petit truc, au milieu du début d'un projet qui prendrait du temps. "
+msgstr "It had been a few months since we finished the Doctor Who series, and we were starting to write Assassin's Creed: New Era. So this short film allowed us to do a little trick, in the middle of starting a project that would take time."
+
+msgid "Tout s'est fait en 1 semaine, comme nous n'avions pas beaucoup de temps, nous ne nous sommes pas attardé sur l'écriture, quitte à réadapter au tournage."
+msgstr "Everything was done in 1 week, as we did not have much time, we did not dwell on the writing, let alone to readapt to the shooting."
+
+msgid "Nous avons profité de l'aprem de tournage, pour, avant de tourner faire un petit bilan de la chaîne YouTube, et des projets, et le tournage s'est fait assez naturellement avec ce qu'on avait écrit. "
+msgstr "We took advantage of the afternoon of shooting, to, before shooting make a small review of the YouTube channel, and projects, and the shooting was done quite naturally with what we had written."
+
+msgid "Nous avions imaginé l'histoire pour qu'elle soit simple à tourner et monter, le montage n'a donc pas été un problème. "
+msgstr "We had imagined the story to be easy to shoot and edit, so editing wasn't a problem."
+
+msgid "Alexandre vit une vie banale, jusqu’au jour où il reçoit une lettre étrange, et découvre qu’il est le descendant d’un mystérieux Assassin nommé Ezio et qu'il doit stopper les Templiers, qui utilisent une nouvelle arme : le numérique…"
+msgstr "Alexandre  lives a banal life, until he receives a strange letter, and discovers that he is the descendant of a mysterious Assassin named Ezio and that he must stop the Templars, who use a new weapon: digital…"
+
+msgid "L’idée était de faire un premier gros court-métrage après la fin de la série Doctor Who, où nous avions décidé de faire une pause sur les séries car à chaque fois, nous manquions d’inspiration pour certains épisodes."
+msgstr "The idea was to make a first big short film after the end of the Doctor Who series, where we had decided to take a break from the series because each time we lacked inspiration for certain episodes."
+
+msgid "L’idée était de faire un premier gros court-métrage après la fin de la série Doctor Who, où nous avions décidé de…"
+msgstr "The idea was to make a first big short film after the end of the Doctor Who series, where we had decided to…"
+
+msgid "Le montage était très motivant pour moi, parce que j’ai démarré après chaque journée de tournage avec ce que l’on avait tourné. J’ai pour la première fois découpé mon montage en plusieurs petits montages, ce qui me motivait aussi, à chaque fois que je finissais un petit bout. Et faire le montage des scènes de combat était une première très intéressante, parce que le montage dynamique à couper à l’image près faisait que je créait vraiment le combat que l’on avait simulé."
+msgstr "The editing was very motivating for me, because I started after each day of shooting with what we had shot. For the first time, I cut my editing into several little edits, which also motivated me every time I finished a little bit. And doing the editing of the fight scenes was a very interesting first, because the dynamic editing to cut to the image made me really create the fight that we had simulated."
+
+msgid "Faire un bon court-métrage"
+msgstr "Make a good Short Film"
+
+msgid "Nous voulions faire un bon court-métrage, à la hauteur d’une série, tant en durée, qu’en histoire."
+msgstr "We wanted to make a good short film, worthy of a series, both in duration and in history."
+
+msgid "La phase d’écriture a été assez longue, notamment car je ne connaissais rien du jeu Assassin’S Creed dans l’univers duquel l’histoire devait se passer, et j'ai donc laissé Baptiste Martin faire un squelette assez détaillé, et une fois qu’il avait bien avancé, et qu’il n’avait plus trop de temps, je l’ai aidé, ce qui a fait qu’un script débuté en décembre 2021 a été terminé en juillet 2022."
+msgstr "The writing phase was quite long, not least because I didn’t know anything about the Assassin’s Creed universe in which the story was to take place, so I let Baptiste Martin do a pretty detailed skeleton, and once he was well advanced, and he didn’t have too much time, I helped him, which meant that a script that started in December 2021 was finished in July 2022."
+
+msgid "Très vite après la fin de l’écriture, nous avons commencé à tourner, sur plusieurs jours, en plusieurs étapes, en nous organisant bien, pour me simplifier la vie au montage, et rendre quelque chose de qualitatif dont on serait fier. Comme dans tout tournage nous n’avons pas été efficaces à 100%, mais nous étions plus sérieux en général."
+msgstr "Very soon after the writing was finished, we started shooting, over several days, in several stages, organizing ourselves well, to simplify my life in editing, and to make something qualitative that we would be proud of. As in any shoot, we weren't 100 percent efficient, but we were more serious in general."
+
+msgid "Mieux travailler au tournage"
+msgstr "Better work on set"
+
+msgid "Pour une des premières fois, nous avions vraiment préparé chaque jour de tournage, en sachant ce que l’on allait tourner, c’était le début d’une certaine professionnalisation pour nous 2."
+msgstr "For one of the first times, we had really prepared every day of shooting, knowing what we were going to shoot, it was the beginning of a certain professionalization for us 2."
+
+msgid "M’améliorer en Montage"
+msgstr "Improving Myself in Montage"
+
+msgid "Avec plusieurs scènes de combat, devant être plus dynamiques, et tous les plans que nous avons tourné, j’ai pu faire un montage dont j’étais très fier, et qui s’approche d’un excellent montage de mon point de vue. "
+msgstr "With several fight scenes, having to be more dynamic, and all the shots we shot, I was able to make a montage that I was very proud of, and that comes close to a great montage from my point of view."
+
+msgid "Ben va donner sa paie hebdomadaire à son Boss, malheureusement, il a eu quelques problèmes et son Boss s’en rend compte…"
+msgstr "Ben is going to give his weekly pay to his Boss, unfortunately he had some problems and his Boss realizes"
+
+msgid "Court-métrage que j’ai réalisé avec Antoine Videau, Florian Couttennier, Gabriel Herchy, Martin Foucher et Sarah-Jeanne Mantha dans le cadre du cours de Mise en Scène et éclairages de Jean-François Perron à l’UQAT. J’étais réalisateur sur ce projet, ce qui m’a donné un aperçu des responsabilités endossées par ce rôle, et comment m’améliorer en tant que réalisateur pour mes prochaines créations."
+msgstr "A short film I directed with Antoine Videau, Florian Couttennier, Gabriel Herchy, Martin Foucher and Sarah-Jeanne Mantha as part of Jean-François Perron's Directing and Lighting course at UQAT. I was a director on this project, which gave me an insight into the responsibilities of this role, and how to improve as a director for my next creations."
+
+msgid "Court-métrage que j’ai réalisé avec Antoine Videau, Florian Couttennier, Gabriel Herchy, Martin Foucher et Sarah-Jeanne Mantha dans le cadre du cours de Mise en Scène et éclairages de Jean-François Perron à l’UQAT. J’étais réalisateur sur ce projet, ce qui m’a donné un…"
+msgstr "A short film I directed with Antoine Videau, Florian Couttennier, Gabriel Herchy, Martin Foucher and Sarah-Jeanne Mantha as part of Jean-François Perron's Directing and Lighting course at UQAT. I was a director on this project, which gave me an…"
+
+msgid "C’était un projet très cool à mener, j’ai beaucoup appris au cours de son avancée, en grande partie des choses que je réutiliserai pour mes futures créations, et mon équipe était très agréable, et très compétente, ce qui a rendu la réalisation de ce projet encore plus fluide."
+msgstr "It was a very cool project to do, I learned a lot during its progression, mostly things that I will reuse for my future creations, and my team was very nice, and very competent, which made the realization of this project even more fluid."
+
+msgid "Travailler la mise en scène"
+msgstr "Work the staging"
+
+msgid "Étant donné le cours pour lequel ce court-métrage a été réalisé, l’objectif principal était de travailler la mise en scène, prévoir nos choix pour rendre cette histoire la meilleure, et transmettre les bons messages sur les personnages"
+msgstr "Given the course for which this short film was made, the main objective was to work the staging, plan our choices to make this story the best, and convey the right messages about the characters"
+
+msgid "Pré-production"
+msgstr "Pre-Production"
+
+msgid "La première étape de ce court-métrage, une fois écrit, était de préparer un cahier d’intentions pour exprimer nos intentions en termes de réalisation, de direction artistique et de direction photo. Ce qui s’est bien passé, le travail étant bien réparti dans le groupe. Ensuite, Antoine, l’assistant réalisateur, s’est occupé du cahier de production, contenant toutes les informations relatives au tournage pour qu’il se passe au mieux, notamment d’un découpage technique et d’un horaire détaillé des journées de tournage. Et nous avons fait des tests selon nos intentions, pour nous assurer que l’effet souhaité était là pour le cassage volontaire de la règle des 180°, et faire des repérages sur les cadrages que nous ferions."
+msgstr "The first step of this short film, once written, was to prepare a booklet to express our intentions in terms of direction, artistic direction and photo direction. Which went well, as the work was well distributed among the group. Then Antoine, the assistant director, took care of the production booklet, containing all the information related to the shoot to make it go as smoothly as possible, including a technical breakdown and a detailed schedule of shooting days. And we did tests according to our intentions, to make sure the desired effect was there for the voluntary breaking of the 180° rule, and to make sure the framing we would make."
+
+msgid "Tout s’est bien passé en pré-prod, et le tournage a été très bien préparé, autant pour la réservation du lieu, que pour l’organisation des acteurs et figurants. Donc tout le tournage s’est très bien passé, sauf 2 plans que nous avons dû retourner plus tard car ils étaient surexposés, mais nous n’avons pas eu plus de contre-temps"
+msgstr "Everything went well in pre-production, and the shoot was very well prepared, both for booking the location and organizing the actors and extras. So the whole shoot went very well, except for two shots that we had to return later because they were overexposed, but we didn't have any more setbacks."
+
+msgid "Après discussion avec l’équipe, nous avons décidé que je m’occuperais du montage principal, et qu’ils m'aideraient pour les détails, comme le design sonore, ou la colorimétrie, qui a été entièrement faite par Martin et Florian. Le montage était très agréable, j’ai pu mettre en pratique le cours que nous avons eu l’automne dernier, et recréer toute l’ambiance que nous cherchions, via des cuts à des moments clés. J’ai ensuite travaillé le son du court métrage, qui ne me plaisait pas initialement, pour atteindre le résultat que je souhaitais, notamment en ajoutant dans bruitages."
+msgstr "After discussion with the team, we decided that I would take care of the main editing, and that they would help me with the details, like the sound design, or the colorimetry, which was entirely done by Martin and Florian. The editing was very enjoyable, I was able to put into practice the course we had last fall, and recreate all the atmosphere we were looking for, via cuts at key moments. I then worked on the sound of the short film, which I didn't like initially, to achieve the result I wanted, including adding in noises."
+
+msgid "Tak campe dans la forêt pour s'évader. Elle profite du calme ambiant avant que son séjour ne soit gâché par un étrange personnage."
+msgstr "Tak camped out in the forest to escape. She enjoyed the tranquility before her stay was spoiled by a strange character."
+
+msgid "C’est le projet de Ukarnub qui cherchait un mixeur car il n’arrivait pas à finir sa fiction. Je me suis proposé, et je lui ai fait le mixage. Cela m’a permis de pratiquer, avec un autre juge sur mon travail que uniquement moi-même, ce qui était très instructif et motivant."
+msgstr "It was Ukarnub's project that he was looking for a mixer because he couldn't finish his fiction. I volunteered, and I did the mixer. It allowed me to practice, with a different judge on my work than myself, which was very instructive and motivating."
+
+msgid "C’est le projet de Ukarnub qui cherchait un mixeur car il n’arrivait pas à finir sa fiction. Je me suis proposé, et je lui ai fait le mixage. Cela m’a permis de pratiquer, avec un autre juge sur mon travail que uniquement…"
+msgstr "It was Ukarnub's project that he was looking for a mixer because he couldn't finish his fiction. I volunteered, and I did the mixer. It allowed me…"
+
+msgid "J’ai travaillé sur ce mixage peu à peu, de Mars à Août 2024, et c’était vraiment très cool de sentir le projet s’améliorer à chaque modification que me demandait Ukarnub. C’était vraiment une super expérience, j’ai pris beaucoup de plaisir et j’ai beaucoup appris à travailler sur ce projet."
+msgstr "I worked on this mix little by little, from March to August 2024, and it was really cool to feel the project get better with every change that Ukarnub asked me to make. It was really a great experience, I had a lot of fun and learned a lot from working on this project."
+
+msgid "Rendre un projet fidèle à ses attentes"
+msgstr "Making a project live up to its expectations"
+
+msgid "Comme je ne réalise pas ce mixage uniquement pour moi, l’objectif principal est que le résultat plaise au principal concerné qui m’a demandé de faire le mixage."
+msgstr "Since I do not make this mixing just for me, the main objective is that the result please the main concerned who asked me to do the mixing."
+
+msgid "Pré-montage des voix"
+msgstr "Voices Pre-editing"
+
+msgid "Tout d’abord, j’ai dérushé les enregistrements de voix, puis les ai positionné pour avoir la base de l’histoire de timée et en prendre déjà mieux connaissance qu’avec juste une lecture du script."
+msgstr "First, I sifted through the voice recordings, then positioned them to have the basis of the story and get to know it better than with just reading the script."
+
+msgid "Préparation, Enregistrement et Recherche de Bruitages"
+msgstr "Preparation, Recording and Searching Sound Effects"
+
+msgid "Ensuite, j’ai fait un passage sur le script en me notant tous les bruitages nécessaires, et ai réfléchi aux bruitages nécessaires pour recréer l’ambiance de la forêt. A suivi une recherche de bruitages, et une liste des bruitages que je ne trouvais pas et que je pouvais enregistrer, puis sur une heure, j’ai enregistré ces bruitages."
+msgstr "Then I went through the script, writing down all the noises I needed, and thought about the noises I needed to recreate the atmosphere of the forest. Then I did a search for noises, and a list of noises I couldn't find and could record, and then over an hour I recorded those noises."
+
+msgid "Création de l'ambiance sonore"
+msgstr "Creating the sound environment"
+
+msgid "L’étape suivante a été de placer de manière semi-aléatoire les bruitages que j’avais pour recréer l’ambiance de la forêt sur toute la fiction."
+msgstr "The next step was to place the noises I had in a semi-random way to recreate the atmosphere of the forest on all the fiction."
+
+msgid "Placement des bruitages"
+msgstr "Placing Sound Effects"
+
+msgid "Et enfin, pour atteindre une version écoutable de la fiction, le placement de tous les bruitages. Et une écoute pour gérer tous les volumes, et une dernière pour assurer la cohérence de tout."
+msgstr "And finally, to achieve a playable version of fiction, the placement of all the noises. And one listen to manage all the volumes, and one last to ensure consistency of everything."
+
+msgid "Envoi d'une V1 et Modifications"
+msgstr "Sending a V1 and Changes"
+
+msgid "Ensuite, j’ai envoyé cette V1 à Ukarnub qui m’a fait des retours, et nous avons échangés jusqu’à une V7, où nous avons fait quelques dernières petites modifications, pour en arriver à une version finale qui nous plaisait à tous les 2"
+msgstr "Then I sent this V1 to Ukarnub who gave me feedback, and we traded up to a V7, where we made some last small modifications, to arrive at a final version that we both liked."
+
+msgid "Rendre un projet qualitatif dont je suis fier"
+msgstr "Making a qualitative project of which I am proud"
+
+msgid "Étant donné le temps nécessaire à passer sur ce mixage, et mes apprentissages en cours, j’avais vraiment la volonté de faire un mixage qui me semble vraiment bien, sans aucun moment où je me dise quelque chose du type “Bof, on y croit moyen là”"
+msgstr "Given the time needed to spend on this mixing, and my learning process, I really wanted to make a mix that feels really good to me, without a moment where I say something like, “Bof, we think this is average."
+
+msgid "Un soir, alors qu'il rentre chez lui, le psychothérapeute Hugo Darlan raconte sa journée à son ami John[…] Soudain, un bruit retentit dehors et Brandon, parti sortir les poubelles, ne revient pas. Hugo et John partent à sa recherche dans la nuit noire…"
+msgstr "One night, as he returns home, psychotherapist Hugo Darlan tells his friend John about his day[…] Suddenly, a noise rings out and Brandon, having gone out to take out the bins, doesn't return. Hugo and John go looking for him in the dark night…"
+
+msgid "Dans le cadre du concours 48HFP, Daniel Le Toriellec a réuni un équipe dont j’ai fait partie. J’ai participé à l’écriture et je me suis chargé du sound design."
+msgstr "As part of the 48HFP competition, Daniel Le Toriellec put together a team of which I was a part. I was involved in the writing and I was in charge of the sound design."
+
+msgid "Dans le cadre du concours 48HFP, Daniel Le Toriellec a réuni un équipe dont j’ai fait partie. J’ai…"
+msgstr "As part of the 48HFP competition, Daniel Le Toriellec put together a team of which I was a part. I…"
+
+msgid "C’était une très bonne expérience, car j’ai participé là où est ma force, et Daniel a bien su gérer la réalisation pour que chacun de nous travaille sans pression du temps. Et je n’ai pas ressenti de stress nocif à travailler avec lui sur ce 48H. Je me suis bien amusé, et j’ai découvert l’éditeur audio de DaVinci, avec lequel je n’était pas familier, mais cela n’a posé aucun problème."
+msgstr "It was a very good experience, because I participated where my strength is, and Daniel managed the production well so that each of us could work without time pressure. And I didn't feel any harmful stress working with him on this 48H. I had a lot of fun, and I discovered DaVinci's audio editor, who I wasn't familiar with, but it didn't pose a problem."
+
+msgid "Participer au 48HFP"
+msgstr "Participate in 48HFP"
+
+msgid "Faire un 48h était une superbe occasion pour nous retrouver après les vacances autour d'un projet commun."
+msgstr "Doing a 48h was a great opportunity to meet us after the holidays around a common project."
+
+msgid "Le soir de la révélation du thème et des contraintes, nous avons fait un brainstorm avec toute l’équipe pour choisir une ligne directrice pour l’histoire. Puis, Daniel, Célestin et moi-même nous sommes retrouvés en plus petit comité pour écrire plus en détail les dialogues et l’histoire. C’était très cool d’écrire à 3, car quand l’un de nous manquait d’inspiration, les 2 autres étaient là pour aider."
+msgstr "On the night of the reveal of the theme and constraints, we brainstormed with the whole team to choose a guideline for the story. Then, Daniel, Celestin and I found ourselves in a smaller committee to write the dialogue and the story in more detail. It was really cool to write with three of us, because when one of us ran out of inspiration, the other two were there to help."
+
+msgid "Tournage et Montage Visuel"
+msgstr "Shooting and Visual Editing"
+
+msgid "Je n'étais pas présent, mais le tournage s'est bien passé, sans gros accroc, et Daniel a fait ensuite le montage visuel toute la nuit de samedi à dimanche."
+msgstr "I wasn't there, but the shoot went well, without a big hitch, and Daniel then did the visual editing all night from Saturday to Sunday."
+
+msgid "Sound Design"
+msgstr "Sound Design"
+
+msgid "Dimanche matin, j’ai rejoint Daniel, il m’a tout envoyé et j’ai pu faire le sound design avec ses indications, et comme il était avec moi en appel, je pouvais lui poser des questions régulièrement. J’ai donc pu rééquilibrer le volume des voix, ajouter des bruitages et une musique, nous avons visionné tout cela ensemble, et avons validé une version."
+msgstr "On Sunday morning, I reached out to Daniel, he sent me everything and I was able to do the sound design with his directions, and because he was with me on the call, I could ask him questions regularly. So I was able to rebalance the volume of the voices, add noises and music, we watched it all together, and validated a version."
+
