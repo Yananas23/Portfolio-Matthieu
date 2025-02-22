@@ -1,8 +1,15 @@
 <footer>
+    <?php
+        $select_cv = $conn->prepare("SELECT telephone, mail FROM curriculum_vitae");
+        $select_cv->execute();
+        if($select_cv->rowCount() > 0){
+            $fetch_cv = $select_cv->fetch(PDO::FETCH_ASSOC);
+        }
+    ?>
     <div class="div_footer" id="infos">
         <p id="info"><?php echo _("Portfolio de Matthieu Thiesset"); ?></p>
-        <p class="contact" id="contact1">contact : 📧 matthieuthiesset@gmail.com - </p>
-        <p class="contact" id="contact2">☎️ 06 47 93 74 92</p>
+        <p class="contact" id="contact1">contact : 📧 <?= $fetch_cv["mail"]; ?> - </p>
+        <p class="contact" id="contact2">☎️ <?= $fetch_cv["telephone"]; ?></p>
     </div>
     <div class="div_footer" id="footer_nav">
         <ul>

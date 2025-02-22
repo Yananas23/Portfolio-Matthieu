@@ -45,8 +45,10 @@ $localeQuery = '?lang=' . $locale;
                     </a>
                 </li>
             </ul>
+            <button id="left-button">PDF</button>
         </nav>
     </div>
+
     <div class="div_up" id="up_img">
         <img id="tete" src="./images/TeteMatthieu.png" alt="Matthieu Thiesset" />
     </div>

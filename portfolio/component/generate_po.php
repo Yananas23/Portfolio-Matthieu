@@ -7,7 +7,7 @@ $localeDir = '../locales'; // Répertoire des traductions
 
 try {
     // Récupérer toutes les chaînes uniques depuis la BDD
-    $query = $conn->query("SELECT DISTINCT
+    $query1 = $conn->query("SELECT DISTINCT
                                 p.type1,
                                 p.synopsis,
                                 p.short_synopsis,
@@ -29,7 +29,40 @@ try {
                             JOIN
                                 etapes AS e ON pe.`ID-Etape` = e.ID;");
 
-    $results = $query->fetchAll(PDO::FETCH_ASSOC);
+    $query2 = $conn->query("SELECT DISTINCT
+                                ci.titre,
+                                ci.description
+                            FROM
+                                centres_interet AS ci;");
+
+    $query3 = $conn->query("SELECT DISTINCT
+                                xp.poste,
+                                xp.description
+                            FROM
+                                experiences AS xp;");
+
+    $query4 = $conn->query("SELECT DISTINCT
+                                f.diplome,
+                                f.description
+                            FROM
+                                formations AS f;");
+
+    $query5 = $conn->query("SELECT cv.description from curriculum_vitae AS cv;");
+
+    $query6 = $conn->query("SELECT DISTINCT
+                                c.categorie
+                                s.titre
+                            FROM
+                                competences AS c
+                            JOIN
+                                skill AS s on s.id = 1;");
+
+    $results = $query1->fetchAll(PDO::FETCH_ASSOC);
+    $results = array_merge($results, $query2->fetchAll(PDO::FETCH_ASSOC));
+    $results = array_merge($results, $query3->fetchAll(PDO::FETCH_ASSOC));
+    $results = array_merge($results, $query4->fetchAll(PDO::FETCH_ASSOC));
+    $results = array_merge($results, $query5->fetchAll(PDO::FETCH_ASSOC));
+    $results = array_merge($results, $query6->fetchAll(PDO::FETCH_ASSOC));
     if (!$results) {
         throw new Exception("Aucune donnée récupérée depuis la base de données.");
     }

@@ -35,25 +35,28 @@
                     $videoId = $matches[1] ?? null;
                     $date1 = $fetch_projects["date1"];
                     $date1Obj = dateTime::createFromFormat('Y-m-d', $date1);
-                    $formatteddate1 = $date1Obj->format('d F Y');
+                    $formatteddate1 = $date1Obj->format('j F Y');
 
                     // Convertir le mois en français
-                    $months = [
-                        'January' => 'Janvier',
-                        'February' => 'Février',
-                        'March' => 'Mars',
-                        'April' => 'Avril',
-                        'May' => 'Mai',
-                        'June' => 'Juin',
-                        'July' => 'Juillet',
-                        'August' => 'Août',
-                        'September' => 'Septembre',
-                        'October' => 'Octobre',
-                        'November' => 'Novembre',
-                        'December' => 'Décembre'
-                    ];
+                    if($_SESSION['locale'] == 'fr_FR'){
+                        $months = [
+                            'January' => 'Janvier',
+                            'February' => 'Février',
+                            'March' => 'Mars',
+                            'April' => 'Avril',
+                            'May' => 'Mai',
+                            'June' => 'Juin',
+                            'July' => 'Juillet',
+                            'August' => 'Août',
+                            'September' => 'Septembre',
+                            'October' => 'Octobre',
+                            'November' => 'Novembre',
+                            'December' => 'Décembre'
+                        ];
+                        $formatteddate1 = strtr($formatteddate1, $months);
+                    }
 
-                    $formatteddate1 = strtr($formatteddate1, $months);
+                    
             ?>
             <section class="projet" id="titre">
                 <h2 id="titre_projet"><?= $fetch_projects['titre']; ?></h2>

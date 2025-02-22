@@ -101,6 +101,39 @@ a{
     display: inline-block;
 }
 
+/* Flexbox pour la navbar */
+.navbar {
+    display: flex; /* Permet d'aligner les enfants horizontalement */
+    align-items: center; /* Aligne verticalement les enfants */
+}
+
+/* Liste des liens */
+.navbar ul {
+    display: flex; /* Aligner les liens horizontalement */
+    gap: 20px; /* Espacement entre les liens */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Le bouton est poussé à droite */
+#left-button {
+    margin-left: auto; /* Pousse le bouton jusqu'à l'image */
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#left-button:hover {
+    background-color: #45a049;
+}
+
+
+
 #tete{
     height: 150px;
     border-radius: 75px;
