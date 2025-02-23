@@ -73,30 +73,6 @@ if (!isset($_SESSION['admin_id'])) {
                 </ul>
             </div>
         </section>
-        <script>
-            function deconnexion(){
-                fetch("../component/disconnect.php",{ // Appeler le fichier générique
-               method: 'POST',
-               headers: {
-                     'Content-Type': 'application/json',
-               }});
-               alert('Vous êtes déconnecté.')
-            }
-
-            function updateTranslations() {
-                fetch('../component/generate_po.php', { method: 'POST' })
-                    .then(response => {
-                        if (response.ok) {
-                            alert("Les fichiers de traduction ont été mis à jour !");
-                        } else {
-                            alert("Une erreur s'est produite lors de la mise à jour.");
-                        }
-                    })
-                    .catch(error => {
-                        console.error("Erreur :", error);
-                        alert("Impossible de mettre à jour les fichiers de traduction.");
-                    });
-            }
-        </script>
+        <script src="../component/admin.js"></script>
     </body>
 </html>

@@ -50,7 +50,20 @@ $localeQuery = '?lang=' . $locale;
     </div>
 
     <div class="div_up" id="up_img">
-        <img id="tete" src="./images/TeteMatthieu.png" alt="Matthieu Thiesset" />
+        <?php
+            if (isset($_SESSION['admin_id'])) {
+        ?>
+            <a  href="./admin/admin.php">    
+                <img id="tete" src="./images/TeteMatthieu.png" alt="Matthieu Thiesset"/>
+            </a>
+        <?php
+            } else {
+        ?>
+            <img id="tete" src="./images/TeteMatthieu.png" alt="Matthieu Thiesset" />
+        <?php
+            };
+        ?>
+        
     </div>
 </header>
 <div id="separateur"></div>

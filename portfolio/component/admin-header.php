@@ -18,12 +18,14 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
                 <li id="admin-button">
                 <a href="#" onclick="updateTranslations(); return false;">METTRE À JOUR LES TRADUCTIONS</a>
                 </li>
-                <li id="admin-button"><a href="./admin-login.php">DECONNEXION</a></li>
+                <li id="admin-button"><a href="#" onclick="deconnexion(); return false;">DECONNEXION</a></li>
             </ul>
         </nav>
     </div>
     <div class="div_up" id="up_img">
-        <img id="tete" src="../images/TeteMatthieu.png" alt="Matthieu Thiesset" />
+        <a  href="../index.php">    
+            <img id="tete" src="../images/TeteMatthieu.png" alt="Matthieu Thiesset"/>
+        </a>
     </div>
 </header>
 <div id="separateur"></div>

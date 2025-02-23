@@ -313,6 +313,25 @@ h4{
     margin: 20px 0;
 }
 
+
+#load-more{
+    display: block; 
+    margin: 30px auto; 
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+
+#load-more:hover {
+    background-color: #45a049; 
+}
+
 .projets {
     display: flex;
     flex-direction: column;

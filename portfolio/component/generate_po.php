@@ -50,7 +50,7 @@ try {
     $query5 = $conn->query("SELECT cv.description from curriculum_vitae AS cv;");
 
     $query6 = $conn->query("SELECT DISTINCT
-                                c.categorie
+                                c.categorie,
                                 s.titre
                             FROM
                                 competences AS c

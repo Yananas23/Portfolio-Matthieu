@@ -183,7 +183,7 @@
                                             $skill = formatingSkill($fetch_skill["titre"], $fetch_skill["niveau"])
                                 ?>
 
-                                <span class="comp"><img class="img_comp" src=<?=$skill["img"]; ?>>&nbsp;<?= $skill["nom"]; ?>&nbsp;<img class="img_comp" src=<?= "./images/lvl-competences/". $skill["lvl"] .".png"; ?>></span>
+                                <span class="comp"><img class="img_comp" src=<?=$skill["img"]; ?>>&nbsp;<?= _($skill["nom"]); ?>&nbsp;<img class="img_comp" src=<?= "./images/lvl-competences/". $skill["lvl"] .".png"; ?>></span>
                                 
                                 <?php
                                         }

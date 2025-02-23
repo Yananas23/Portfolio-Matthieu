@@ -238,98 +238,11 @@ if (isset($_POST['add_projet'])) {
                </div>
             </div>
             
-
-
             <br><input id="btn-add" name="add_projet" type="submit" value="Ajouter le projet">
          </form>
       </section>
       </main>
 
-      <script>
-            function redirectToPage() {
-                  window.location.href = 'admin.php'; // Remplacez par l'URL de la page vers laquelle vous voulez rediriger
-            }
-         
-         function ajouterEtape() {
-            const container = document.getElementById(`etapes-container`);
-            const div = document.createElement(`div`);
-            div.className = `etape`;
-            div.innerHTML = `
-                  <label for="etape_nom[]">Nom de l étape :</label>
-                  <input type="text" name="etape_nom[]" required>
-                  <label for="etape_desc[]">description :</label>
-                  <textarea name="etape_desc[]"></textarea>
-                  <button id="suppr" type="button" class="supprimer" onclick="supprimerEtape(this)">Supprimer</button>
-            `;
-            container.appendChild(div);
-         }
-
-         function ajouterObjectif() {
-            const container = document.getElementById(`objectifs-container`);
-            const div = document.createElement(`div`);
-            div.className = `objectif`;
-            div.innerHTML = `
-                  <label for="objectif_nom[]">Nom de l objectif :</label>
-                  <input type="text" name="objectif_nom[]" required>
-                  <label for="objectif_desc[]">description :</label>
-                  <textarea name="objectif_desc[]"></textarea>
-                  <button id="suppr" type="button" class="supprimer" onclick="supprimerObjectif(this)">Supprimer</button>
-            `;
-            container.appendChild(div);
-         }
-
-         function supprimerEtape(button) {
-            const container = document.getElementById(`etapes-container`);
-            if (container.children.length > 1) {
-                  button.parentElement.remove();
-            } else {
-                  alert("Il doit y avoir au moins une étape !");
-            }
-         }
-
-         function supprimerObjectif(button) {
-            const container = document.getElementById(`objectifs-container`);
-            if (container.children.length > 1) {
-                  button.parentElement.remove();
-            } else {
-                  alert("Il doit y avoir au moins un objectif !");
-            }
-         }
-
-         function shortSynopsis() {            
-            document.getElementById(`short_synopsis`).classList.remove(`hidden`);
-
-            // Cache le bouton "Ajouter une autre zone de texte"
-            document.getElementById(`shortSB`).classList.add(`hidden`);
-            document.getElementById(`RshortSB`).classList.remove(`hidden`);
-        }
-
-        // Fonction pour supprimer le deuxième textarea
-        function supprimerShortS() {
-            document.getElementById(`short_synopsis`).classList.add(`hidden`);
-
-            // Réaffiche le bouton "Ajouter une autre zone de texte"
-            document.getElementById(`shortSB`).classList.remove(`hidden`);
-            document.getElementById(`RshortSB`).classList.add(`hidden`);
-        }
-
-
-        function shortVueEnsemble() {
-            document.getElementById(`short_resume`).classList.remove(`hidden`);
-
-            // Cache le bouton "Ajouter une autre zone de texte"
-            document.getElementById(`shortRB`).classList.add(`hidden`);
-            document.getElementById(`RshortRB`).classList.remove(`hidden`);
-        }
-
-        // Fonction pour supprimer le deuxième textarea
-        function supprimerShortR() {
-            document.getElementById(`short_resume`).classList.add(`hidden`);
-
-            // Réaffiche le bouton "Ajouter une autre zone de texte"
-            document.getElementById(`shortRB`).classList.remove(`hidden`);
-            document.getElementById(`RshortRB`).classList.add(`hidden`);
-        }
-      </script>
+      <script src="../component/admin.js"></script>
    </body>
 </html>
