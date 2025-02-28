@@ -133,7 +133,6 @@ a{
 }
 
 
-
 #tete{
     height: 150px;
     border-radius: 75px;
@@ -174,7 +173,7 @@ nav a:hover, article a:hover{
     border-bottom: 3px solid #360000;
 }
 
-/*Section Présetntation*/
+/*Section Présentation*/
 #last_projects h2, #projet_title{
     margin-right: 500px;
 }
@@ -252,6 +251,7 @@ article{
     margin-right: 40px;
     background-color: #dab200;
     border: solid 2px #181818;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     height: 500px;
     width: 310px;

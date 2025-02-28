@@ -1,123 +1,65 @@
-<?php 
-    require_once './component/traduction.php';
-    include "./component/connect.php";
-?>
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width"/>
-        <meta name="viewport" content="width=device-width, minimum-scale=0.5"/>
-        <link rel="stylesheet" href="./css/style.css" />
-        <link rel="icon" href="./images/iconeM.ico" type="image/x-icon"/>
-        <title><?= _("Matthieu Thiesset - Portfolio"); ?></title>
-    </head>
-    <body>
-        <?php include "./component/header.php"; ?>
-        <section id="liste_projets">
-            <h2 id="liste_title"><?= _("Liste des projets auxquels j'ai participé"); ?></h2>
-            <div id="liste_page_projets">
-                <ul id="liste_generale">
-                    <?php
-                        // Récupère toutes les informations de tous les projets
-                        $itemsPerPage = 3;
-                        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-                        $offset = ($page - 1) * $itemsPerPage;
+<html lang="fr">
+<head>
+    <title>Ajouter un Admin</title>
+    <meta charset="UTF-8">
+    <script>
+        function openModal() {
+            document.getElementById('adminModal').style.display = 'flex';
+        }
 
-                        $select_projects = $conn->prepare("
-                            SELECT *, p.ID as id_projet
-                            FROM projets p
-                            LEFT JOIN video_ytb s ON p.`ID-video` = s.ID
-                            ORDER BY p.date1 DESC
-                            LIMIT :limit OFFSET :offset
-                        ");
-                        $select_projects->bindValue(':limit', $itemsPerPage, PDO::PARAM_INT);
-                        $select_projects->bindValue(':offset', $offset, PDO::PARAM_INT);
-                        $select_projects->execute();
-                        if($select_projects->rowCount() > 0){
-                            while($fetch_projects = $select_projects->fetch(PDO::FETCH_ASSOC)){
-                                // Extraire l'ID de la vidéo YouTube à partir de l'URL
-                                preg_match('/(?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?([a-zA-Z0-9_-]+)/', $fetch_projects['lien_ytb'], $matches);
-                                $videoId = $matches[1] ?? null;
-                    ?>
-                    <li class="more">
-                        <article class="projets">
-                        <h3><?= $fetch_projects['titre'];?></h3>
-                        <?php
-                            // Vérifie si une image est présente dans la base de données
-                            if (empty($fetch_projects['image'])) {
-                                // Affiche l'iframe pour la vidéo YouTube
-                                echo '<iframe class="videoYT" id="desfac_vid" src="https://www.youtube.com/embed/' . htmlspecialchars($videoId) . '" 
-                                    title="' . htmlspecialchars($fetch_projects['titre_ytb']) . '" frameborder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                                </iframe>';
-                            } else {
-                                // Affiche le lien avec l'image
-                                echo '<img src="./images/miniature/' . htmlspecialchars($fetch_projects['image']) . '" class="videoYT" id="img_lien" 
-                                    alt="Cliquez pour voir le Court-Métrage" onclick="window.open(" ' . htmlspecialchars($fetch_projects['lien_projet']) . ');"/>';
-                            }
-                        ?>
-                            <h4><?= _($fetch_projects['type1']);?></h4>
-                        <p><em><?= $fetch_projects['short_synopsis'] == NULL
-                            ? _($fetch_projects['synopsis']) 
-                            : _($fetch_projects['short_synopsis']); ?></em></p>
-                        <p><?= $fetch_projects['short_vue_ensemble'] == NULL
-                            ? _($fetch_projects['vue_ensemble']) 
-                            : _($fetch_projects['short_vue_ensemble']); ?></p>
-                        <p id="plus"><strong><a href="fiche-projet.php?pid=<?= $fetch_projects['id_projet']; ?>"><?= _("EN SAVOIR PLUS"); ?></a></strong></p>
-                    </article></li>
-                    <?php
-                            }
-                        }else{
-                            echo '<p class="empty">Aucun projet disponible</p>';
-                        }
-                    ?>
-                    <div id="load-more"> load more </div>
-                </ul>
-            </div>
-        </section>
-        <?php include "./component/footer.php"; ?>
-        <script>
+        function closeModal() {
+            document.getElementById('adminModal').style.display = 'none';
+        }
+    </script>
+    <style>
+        .modal {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
 
-            document.addEventListener("DOMContentLoaded", function() {
-                let loadMoreBtn = document.querySelector('#load-more');
-                let currentPage = 1;
-                let totalProjects = <?= $conn->query("SELECT COUNT(*) FROM projets")->fetchColumn(); ?>; 
-                let itemsPerPage = 3;
+        .modal-content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
 
-                loadMoreBtn.addEventListener('click', () => {
-                    currentPage++;
-                    fetch(`?page=${currentPage}`)
-                        .then(response => response.text())
-                        .then(data => {
-                            let parser = new DOMParser();
-                            let doc = parser.parseFromString(data, 'text/html');
-                            let newProjects = doc.querySelectorAll('li.more');
+    <button onclick="openModal()">Ajouter Admin</button>
 
-                            // Ajouter les nouveaux projets
-                            newProjects.forEach(project => {
-                                let list = document.querySelector('#liste_generale');
-                                let lastItem = list.lastElementChild; // Récupère le dernier enfant
-                                list.insertBefore(project, lastItem); // Insère avant le dernier projet;
-                            });
+    <div id="adminModal" class="modal">
+        <div class="modal-content">
+            <h2>Ajouter un Admin</h2>
+            <form method="POST" action="">
+                <label for="username">Username :</label>
+                <input type="text" id="username" name="username" required><br><br>
 
-                            // Vérifier si on a affiché tous les projets
-                            let totalLoaded = document.querySelectorAll('li.more').length;
-                            if (totalLoaded >= totalProjects) {
-                                loadMoreBtn.style.display = 'none';
-                            }
-                        })
-                        .catch(error => console.error('Error loading more projects:', error));
-                });
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required><br><br>
 
-                // Si on a déjà affiché tous les projets au chargement initial
-                if (itemsPerPage >= totalProjects) {
-                    loadMoreBtn.style.display = 'none';
-                }
-            });
+                <button type="submit">Valider</button>
+                <button type="button" onclick="closeModal()">Annuler</button>
+            </form>
+        </div>
+    </div>
 
-        </script>
-    </body>
+    <?php
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $username = htmlspecialchars($_POST['username']);
+        $password = sha1($_POST['password']);
+
+        echo "<p>Admin ajouté : $username</p>";
+        echo "<p>Mot de passe haché : $password</p>";
+
+    }
+    ?>
+
+</body>
 </html>

@@ -20,6 +20,118 @@ h2 {
     margin-bottom: 0;
 }
 
+
+.admin-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom:20px;
+}
+
+.last-project {
+    flex: 1;
+    padding: 20px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.projets {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard {
+    flex: 2;
+    background-color: #dab200;
+    border: solid 2px #181818;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.dashboard .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+    align-items: flex-start;
+ }
+ 
+ .dashboard .box-container .box{
+    text-align: center;
+    background-color: #ffd18d;
+    border:.2rem solid black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    text-align: center;
+    padding:1.5rem;
+    max-height: 200px;
+    overflow: hidden;
+    box-sizing: border-box;
+ }
+ 
+ .dashboard .box-container .box h3{
+    font-size: 2.7rem;
+    color: black;
+ }
+ 
+ .dashboard .box-container .box h3 span{
+    font-size: 2rem;
+ }
+ 
+ .dashboard .box-container .box p{
+    padding:1.5rem;
+    border-radius: .5rem;
+    background-color: #f5f5f5;
+    font-size: 1.8rem;
+    border:.2rem solid black;
+    margin:1rem 0;
+    color:#999;
+ }
+ 
+#super {
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 200px;
+}
+
+.admin-table-container {
+    width: 100%;
+    overflow-y: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.admin-table-container table {
+    width: 100%; /* Étend la table */
+    border-collapse: collapse; /* Évite les espacements inutiles */
+}
+
+.admin-list:hover {
+    background-color: #dbdbdb;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete-admin:hover, .delete-admin:hover .delete-btn{
+    color: white;
+    background: #d62828;
+}
+
  
 #retour{
     padding: 10px;
@@ -39,10 +151,10 @@ h2 {
 
 .form-container {
     background: #dab200;
-    padding: 20px;
     border: solid 1px #181818;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     max-width: 400px;
     margin: auto;
 }
@@ -60,14 +172,14 @@ h2 {
     box-sizing: border-box;
 }
 
-form {
+form.projet, form.form-login {
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: center;
 }
 
-form .box {
+form .boite {
     padding: 10px;
     border: 1px solid #181818;
     border-radius: 5px;
@@ -76,13 +188,13 @@ form .box {
     color: #181818;
 }
 
-form .box:focus {
+form .boite:focus {
     outline: none;
     border-color: #ae8800;
     box-shadow: 0 0 4px #dab200;
 }
 
-form button, #btn-add, #btn-mod, #connect, #acceuil {
+form button, #btn-add, #btn-mod, #connect, #acceuil, #add-admin, #modifier-compte {
     padding: 10px;
     background-color: #181818;
     color: #fff;
@@ -94,8 +206,16 @@ form button, #btn-add, #btn-mod, #connect, #acceuil {
     width: 50%;
 }
 
-form button:hover, #btn-add:hover, #btn-mod:hover, #connect:hover, #acceuil:hover {
+form button:hover, #btn-add:hover, #btn-mod:hover, #connect:hover, #acceuil:hover, #add-admin:hover, #modifier-compte:hover {
     background-color: #ae8800;
+}
+
+#modifier-compte {
+    padding:1.5rem;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    margin:1rem 0;
+    width: 100%;
 }
 
 .general {
@@ -271,3 +391,4 @@ form button:hover, #btn-add:hover, #btn-mod:hover, #connect:hover, #acceuil:hove
     font-size: 14px;
  }
  
+

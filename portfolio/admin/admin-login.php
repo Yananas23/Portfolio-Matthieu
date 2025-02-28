@@ -39,15 +39,15 @@ if(isset($_POST['submit'])) {
 
       <section class="form-container">
 
-         <form action="" method="POST">
+         <form class="form-login" action="" method="POST">
             <h3>Se connecter</h3>
             <?php if (!empty($message) && $message !== '') { ?>
                <div class="error-message">
                   <?= $message ?>
                </div>
             <?php } ?>
-            <input type="text" name="name" maxlength="20" required placeholder="nom d'utilisateur" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-            <input type="password" name="pass" required placeholder="mot de passe" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+            <input type="text" name="name" maxlength="20" required placeholder="nom d'utilisateur" class="boite" oninput="this.value = this.value.replace(/\s/g, '')">
+            <input type="password" name="pass" required placeholder="mot de passe" class="boite" oninput="this.value = this.value.replace(/\s/g, '')">
             <input type="submit" value="connexion" name="submit" class="btn" id="connect">
             <button class="btn" id="acceuil" onclick="redirectToPage()">Retour à l'acceuil</button>
          </form>

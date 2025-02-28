@@ -80,7 +80,6 @@
         </section>
         <?php include "./component/footer.php"; ?>
         <script>
-
             document.addEventListener("DOMContentLoaded", function() {
                 let loadMoreBtn = document.querySelector('#load-more');
                 let currentPage = 1;
@@ -111,13 +110,11 @@
                         })
                         .catch(error => console.error('Error loading more projects:', error));
                 });
-
                 // Si on a déjà affiché tous les projets au chargement initial
                 if (itemsPerPage >= totalProjects) {
                     loadMoreBtn.style.display = 'none';
                 }
             });
-
         </script>
     </body>
 </html>

@@ -144,18 +144,18 @@ if (isset($_POST['add_projet'])) {
       <section class="form-add">
       <button id="retour" onclick="redirectToPage()">Retour à la page Admin</button>
       <h1 id="add-projet">Ajouter un projet</h1>
-         <form action="" method="POST" enctype="multipart/form-data">
+         <form class="projet" action="" method="POST" enctype="multipart/form-data">
 
             <div class="general">
-               <input type="text" name="titre" id="titre" class="box" required placeholder="Titre">
-               <input type="text" name="type1" id="type1" class="box" required placeholder="Type">
+               <input type="text" name="titre" id="titre" class="boite" required placeholder="Titre">
+               <input type="text" name="type1" id="type1" class="boite" required placeholder="Type">
                <div id="duree-total">
                   <label for="duree">Durée :</label>
-                  <input type="time" step="1" name="duree" id="duree" class="box duo" required>
+                  <input type="time" step="1" name="duree" id="duree" class="boite duo" required>
                </div>
                <div id="date-sortie">
                   <label for="date1">Date de sortie :</label>
-                  <input type="date" name="date1" id="date1" class="box duo" required>
+                  <input type="date" name="date1" id="date1" class="boite duo" required>
                </div>
             </div>
             
@@ -164,22 +164,22 @@ if (isset($_POST['add_projet'])) {
             <div class="general" id="G2">
                <div >
                   <label for="lien_proj">Lien vers le projet :</label>
-                  <input type="text" name="lien_proj" id="lien_proj" class="box duo" required>
+                  <input type="text" name="lien_proj" id="lien_proj" class="boite duo" required>
                </div>
 
                <div >
                   <label for="titreYTB">Titre YouTube :</label>
-                  <input type="text" name="titreYTB" id="titreYTB" required class="box duo">
+                  <input type="text" name="titreYTB" id="titreYTB" required class="boite duo">
                </div>
 
                <div >
                   <label for="youtube_link">Lien YouTube :</label>
-                  <input type="url" name="youtube_link" id="youtube_link" placeholder="https://www.youtube.com/watch?v=..." class="box duo">
+                  <input type="url" name="youtube_link" id="youtube_link" placeholder="https://www.youtube.com/watch?v=..." class="boite duo">
                </div>
 
                <div >
                   <label for="image1">image (format JPG, PNG) :</label>
-                  <input type="file" name="image1" id="image1" accept="image/*" class="box duo">
+                  <input type="file" name="image1" id="image1" accept="image/*" class="boite duo">
                </div>
             </div>
 

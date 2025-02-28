@@ -84,5 +84,19 @@
             </div>
         </section>
         <?php include "./component/footer.php"; ?>
+        <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Sélectionne l'élément où tu veux afficher le compteur
+            const compteurElement = document.getElementById('compteur');
+
+            // Récupère et met à jour le compteur
+            fetch('./component/compteur.php')
+                .then(response => response.text())
+                .then(data => {
+                    compteurElement.textContent = data; // Insère le chiffre dans l'élément
+                })
+                .catch(error => console.error('Erreur :', error));
+            });
+        </script>
     </body>
 </html>

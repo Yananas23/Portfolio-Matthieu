@@ -206,18 +206,18 @@ if (isset($_POST['update_projet'])) {
                $avis_perso = $fetch_projects['avis_perso'];
       ?>
       <h1>Modifier un projet</h1>
-      <form action="" method="POST" enctype="multipart/form-data">
+      <form class="projet" action="" method="POST" enctype="multipart/form-data">
 
          <div class="general">
-            <input type="text" name="titre" id="titre" class="box" required value="<?= $fetch_projects['titre']; ?>">
-            <input type="text" name="type1" id="type1" class="box" required value="<?= $fetch_projects['type1']; ?>">
+            <input type="text" name="titre" id="titre" class="boite" required value="<?= $fetch_projects['titre']; ?>">
+            <input type="text" name="type1" id="type1" class="boite" required value="<?= $fetch_projects['type1']; ?>">
             <div id="duree-total">
                <label for="duree">Durée :</label>
-               <input type="time" step="1" name="duree" id="duree" class="box duo" required value="<?= $fetch_projects['duree']; ?>">
+               <input type="time" step="1" name="duree" id="duree" class="boite duo" required value="<?= $fetch_projects['duree']; ?>">
             </div>
             <div id="date-sortie">
                <label for="date1">Date de sortie :</label>
-               <input type="date" name="date1" id="date1" class="box duo" required value="<?= $fetch_projects['date1']; ?>">
+               <input type="date" name="date1" id="date1" class="boite duo" required value="<?= $fetch_projects['date1']; ?>">
             </div>
          </div>
 
@@ -227,22 +227,22 @@ if (isset($_POST['update_projet'])) {
          <div class="general" id="G2">
             <div>
                <label for="lien_proj">Lien vers le projet :</label>
-               <input type="text" name="lien_proj" id="lien_proj" class="box duo" required  value="<?= $fetch_projects['lien_projet']; ?>" >
+               <input type="text" name="lien_proj" id="lien_proj" class="boite duo" required  value="<?= $fetch_projects['lien_projet']; ?>" >
             </div>
 
             <div>
                <label for="titreYTB">Titre YouTube :</label>
-               <input type="text" name="titreYTB" id="titreYTB" required value="<?= $fetch_projects['titre_ytb']; ?>" class="box duo">
+               <input type="text" name="titreYTB" id="titreYTB" required value="<?= $fetch_projects['titre_ytb']; ?>" class="boite duo">
             </div>
 
             <div>
                <label for="youtube_link">Lien YouTube :</label>
-               <input type="url" name="youtube_link" id="youtube_link" value="<?= $fetch_projects['lien_ytb']; ?>" class="box duo">
+               <input type="url" name="youtube_link" id="youtube_link" value="<?= $fetch_projects['lien_ytb']; ?>" class="boite duo">
             </div>
 
             <div id="with-img">
                <label for="image1">image (format JPG, PNG) :</label>
-               <input type="file" name="image1" id="image1" accept="image/*" class="box duo">
+               <input type="file" name="image1" id="image1" accept="image/*" class="boite duo">
                <?php if (!empty($fetch_projects['image'])): ?>
                   <label for="external_image1" >Image actuelle :</label>
                   <img src="../images/miniature/<?= htmlspecialchars($fetch_projects['image']); ?>" alt="Image actuelle">

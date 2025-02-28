@@ -63,7 +63,6 @@ $localeQuery = '?lang=' . $locale;
         <?php
             };
         ?>
-        
     </div>
 </header>
 <div id="separateur"></div>
