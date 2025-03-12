@@ -23,7 +23,6 @@
                         $select_cv->execute();
                         if($select_cv->rowCount() > 0){
                             $fetch_cv = $select_cv->fetch(PDO::FETCH_ASSOC);
-
                     ?>
                         <p class="resume_cv "><?= _("Né le 12 Septembre 2005 ("). calculerAge() ._("&nbsp;ans),") ?><br>
                             <?= $fetch_cv['adresse'] ?><br>
@@ -73,7 +72,7 @@
                             <h4><strong><?= $fetch_xp['site'] ? "<a target=\"_blank\" href=\"{$fetch_xp['site']}\">" : "" ?>
                             <?= $fetch_xp['entreprise'] ?></a></strong>, <?= $fetch_xp['ville'] ?> - <strong><em><?= _($fetch_xp['poste']); ?></em></strong></h4>
                             <h5><em><?= _($date_debut ." - " . $date_fin); ?></em></h5>
-                            <p><?= _( $fetch_xp['description']); ?></p>
+                            <p><?= _($fetch_xp['description']); ?></p>
                         </li>
                         <?php
                                 }
@@ -213,7 +212,7 @@
                                 while($fetch_ci = $select_ci->fetch(PDO::FETCH_ASSOC)){
                         ?>   
                         <li>
-                            <p><strong><?= _($fetch_ci['titre'] . "&nbsp;: "); ?></strong>
+                            <p><strong><?= _($fetch_ci['titre'] . "&nbsp;"); ?>: </strong>
                             <?= _($fetch_ci['description']); ?></p>
                         </li>
                         <?php

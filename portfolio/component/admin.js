@@ -153,6 +153,8 @@ window.addEventListener('DOMContentLoaded', function() {
     adminTableContainer.style.height = tableContainerHeight + 'px';
 });
 
+
+// Fonction loadModal avec centrage de la modale
 function loadModal(modalPath) {
     const path = "../admin/modal/" + modalPath;
 
@@ -162,23 +164,61 @@ function loadModal(modalPath) {
             const modalContainer = document.getElementById('modalContainer');
             modalContainer.innerHTML = data;
 
-            // Affiche le modal si une classe .modal est présente
             const modal = modalContainer.querySelector('.modal');
             if (modal) modal.style.display = 'flex';
 
-            // ✅ Intercepte tous les formulaires présents dans le modal
+            const closeModalBtn = modalContainer.querySelector('#closeModalBtn');
+            if (closeModalBtn) {
+                closeModalBtn.addEventListener('click', closeModal);
+            }
+
+            // ✅ Ferme aussi si on clique en dehors de la modale
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) closeModal();
+            });
+
+            // ✅ Intercepte les formulaires dans le modal
             const form = modalContainer.querySelector("form");
             if (form) {
                 form.addEventListener("submit", handleModalFormSubmit);
             }
+
+            if (modalPath === 'add-projet.php' || /^modif-projet\.php.*/.test(modalPath)) {
+                initModalNavigation();
+            }
+                        
         })
         .catch(error => console.error('Erreur de chargement :', error));
 }
 
-// Fermer n'importe quel modal
+function setSessionAndLoadModal(projectId) {
+    // Envoyer une requête AJAX pour définir la variable de session
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "../component/set_session.php?id=" + projectId, true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            // Charger la modale après avoir défini la variable de session
+            loadModal('modif-projet.php');
+        }
+    };
+    xhr.send();
+}
+
+// Fermer la modale
 function closeModal() {
     document.getElementById('modalContainer').innerHTML = '';
 }
+
+// Écouteur d'événement pour fermer la modale
+document.getElementById('closeModalBtn').addEventListener('click', closeModal());
+
+// Optionnel : fermer en cliquant en dehors de la modale
+window.addEventListener('click', (e) => {
+   const modal = document.getElementsByClassName('modal');
+   if (e.target === modal) {
+      closeModal();
+   }
+});
 
 function handleModalFormSubmit(event) {
     event.preventDefault(); // ✅ Empêche le rechargement de la page
@@ -192,7 +232,7 @@ function handleModalFormSubmit(event) {
     })
     .then(response => response.text())
     .then(data => {
-        alert('Action réalisée avec succès !');
+        alert(data);
 
         // ✅ Ferme le modal après la soumission
         closeModal();
@@ -206,8 +246,6 @@ function handleModalFormSubmit(event) {
         console.error('Erreur lors de l\'envoi :', error);
     });
 }
-
-
 
 function deleteAdmin(adminId) {
     if (confirm("Voulez-vous vraiment supprimer cet admin ?")) {
@@ -224,7 +262,92 @@ function deleteAdmin(adminId) {
                 alert("Erreur lors de la suppression.");
             }
         };
-
         xhr.send("id=" + adminId);
     }
+}
+
+function deleteProject(projetId) {
+    if (confirm("Voulez-vous vraiment supprimer ce projet ?")) {
+        // Envoi de la requête AJAX
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "../component/delete-projet.php", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                alert("Projet supprimé avec succès !");
+                location.reload(); // Actualise la page pour mettre à jour la liste
+            } else {
+                alert("Erreur lors de la suppression.");
+            }
+        };
+        xhr.send("id=" + projetId);
+    }
+}
+
+function archiveProject(projetId, statut) {
+    let action = statut == 1 ? "désarchiv" : "archiv";
+    let projectElement = document.getElementById("projet-" + projetId);
+
+    if (confirm(`Voulez-vous vraiment ${action}er ce projet ?`)) {
+        // Envoi de la requête AJAX
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "../component/archive-projet.php", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                if (projectElement) {
+                    projectElement.classList.toggle("archived", statut == 0);
+                }
+                alert(`Projet ${action}é avec succès !`);
+                location.reload(); // Actualise la page pour mettre à jour la liste
+            } else {
+                alert("Erreur lors de l'opération.");
+            }
+        };
+        
+        xhr.send("id=" + projetId + "&statut=" + statut);
+    }
+}
+
+
+
+// Gère la navigation des sections dans la modale
+function initModalNavigation() {
+    let currentSection = 0;
+    const sections = document.querySelectorAll(".section");
+
+    function showSection(index) {
+        sections.forEach((section, i) => {
+            section.classList.toggle("active", i === index);
+        });
+
+        document.getElementById("prevBtn").style.display = index === 0 ? "none" : "inline-block";
+        document.getElementById("nextBtn").style.display = index === sections.length - 1 ? "none" : "inline-block";
+    }
+
+    function nextSection() {
+        if (currentSection < sections.length - 1) {
+            currentSection++;
+            showSection(currentSection);
+        }
+    }
+
+    function prevSection() {
+        if (currentSection > 0) {
+            currentSection--;
+            showSection(currentSection);
+        }
+    }
+
+    // Ajoute les gestionnaires aux boutons
+    const nextBtn = document.getElementById("nextBtn");
+    const prevBtn = document.getElementById("prevBtn");
+
+    if (nextBtn) nextBtn.addEventListener("click", nextSection);
+    if (prevBtn) prevBtn.addEventListener("click", prevSection);
+
+    // Affiche la première section
+    showSection(currentSection);
 }

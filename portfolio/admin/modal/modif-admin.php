@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['admin_id'])) {
     if ($password === $cpassword) {
         try {
             if (!empty($password)) {
-                $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+                $hashedPassword = sha1($password);
                 $update = $conn->prepare("UPDATE `admin` SET name = ?, password = ? WHERE ID = ?");
                 $update->execute([$username, $hashedPassword, $adminId]);
             } else {
@@ -24,18 +24,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['admin_id'])) {
                 $update->execute([$username, $adminId]);
             }
 
-            echo "success"; // ✅ Réponse AJAX
+            echo "Compte modifier avec succès.";
+            exit();
         } catch (PDOException $e) {
             echo "Erreur : " . $e->getMessage();
+            exit();
         }
     } else {
         echo "Les mots de passe ne correspondent pas.";
+        exit();
     }
 }
 ?>
 
-
-<div class="modal" id="editAdminModal">
+<link rel="stylesheet" href="../css/modal.css" />
+<div class="modal modif-admin" id="editAdminModal">
     <div class="modal-content">
         <h2>Modifier mon compte</h2>
 
@@ -64,57 +67,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['admin_id'])) {
         </form>
     </div>
 </div>
-
-
-
-<style>
-    /* Style de la modale */
-    .modal {
-        position: fixed;
-        top: 0; left: 0; right: 0; bottom: 0;
-        background: rgba(0, 0, 0, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .modal-content {
-        background: #dab200;
-        border: solid 1px #181818;
-        border-radius: 10px;
-        padding: 20px;
-        max-width: 400px;
-        width: 100%;
-    }
-
-    /* Structure des champs label + input */
-    .form-group {
-        display: flex;
-        flex-direction: column; /* Chaque label + input empilé verticalement */
-        margin-bottom: 15px; /* Espacement entre chaque groupe */
-    }
-
-    .form-group label {
-        font-weight: bold; /* Met en gras le titre (nom de la modif) */
-        margin-bottom: 5px; /* Espacement entre le label et l'input */
-    }
-
-    .form-group input {
-        padding: 8px;
-        border: 1px solid #181818;
-        border-radius: 5px;
-        outline: none;
-    }
-
-    /* Boutons */
-    .accept{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .accept button {
-        margin: 10px;
-        margin-bottom: 0;
-    }
-
-</style>

@@ -25,13 +25,13 @@
                         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
                         $offset = ($page - 1) * $itemsPerPage;
 
-                        $select_projects = $conn->prepare("
-                            SELECT *, p.ID as id_projet
-                            FROM projets p
-                            LEFT JOIN video_ytb s ON p.`ID-video` = s.ID
-                            ORDER BY p.date1 DESC
-                            LIMIT :limit OFFSET :offset
-                        ");
+                        $select_projects = $conn->prepare("SELECT *, p.ID as id_projet
+                                                                        FROM projets p
+                                                                        LEFT JOIN video_ytb s ON p.`ID-video` = s.ID
+                                                                        WHERE p.archived = 0 
+                                                                        AND p.date1 <= CURDATE()
+                                                                        ORDER BY p.date1 DESC
+                                                                        LIMIT :limit OFFSET :offset");
                         $select_projects->bindValue(':limit', $itemsPerPage, PDO::PARAM_INT);
                         $select_projects->bindValue(':offset', $offset, PDO::PARAM_INT);
                         $select_projects->execute();
@@ -55,8 +55,9 @@
                                 </iframe>';
                             } else {
                                 // Affiche le lien avec l'image
+                                $projet_link = "'" . htmlspecialchars($fetch_projects['lien_projet'], ENT_QUOTES, 'UTF-8') . "'";
                                 echo '<img src="./images/miniature/' . htmlspecialchars($fetch_projects['image']) . '" class="videoYT" id="img_lien" 
-                                    alt="Cliquez pour voir le Court-Métrage" onclick="window.open(" ' . htmlspecialchars($fetch_projects['lien_projet']) . ');"/>';
+                                    alt="Cliquez pour voir le Court-Métrage" onclick="window.open('. $projet_link .');"/>';
                             }
                         ?>
                             <h4><?= _($fetch_projects['type1']);?></h4>
@@ -66,7 +67,7 @@
                         <p><?= $fetch_projects['short_vue_ensemble'] == NULL
                             ? _($fetch_projects['vue_ensemble']) 
                             : _($fetch_projects['short_vue_ensemble']); ?></p>
-                        <p id="plus"><strong><a href="fiche-projet.php?pid=<?= $fetch_projects['id_projet']; ?>"><?= _("EN SAVOIR PLUS"); ?></a></strong></p>
+                        <p id="plus"><strong><a href="./fiche-projet.php?pid=<?= $fetch_projects['id_projet']; ?>"><?= _("EN SAVOIR PLUS"); ?></a></strong></p>
                     </article></li>
                     <?php
                             }

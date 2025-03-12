@@ -8,7 +8,7 @@ if (!isset($_SESSION['admin_id'])) {
 }
 
 // Vérifiez si le formulaire est soumis
-if (isset($_POST['update_projet'])) {
+if (isset($_POST['update_projet']) && $_SERVER['REQUEST_METHOD'] === 'POST') {
    try {
       // Commencez une transaction
       $conn->beginTransaction();
@@ -296,7 +296,7 @@ if (isset($_POST['update_projet'])) {
          <h2>Objectifs</h2>
          <div id="objectifs-container">
             <?php 
-
+               $pid = $_GET['pid'];
                $select_projects = $conn->prepare("SELECT 
                                                       o.*
                                                    FROM 

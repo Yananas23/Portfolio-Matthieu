@@ -48,7 +48,7 @@ if (!isset($_SESSION['admin_id'])) {
                                 </iframe>';
                             } else {
                                 // Affiche le lien avec l'image
-                                echo '<img src="./images/miniature/' . htmlspecialchars($fetch_project['image']) . '" class="videoYT" id="img_lien" 
+                                echo '<img src="../images/miniature/' . htmlspecialchars($fetch_project['image']) . '" class="videoYT" id="img_lien" 
                                     alt="Cliquez pour voir le Court-Métrage" onclick="window.open(" ' . htmlspecialchars($fetch_project['lien_projet']) . ');"/>';
                             }
                         ?>
@@ -59,7 +59,7 @@ if (!isset($_SESSION['admin_id'])) {
                         <p><?= $fetch_project['short_vue_ensemble'] == NULL
                             ? _($fetch_project['vue_ensemble']) 
                             : _($fetch_project['short_vue_ensemble']); ?></p>
-                        <p id="plus"><strong><a href="fiche-projet.php?pid=<?= $fetch_project['id_projet']; ?>"><?= _("EN SAVOIR PLUS"); ?></a></strong></p>
+                        <p id="plus"><strong><a href="../fiche-projet.php?pid=<?= $fetch_project['id_projet']; ?>"><?= _("EN SAVOIR PLUS"); ?></a></strong></p>
                     </article>
                     <?php
                             }

@@ -34,7 +34,12 @@
                 <ul>
                     <?php
                         // Récupère toutes les informations de tous les projets
-                        $select_projects = $conn->prepare("SELECT *, p.ID as id_projet FROM projets p LEFT JOIN video_ytb s ON p.`ID-video` = s.id ORDER BY p.date1 DESC LIMIT 2");
+                        $select_projects = $conn->prepare("SELECT *, p.ID as id_projet FROM projets p 
+                                                                    LEFT JOIN video_ytb s ON p.`ID-video` = s.id 
+                                                                    WHERE p.archived = 0 
+                                                                    AND p.date1 <= CURDATE() 
+                                                                    ORDER BY p.date1 DESC 
+                                                                    LIMIT 2");
                         $select_projects->execute();
                         if($select_projects->rowCount() > 0){
                             while($fetch_projects = $select_projects->fetch(PDO::FETCH_ASSOC)){
@@ -66,7 +71,7 @@
                         <p><?= $fetch_projects['short_vue_ensemble'] == NULL
                             ? _($fetch_projects['vue_ensemble']) 
                             : _($fetch_projects['short_vue_ensemble']); ?></p>
-                        <p id="plus"><strong><a href="fiche-projet.php?pid=<?= $fetch_projects['id_projet']; ?>"><?= _("EN SAVOIR PLUS"); ?></a></strong></p>
+                        <p id="plus"><strong><a href="./fiche-projet.php?pid=<?= $fetch_projects['id_projet']; ?>"><?= _("EN SAVOIR PLUS"); ?></a></strong></p>
                     </article></li>
                     <?php
                             }
@@ -78,7 +83,7 @@
                             <h3 id="title_other"><?= _("Autres Projets"); ?></h3>
                             <img src="./images/img-other.jpg" id="img_plus" alt="Voir tous mes projets"/>
                             <img src="./images/img-other2.jpg" id="img_plus2" alt="Voir tous mes projets"/>
-                            <p id="p_other"><a href="projets.php"><?= _("Découvre tous mes projets"); ?></a></p>
+                            <p id="p_other"><a href="./projets.php"><?= _("Découvre tous mes projets"); ?></a></p>
                     </article></li>
                 </ul>
             </div>

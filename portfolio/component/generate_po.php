@@ -93,9 +93,25 @@ try {
         if ($locale === 'fr_FR') {
             continue; // Pas besoin de générer un fichier .po pour la langue source
         }
+        $locale = explode('.', $locale)[0];
 
         $poFile = "$localeDir/$locale/LC_MESSAGES/messages.po";
-        $poContent = file_exists($poFile) ? file_get_contents($poFile) : "# $locale translations\nmsgid \"\"\nmsgstr \"\"\n\"Content-Type: text/plain; charset=UTF-8\"\n\n";
+
+        // Crée les répertoires s'ils n'existent pas
+        if (!is_dir(dirname($poFile))) {
+            mkdir(dirname($poFile), 0777, true);
+        }
+
+        // Contenu par défaut si le fichier n'existe pas
+        $poContent = "# $locale translations\nmsgid \"\"\nmsgstr \"\"\n\"Content-Type: text/plain; charset=UTF-8\"\n\n";
+
+        // Si le fichier n'existe pas, le créer avec le contenu par défaut
+        if (!file_exists($poFile)) {
+            file_put_contents($poFile, $poContent);
+        }
+
+        // Lire le contenu du fichier (nouveau ou existant)
+        $poContent = file_get_contents($poFile);
 
         foreach ($strings as $string) {
             if (!str_contains($poContent, "msgid \"$string\"")) {
@@ -113,8 +129,8 @@ try {
     echo "Fichiers .po mis à jour avec succès !";
 } catch (Exception $e) {
     // En cas d'erreur, renvoyer un code 500 et afficher un message
-    http_response_code(500);
     echo "Erreur : " . $e->getMessage();
+    http_response_code(500);
     exit; // Arrêter le script
 }
 ?>

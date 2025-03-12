@@ -879,3 +879,57 @@ msgstr "Sound Design"
 msgid "Dimanche matin, j’ai rejoint Daniel, il m’a tout envoyé et j’ai pu faire le sound design avec ses indications, et comme il était avec moi en appel, je pouvais lui poser des questions régulièrement. J’ai donc pu rééquilibrer le volume des voix, ajouter des bruitages et une musique, nous avons visionné tout cela ensemble, et avons validé une version."
 msgstr "On Sunday morning, I reached out to Daniel, he sent me everything and I was able to do the sound design with his directions, and because he was with me on the call, I could ask him questions regularly. So I was able to rebalance the volume of the voices, add noises and music, we watched it all together, and validated a version."
 
+msgid "Création de Fictions Audio"
+msgstr ""
+
+msgid "Depuis 3 ans, je crée de manière très sérieuse des fictions audio. Et depuis début octobre, je suis membre de la <strong><a target="_blank" href="https://javras.fr">TeamJavras</a></strong>."
+msgstr ""
+
+msgid "Création de Courts-Métrages"
+msgstr ""
+
+msgid "Cyclisme (sur route)"
+msgstr ""
+
+msgid "Depuis 7 ans, je fais du vélo, je profite d’être proche des cols montés par le Tour de France pour les faire."
+msgstr ""
+
+msgid "Guitare"
+msgstr ""
+
+msgid "Membre de la LPO et de Servas"
+msgstr ""
+
+msgid "Je suis, via mes parents, membre de la <strong><a target="_blank" href="https://www.lpo.fr/">LPO</a></strong> (Ligue de Protection des Oiseaux), et de l'association <strong><a target="_blank" href="https://servas.org/fr">Servas</a></strong> (réseau mondial et multiculturel de personnes partageant la vision qu'il est possible de rendre le monde plus pacifique)."
+msgstr ""
+
+msgid "Stage de technicien en tant que monteur pour les réseaux sociaux de Vadrouille. Très enrichissant, autant en technique qu’en appréhension de l’environnement professionnel. (<a target='_blank' href='https://docs.google.com/document/d/1sStTlDA_wfz4dv-HGY6qNquXP--97JZ_2IDTunp90tE/edit?usp=drive_link'>lien vers mon rapport de stage)"
+msgstr ""
+
+msgid "Baccalauréat"
+msgstr ""
+
+msgid "Étudiant en Audiovisuel et créateur de fictions audio au sein de la <strong><a target="_blank" href="https://javras.fr">TeamJavras</a></strong>, je me passionne pour la création sonore, le montage audio et le sound design."
+msgstr ""
+
+msgid "soft-skills"
+msgstr ""
+
+msgid "Autonome, rigoureux, organisé, curieux et créatif, j'adore découvrir et apprendre de nouvelles choses."
+msgstr ""
+
+msgid "Mixage Audio"
+msgstr ""
+
+msgid "Montage Vidéo"
+msgstr ""
+
+msgid "Montage Photo"
+msgstr ""
+
+msgid "Programmation"
+msgstr ""
+
+msgid "Langues"
+msgstr ""
+

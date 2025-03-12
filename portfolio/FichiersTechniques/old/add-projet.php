@@ -133,6 +133,7 @@ if (isset($_POST['add_projet'])) {
          .input-group {
             margin-bottom: 15px;
          }
+         
          .hidden {
             display: none;
          }
