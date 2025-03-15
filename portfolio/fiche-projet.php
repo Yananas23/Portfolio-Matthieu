@@ -174,7 +174,9 @@
                     // Projet suivant (par date1 croissante)
                     $querySuivant = $conn ->prepare("SELECT ID, date1, titre
                                                     FROM projets 
-                                                    WHERE date1 > ? 
+                                                    WHERE date1 > ?
+                                                    AND date1 <= CURDATE()
+                                                    AND archived = 0
                                                     ORDER BY date1 ASC 
                                                     LIMIT 1");
                     $querySuivant->execute([$projet['date1']]);
@@ -183,7 +185,9 @@
                     // Projet précédent (par date1 décroissante)
                     $queryPrecedent = $conn->prepare("SELECT ID, date1, titre
                                                     FROM projets 
-                                                    WHERE date1 < ? 
+                                                    WHERE date1 < ?
+                                                    AND date1 <= CURDATE()
+                                                    AND archived = 0
                                                     ORDER BY date1 DESC 
                                                     LIMIT 1");
                     $queryPrecedent->execute([$projet['date1']]);

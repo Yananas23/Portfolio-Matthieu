@@ -19,7 +19,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
                     </a>
                 </li>
                 <li>
-                    <a href="admin-apropos.php" id="nav_apropos" class="<?= $currentPage == 'admin-apropos.php' ? 'active' : '' ?>">
+                    <a href="admin-propos.php" id="nav_apropos" class="<?= $currentPage == 'admin-apropos.php' ? 'active' : '' ?>">
                         <?php echo _("À PROPOS"); ?>
                     </a>
                 </li>

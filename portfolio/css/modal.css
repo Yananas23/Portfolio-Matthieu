@@ -72,13 +72,23 @@
 /* ------------------------------------- */
 
 /* En commun au page admin */
-.modal {
+.modal.modif-admin, .modal.add-admin {
    position: fixed;
    top: 0; left: 0; right: 0; bottom: 0;
    background: rgba(0, 0, 0, 0.5);
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.add-admin .accept, .modif-admin .accept{
+   display: flex;
+   flex-direction: row;
+}
+
+.add-admin .accept button, .modif-admin .accept button {
+   margin: 10px;
+   margin-bottom: 0;
 }
 
 /* add-admin */
@@ -86,16 +96,7 @@
    margin-bottom: 10px ;
 }
 
-.modal {
-   position: fixed;
-   top: 0; left: 0; right: 0; bottom: 0;
-   background: rgba(0, 0, 0, 0.5);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.modal-content {
+.add-admin .modal-content {
    background: #dab200;
    border: solid 1px #181818;
    border-radius: 10px;
@@ -105,30 +106,18 @@
    margin: auto;
 }
 
-form .boite {
+.add-admin form .boite {
    display: flex;
    flex-direction: column;
 }
 
-form input {
+.add-admin form input {
    margin: 5px;
    
 }
 
-.accept{
-   display: flex;
-   flex-direction: row;
-}
-
-.accept button {
-   margin: 10px;
-   margin-bottom: 0;
-}
-
 /* modif-admin */
-
-
-.modal-content {
+.modif-admin .modal-content {
    background: #dab200;
    border: solid 1px #181818;
    border-radius: 10px;
@@ -137,32 +126,21 @@ form input {
    width: 100%;
 }
 
-/* Structure des champs label + input */
-.form-group {
+.modif-admin .form-group {
    display: flex;
    flex-direction: column; /* Chaque label + input empilé verticalement */
    margin-bottom: 15px; /* Espacement entre chaque groupe */
 }
 
-.form-group label {
+.modif-admin .form-group label {
    font-weight: bold; /* Met en gras le titre (nom de la modif) */
    margin-bottom: 5px; /* Espacement entre le label et l'input */
 }
 
-.form-group input {
+.modif-admin .form-group input {
    padding: 8px;
    border: 1px solid #181818;
    border-radius: 5px;
    outline: none;
 }
 
-/* Boutons */
-.accept{
-   display: flex;
-   flex-direction: row;
-}
-
-.accept button {
-   margin: 10px;
-   margin-bottom: 0;
-}

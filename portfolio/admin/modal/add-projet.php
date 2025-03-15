@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                $target_name = $_POST['titre']; 
                $image1 = resizeAndSaveImage($_FILES['image1'], $target_folder, $target_name);
 
-               echo "Image redimensionnée et enregistrée : " . $image1;
+               echo "Image redimensionnée et enregistrée : " . $image1 . "\n";
             } catch (Exception $e) {
                echo "Erreur : " . $e->getMessage();
             }

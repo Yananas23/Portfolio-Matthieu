@@ -1,7 +1,6 @@
 <?php
 function resizeAndSaveImage($file, $target_folder, $target_name, $new_width = 1280, $new_height = 720) {
     $image = $file['name'];
-    $image = filter_var($image, FILTER_SANITIZE_STRING);
     $image_tmp_name = $file['tmp_name'];
     $image_size = $file['size'];
     $image_ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
@@ -11,7 +10,7 @@ function resizeAndSaveImage($file, $target_folder, $target_name, $new_width = 12
 
     // Vérification des extensions et de la taille
     $allowed_extensions = ['jpg', 'jpeg', 'png'];
-    if (in_array($image_ext, $allowed_extensions) && $image_size <= 2 * 1024 * 1024) { // Limite de 2 Mo
+    if (in_array($image_ext, $allowed_extensions) && $image_size <= 20 * 1024 * 1024) { // Limite de 20 Mo
         // Charger l'image selon l'extension
         switch ($image_ext) {
             case 'jpg':
