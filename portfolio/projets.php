@@ -84,7 +84,10 @@
             document.addEventListener("DOMContentLoaded", function() {
                 let loadMoreBtn = document.querySelector('#load-more');
                 let currentPage = 1;
-                let totalProjects = <?= $conn->query("SELECT COUNT(*) FROM projets")->fetchColumn(); ?>; 
+                let totalProjects = <?= $conn->query("SELECT COUNT(*) FROM projets
+                                                        WHERE archived = 0 
+                                                        AND date1 <= CURDATE()
+                                                        ORDER BY date1 DESC")->fetchColumn(); ?>; 
                 let itemsPerPage = 3;
 
                 loadMoreBtn.addEventListener('click', () => {

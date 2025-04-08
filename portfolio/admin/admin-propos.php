@@ -45,7 +45,8 @@ if (!isset($_SESSION['admin_id'])) {
         <section class="cv" id="detail_cv">
             <div class="cv_parts" id="cv_part1">
                 <article class="cv_info" id="experience">
-                    <h3><?= _("Experiences"); ?></h3>
+                    
+                <h3><a href=# id="xp" onclick="loadModal('experience.php')">Experiences</a></h3>
                     <ul>
                         <?php
                             $select_xp = $conn->prepare("SELECT 
@@ -241,26 +242,26 @@ if (!isset($_SESSION['admin_id'])) {
                 $formatteddate = $dateObj->format('j F Y');
 
                 // Convertir le mois en français
-                if($_SESSION['locale'] == 'fr_FR'){
-                    $months = [
-                        'January' => 'Janvier',
-                        'February' => 'Février',
-                        'March' => 'Mars',
-                        'April' => 'Avril',
-                        'May' => 'Mai',
-                        'June' => 'Juin',
-                        'July' => 'Juillet',
-                        'August' => 'Août',
-                        'September' => 'Septembre',
-                        'October' => 'Octobre',
-                        'November' => 'Novembre',
-                        'December' => 'Décembre'
-                    ];
-                    $formatteddate = strtr($formatteddate, $months);
+                $months = [
+                    'January' => 'Janvier',
+                    'February' => 'Février',
+                    'March' => 'Mars',
+                    'April' => 'Avril',
+                    'May' => 'Mai',
+                    'June' => 'Juin',
+                    'July' => 'Juillet',
+                    'August' => 'Août',
+                    'September' => 'Septembre',
+                    'October' => 'Octobre',
+                    'November' => 'Novembre',
+                    'December' => 'Décembre'
+                ];
+                $formatteddate = strtr($formatteddate, $months);
+
+                if ($uppercaseMonth) {
+                    return mb_strtoupper($formatteddate);
                 }
-                    if ($uppercaseMonth) {
-                        return mb_strtoupper($formatteddate);
-                    }
+                
                 return $formatteddate;
             }
 
