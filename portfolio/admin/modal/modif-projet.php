@@ -212,7 +212,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <div class="input-group">
                            <label for="titreYTB">Titre YouTube :</label>
-                           <input type="text" name="titreYTB" id="titreYTB" required class="boite duo" value="<?= $fetch_projects['titre_ytb']; ?>">
+                           <input type="text" name="titreYTB" id="titreYTB" class="boite duo" value="<?= $fetch_projects['titre_ytb']; ?>">
                         </div>
                         <div class="input-group">
                            <label for="youtube_link">Lien YouTube :</label>
