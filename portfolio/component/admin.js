@@ -1,3 +1,7 @@
+if (navigator.userAgent.indexOf('Linux') !== -1 && navigator.userAgent.indexOf('Firefox') !== -1) {
+    document.documentElement.classList.add('linux-firefox');
+}
+
 function deconnexion(){
     if (confirm('Vous allez être déconnecté.')) {
         // Si l'utilisateur clique sur "OK"
@@ -350,4 +354,5 @@ function initModalNavigation() {
 
     // Affiche la première section
     showSection(currentSection);
-}
+};
+

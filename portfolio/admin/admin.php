@@ -27,15 +27,21 @@ if (!isset($_SESSION['admin_id'])) {
                 <h2>Dernier Projet</h2>
                     <?php
                         // Récupère toutes les informations de tous les projets
-                        $select_project = $conn->prepare("SELECT *, p.ID as id_projet FROM projets p LEFT JOIN video_ytb s ON p.`ID-video` = s.id ORDER BY p.date1 DESC LIMIT 1");
+                        $select_project = $conn->prepare("SELECT *, p.ID as id_projet
+                                                                        FROM projets p
+                                                                        LEFT JOIN video_ytb s ON p.`ID-video` = s.ID
+                                                                        ORDER BY p.date1 DESC
+                                                                        LIMIT 1");
                         $select_project->execute();
                         if($select_project->rowCount() > 0){
                             while($fetch_project = $select_project->fetch(PDO::FETCH_ASSOC)){
                                 // Extraire l'ID de la vidéo YouTube à partir de l'URL
                                 preg_match('/(?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?([a-zA-Z0-9_-]+)/', $fetch_project['lien_ytb'], $matches);
                                 $videoId = $matches[1] ?? null;
+                                $fetch_project['archived'] == 1 ? $pClass = "projets archived" : $pClass = "projets";
+                                $pID = "projet-" . $fetch_project['id_projet'];
                     ?>
-                    <article class="projets">
+                    <article class="<?= $pClass; ?>" id="<?= $pID; ?>">
                         <h3><?= _($fetch_project['titre']);?></h3>
                         <?php
                             // Vérifie si une image est présente dans la base de données
@@ -59,7 +65,18 @@ if (!isset($_SESSION['admin_id'])) {
                         <p><?= $fetch_project['short_vue_ensemble'] == NULL
                             ? _($fetch_project['vue_ensemble']) 
                             : _($fetch_project['short_vue_ensemble']); ?></p>
-                        <p id="plus"><strong><a href="../fiche-projet.php?pid=<?= $fetch_project['id_projet']; ?>"><?= _("EN SAVOIR PLUS"); ?></a></strong></p>
+                        <div id="plus">
+                                <strong><a href="#liste_projets" id="modifier" onclick="setSessionAndLoadModal('<?= $fetch_project['id_projet']; ?>');">Modifier</a></strong>
+                                <strong><a id="supprimer" onclick="deleteProject('<?= $fetch_project['id_projet']; ?>'); return false;" >Supprimer</a></strong>
+                                <?php 
+                                if ($fetch_project['archived'] == 1) {
+                                    ?>
+                                    <strong><a id="archiver" onclick="archiveProject('<?= $fetch_project['id_projet']; ?>', '<?= $fetch_project['archived']; ?>'); return false;" >Désarchiver</a></strong>
+                                <?php } else {
+                                    ?>
+                                    <strong><a id="archiver" onclick="archiveProject('<?= $fetch_project['id_projet']; ?>', '<?= $fetch_project['archived']; ?>'); return false;" >Archiver</a></strong>
+                                <?php } ?>
+                            </div>
                     </article>
                     <?php
                             }

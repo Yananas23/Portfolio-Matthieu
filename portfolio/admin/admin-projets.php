@@ -25,14 +25,14 @@ if (!isset($_SESSION['admin_id'])) {
             <div id="liste_page_projets">
                 <ul id="liste_generale">
                     <li>
-                        <article class="projets">
+                        <article class="projets" id="article_add_projet">
                             <p id="add"><a href="#liste_projets" id="la" onclick="loadModal('add-projet.php');">+</a></p>
                         </article>
                     </li>
                     <?php
                         // Récupère toutes les informations de tous les projets
-                        $firstLoadItems = 2; // Nombre d'éléments au chargement initial
-                        $itemsPerPage = 3;   // Nombre d'éléments à charger après
+                        $firstLoadItems = 5; // Nombre d'éléments au chargement initial
+                        $itemsPerPage = 6;   // Nombre d'éléments à charger après
 
                         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 
@@ -108,9 +108,9 @@ if (!isset($_SESSION['admin_id'])) {
                             echo '<p class="empty">Aucun projet disponible</p>';
                         }
                     ?>
-                    <div id="load-more"> load more </div>
                 </ul>
             </div>
+            <div id="load-more"> load more </div>
         </section>
         <div id="modalContainer"></div>
         
@@ -120,8 +120,8 @@ if (!isset($_SESSION['admin_id'])) {
                 let loadMoreBtn = document.querySelector('#load-more');
                 let currentPage = 1;
                 let totalProjects = <?= $conn->query("SELECT COUNT(*) FROM projets")->fetchColumn(); ?>; 
-                let firstLoadItems = 2;
-                let itemsPerPage = 3;
+                let firstLoadItems = 5;
+                let itemsPerPage = 6;
 
                 // Vérifier si le bouton doit être caché dès le début
                 if (firstLoadItems >= totalProjects) {
@@ -139,8 +139,7 @@ if (!isset($_SESSION['admin_id'])) {
 
                             newProjects.forEach(project => {
                                 let list = document.querySelector('#liste_generale');
-                                let lastItem = list.lastElementChild;
-                                list.insertBefore(project, lastItem);
+                                list.appendChild(project); // Ajoute le projet à la fin de la liste
                             });
 
                             let totalLoaded = document.querySelectorAll('li.more').length;

@@ -718,14 +718,14 @@ h4 strong{
     width: auto;
 }
 
-#competences p{
-    text-align: left;
-    line-height: 35px;
-}
-
 #competences #soft_skills{
     text-align: center;
     line-height: 25px;
+}
+
+#competences p:not(#add):not(#soft_skills){
+    text-align: left;
+    line-height: 35px;
 }
 
 .comp{

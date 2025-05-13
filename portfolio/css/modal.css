@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 /* En commun au page projet */
 .grid-container {
     display: grid;
@@ -10,7 +13,7 @@
    flex-direction: column;
 }
 
-.modal.add-projet, .modal.modif-projet {
+.modal.add-projet, .modal.modif-projet, .modal.experience {
    position: fixed;
    top: 0; left: 0; right: 0; bottom: 0;
    background: rgba(0, 0, 0, 0.5);
@@ -18,7 +21,7 @@
    align-items: center;
 }
 
-.modal-content.form-mod, .modal-content.form-add {
+.modal-content.form-mod, .modal-content.form-add, .modal-content.form-xp {
    top: 180px; left: 0; right: 0;
    padding: 20px;
    width: 80%;
@@ -35,7 +38,7 @@
    cursor: pointer;
 }
 
-.add-projet .section, .modif-projet .section{
+.add-projet .section, .modif-projet .section {
    display: none;
 }
 
@@ -81,7 +84,7 @@
    align-items: center;
 }
 
-.add-admin .accept, .modif-admin .accept{
+.add-admin .accept, .modif-admin .accept {
    display: flex;
    flex-direction: row;
 }
@@ -100,7 +103,6 @@
    background: #dab200;
    border: solid 1px #181818;
    border-radius: 10px;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    padding: 20px;
    max-width: 400px;
    margin: auto;
@@ -142,5 +144,84 @@
    border: 1px solid #181818;
    border-radius: 5px;
    outline: none;
+}
+
+/* Page experience / formation / competence / centre d'interet*/
+.modal.experience, .modal.formation, .modal.centreInteret, .modal.competence, .modal.curriculum {
+   position: fixed;
+   top: 0; left: 0; right: 0; bottom: 0;
+   background: rgba(0, 0, 0, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.modal-content.form-xp, .modal-content.form-ft, .modal-content.form-ci, .modal-content.form-ct, .modal-content.form-curriculum {
+   background: #dab200;
+   border: solid 1px #181818;
+   border-radius: 10px;
+   padding: 20px;
+   width: 100%;
+   max-width: 600px;
+   position: relative;
+}
+
+.experience .date-row, .formation .date-row {
+   margin-bottom: 15px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.experience .date-row label, .formation .date-row label {
+   width: 120px;
+   flex-shrink: 0;
+}
+
+.experience .date-row input[type="month"], .formation .date-row input[type="month"],
+.experience .date-row select, .formation .date-row select {
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.experience .checkbox-row, .formation .checkbox-row {
+   margin: 15px 0;
+}
+
+.experience .info-grid, .formation .info-grid, .competence .info-grid  {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+   margin-top: 20px;
+}
+
+.centreInteret .info-grid, .competence .info-grid {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 15px;
+   margin-top: 20px;
+}
+
+.experience .info-grid .full-width, .formation .info-grid .full-width, .centreInteret .info-grid .full-width, .competence .info-grid .full-width{
+   grid-column: span 2;
+}
+
+.experience .info-grid input, .formation .info-grid input, .centreInteret .info-grid input, .competence .info-grid input:not(.rating-counter), .curriculum .info-collumn input,
+.experience .info-grid textarea, .formation .info-grid textarea, .centreInteret .info-grid textarea, .competence .info-grid textarea, .curriculum .info-collumn textarea{
+   width: 100%;
+   padding: 8px 0 8px 2px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.experience form label, .formation form label, .centreInteret form label, .competence form label, .curriculum form label{
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+.experience form textarea, .formation form textarea, .centreInteret form textarea, .competence form textarea, .curriculum form textarea{
+   resize: vertical;
 }
 

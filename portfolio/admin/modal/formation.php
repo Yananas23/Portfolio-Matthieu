@@ -4,13 +4,13 @@ session_start();
 
     $pid = $_SESSION['pid'];
 
-    $xp = [
+    $ft = [
         'date_debut' => '',
         'date_fin' => '',
         'ville' => '',
-        'entreprise' => '',
+        'etablissement' => '',
         'site' => '',
-        'poste' => '',
+        'diplome' => '',
         'description' => '',
     ];
     $debut = [
@@ -25,26 +25,26 @@ session_start();
         'complete' => '',
         'aujourdhui' => 0,
     ];
-    $title = "Ajouter une expérience";
+    $title = "Ajouter une formation";
 
     // Si ID > 0 on va chercher les données
     if ($pid > 0) {
-        $title = "Modifier une expérience";
+        $title = "Modifier une formation";
 
-        $select_xp = $conn->prepare("SELECT * FROM experiences WHERE id = ?");
-        $select_xp->execute([$pid]);
-        $xp = $select_xp->fetch(PDO::FETCH_ASSOC);
+        $select_ft = $conn->prepare("SELECT * FROM formations WHERE id = ?");
+        $select_ft->execute([$pid]);
+        $ft = $select_ft->fetch(PDO::FETCH_ASSOC);
 
-        if (!$xp) {
-            die("Expérience introuvable.");
+        if (!$ft) {
+            die("Formation introuvable.");
         }
         
         $select_debut = $conn->prepare("SELECT * FROM `date` WHERE id = ?");
-        $select_debut->execute([$xp['debut']]);
+        $select_debut->execute([$ft['debut']]);
         $debut = $select_debut->fetch(PDO::FETCH_ASSOC);
 
         $select_fin = $conn->prepare("SELECT * FROM `date` WHERE id = ?");
-        $select_fin->execute([$xp['fin']]);
+        $select_fin->execute([$ft['fin']]);
         $fin = $select_fin->fetch(PDO::FETCH_ASSOC);
     }
 
@@ -70,10 +70,10 @@ session_start();
 
 <link rel="stylesheet" href="../css/modal.css" />
 <!-- Fenêtre modale -->
-<div class="modal experience" id="experienceModal">
-    <div class="modal-content form-xp" id="modal">
+<div class="modal formation" id="formationModal">
+    <div class="modal-content form-ft" id="modal">
         <span class="close" id="closeModalBtn">&times;</span>
-        <h1 id="title-xp"><?= $title ?></h1>
+        <h1 id="title-ft"><?= $title ?></h1>
 
             <form action="" method="POST">
                 <input type="hidden" name="id" value="<?= htmlspecialchars($pid) ?>">
@@ -149,7 +149,7 @@ session_start();
                 <div class="checkbox-row">
                     <label>
                         <input type="checkbox" name="encore_en_poste" id="encore_en_poste" value="1" <?= $fin['aujourdhui'] ? 'checked' : '' ?>>
-                        Je travaille ici actuellement
+                        J'étudie ici actuellement
                     </label>
                 </div>
 
@@ -159,35 +159,35 @@ session_start();
                     <!-- Lieu -->
                     <div>
                         <label>Lieu :</label>
-                        <input type="text" name="ville" value="<?= htmlspecialchars($xp['ville']) ?>" required>
+                        <input type="text" name="ville" value="<?= htmlspecialchars($ft['ville']) ?>" required>
                     </div>
 
                     <!-- Poste -->
                     <div>
-                        <label>Poste :</label>
-                        <input type="text" name="poste" value="<?= htmlspecialchars($xp['poste']) ?>" required>
+                        <label>Diplome :</label>
+                        <input type="text" name="diplome" value="<?= htmlspecialchars($ft['diplome']) ?>" required>
                     </div>
 
                     <!-- Entreprise -->
                     <div>
-                        <label>Entreprise :</label>
-                        <input type="text" name="entreprise" value="<?= htmlspecialchars($xp['entreprise']) ?>" required>
+                        <label>Etablissement :</label>
+                        <input type="text" name="etablissement" value="<?= htmlspecialchars($ft['etablissement']) ?>" required>
                     </div>
                     
                     <!-- Site web -->
                     <div>
                         <label>Site web :</label>
-                        <input type="url" name="site" value="<?= htmlspecialchars($xp['site']) ?>">
+                        <input type="url" name="site" value="<?= htmlspecialchars($ft['site']) ?>">
                     </div>
 
                     <!-- Description - Full width -->
                     <div class="full-width">
                         <label>Description :</label>
-                        <textarea name="description" rows="10" required><?= htmlspecialchars($xp['description']) ?></textarea>
+                        <textarea name="description" rows="10" required><?= htmlspecialchars($ft['description']) ?></textarea>
                     </div>
                 </div>
 
-                <button id="btn-mod" class="modaleBtn" name="experience" type="submit">Enregistrer</button>
+                <button id="btn-mod" class="modaleBtn" name="formation" type="submit">Enregistrer</button>
             </form>
     </div>
     

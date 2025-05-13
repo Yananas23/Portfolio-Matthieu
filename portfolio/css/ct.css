@@ -1,0 +1,118 @@
+/*Page des compétences*/
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.skill-image-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.skill-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.change-image-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.skill-name {
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+.skill-name input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.skill-rating {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.counter-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background: #181818;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-btn.minus {
+    border-radius: 4px 0 0 4px;
+}
+
+.counter-btn.plus {
+    border-radius: 0 4px 4px 0;
+}
+
+.rating-counter {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+}
+
+.skill-delete {
+    margin-left: 10px;
+}
+
+.delete-skill-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delete-skill-btn:hover {
+    background:rgb(200, 77, 77);
+}
+
+.scrollable-skill {
+   max-height: 300px; 
+   overflow-y: auto; 
+   border: 1px solid #000000; 
+   border-radius: 5px; 
+   padding: 10px; 
+   margin-bottom: 15px; 
+   background-color: #f9f9f9; 
+   position: relative;
+}
