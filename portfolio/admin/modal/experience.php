@@ -66,6 +66,108 @@ session_start();
 
     // (Optionnel) Conversion inverse pour la sauvegarde
     $moisNumeriquesVersNoms = array_flip($moisNoms);
+
+    function exportDate($moisNumeriquesVersNoms, $moisAnnee, $jour = '') {
+        $date = [
+            "mois" => null, 
+            "annee" => null, 
+            "complete" => null];
+        $annee = substr($moisAnnee, 0, 4);
+        $mois = substr($moisAnnee, 5, 2);
+        if (!$jour) {
+            $moisNom = strtoupper($moisNumeriquesVersNoms[$mois]);
+            $date["mois"] = $moisNom;
+            $date["annee"] = $annee;
+            return $date;
+        }
+        $jour = str_pad($jour, 2, "0", STR_PAD_LEFT);
+        $complete = $annee . "-" . $mois . "-". $jour;
+        $date["complete"] = $complete;
+        return $date;
+    }
+
+    function findOrCreateDateId(PDO $conn, $date) {
+    // 1. Chercher si l'entrée existe
+    if (isset($date['mois'])){
+        $stmt = $conn->prepare("SELECT id FROM `date` WHERE mois = ? AND annee = ?");
+        $stmt->execute([$date['mois'], $date['annee']]);
+    } else {
+        $stmt = $conn->prepare("SELECT id FROM `date` WHERE complete = ?");
+        $stmt->execute([$date['complete']]);
+    }    
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+
+    if ($result) {
+        // L'entrée existe, on retourne l'ID
+        return (int)$result['id'];
+    }
+
+    // 2. Sinon, l'insérer
+    $insert = $conn->prepare("INSERT INTO `date` (`mois`, `annee`, `complete`, `aujourdhui`) VALUES (?, ?, ?, 0)");
+    $insert->execute([$date['mois'], $date['annee'], $date['complete']]);
+
+    // 3. Récupérer l'ID de l'entrée insérée
+    return (int)$conn->lastInsertId();
+    }
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $action = $_POST['type'] ?? '';
+    try {
+        if ($action === 'supprimer' && $pid > 0) {
+            $stmt = $conn->prepare("DELETE FROM experiences WHERE id = ?");
+            $stmt->execute([$pid]);
+            echo "Expérience supprimée avec succès.";
+            exit();
+        }
+    
+        $jourDebut = $_POST['date_debut_jour'];
+        $moisAnneeDebut = $_POST['date_debut_mois'];
+        if (!$jourDebut) {
+            $dateDebut = exportDate($moisNumeriquesVersNoms, $moisAnneeDebut);
+        } else {
+            $dateDebut = exportDate($moisNumeriquesVersNoms, $moisAnneeDebut, $jourDebut);
+        }
+        $dateDebutId = findOrCreateDateId($conn, $dateDebut);
+
+        
+        $aujourdhui = $_POST['encore_en_poste'];
+        if ($aujourdhui === '') {
+            $jourFin = $_POST['date_fin_jour'];
+            $moisAnneeFin = $_POST['date_fin_mois'];
+            if (!$jourFin) {
+                $dateFin = exportDate($moisNumeriquesVersNoms, $moisAnneeFin);
+            } else {
+                $dateFin = exportDate($moisNumeriquesVersNoms, $moisAnneeFin, $jourFin);
+            }
+            $dateFinId = findOrCreateDateId($conn, $dateFin);
+        } else {
+            $dateFinId = 1;
+        }
+    
+        $entreprise = $_POST['entreprise'];
+        $site = $_POST['site'];
+        $ville = $_POST['ville'];
+        $poste = $_POST['poste'];
+        $description = $_POST['description'];
+    
+        if ($action === 'modifier' && $pid > 0) {
+            $stmt = $conn->prepare("UPDATE experiences SET `entreprise` = ?, `site` = ?, `ville` = ?, `poste` = ?, `debut` = ?, `fin` = ?, `description` = ? WHERE id = ?");
+            $stmt->execute([$entreprise, $site, $ville, $poste, $dateDebutId, $dateFinId, $description, $pid]);
+            echo "Expérience mise à jour avec succès.";
+        } elseif ($action === 'modifier') {
+            $stmt = $conn->prepare("INSERT INTO experiences (`entreprise`, `site`, `ville`, `poste`, `debut`, `fin`, `description`) VALUES (?, ?, ?, ?, ?, ?, ?)");
+            $stmt->execute([$entreprise, $site, $ville, $poste, $dateDebutId, $dateFinId, $description]);
+            echo "Expérience ajoutée avec succès.";
+        } else {
+            echo "Action non reconnue ou ID manquant.";
+        }
+        exit();
+    } catch (PDOException $e) {
+        echo "Erreur : " . $e->getMessage();
+        exit();
+    }
+}
 ?>
 
 <link rel="stylesheet" href="../css/modal.css" />
@@ -75,10 +177,8 @@ session_start();
         <span class="close" id="closeModalBtn">&times;</span>
         <h1 id="title-xp"><?= $title ?></h1>
 
-            <form action="" method="POST">
-                <input type="hidden" name="id" value="<?= htmlspecialchars($pid) ?>">
-                
-                
+            <form id="xp-form" method="POST" action="./modal/experience.php" data-reload>
+                <input type="hidden" name="type" id="type" value="modifier">
 
                 <div class="date-row">
                     <!-- Date de début -->
@@ -188,6 +288,9 @@ session_start();
                 </div>
 
                 <button id="btn-mod" class="modaleBtn" name="experience" type="submit">Enregistrer</button>
+                <?php if ($pid > 0): ?>
+                    <button id="btn-del" class="modaleBtn" name="experience" type="submit" onclick="document.getElementById('type').value='supprimer';">Supprimer</button>
+                <?php endif; ?>
             </form>
     </div>
     

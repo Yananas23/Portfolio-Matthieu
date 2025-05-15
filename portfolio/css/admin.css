@@ -280,6 +280,10 @@ form button:hover, #btn-add:hover, #btn-mod:hover, #connect:hover,
     background-color: #ae8800;
 }
 
+#btn-del:hover {
+    background-color: #ff4d4d;
+}
+
 #modifier-compte {
     padding:1.5rem;
     border-radius: .5rem;
