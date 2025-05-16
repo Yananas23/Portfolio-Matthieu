@@ -102,6 +102,10 @@
     cursor: pointer;
 }
 
+.add-skill-btn:hover {
+    background:#45a049;
+}
+
 .delete-skill-btn:hover {
     background:rgb(200, 77, 77);
 }

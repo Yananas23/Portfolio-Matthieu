@@ -298,6 +298,9 @@
                         }
                     }
                 }
+                if ($img === null) {
+                    $img = $repertoire . "logo_default.svg";
+                }
 
                 return [
                     'img' => $img,

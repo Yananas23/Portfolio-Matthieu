@@ -327,6 +327,9 @@ if (!isset($_SESSION['admin_id'])) {
                         }
                     }
                 }
+                if ($img === null) {
+                    $img = $repertoire . "logo_default.svg";
+                }
 
                 return [
                     'img' => $img,

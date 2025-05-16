@@ -201,7 +201,6 @@ document.querySelectorAll('li.xp').forEach(el => {
 
     // Fonctions pour gérer les interactions
     function triggerFileInput(btn) {
-        // Solution directe: trouver le champ d'entrée de fichier dans le même div parent
         const container = btn.closest('.skill-image-container');
         if (container) {
             const fileInput = container.querySelector('input[type="file"]');
@@ -248,22 +247,25 @@ document.querySelectorAll('li.xp').forEach(el => {
         }
     };
 
-    function removeSkill(btn) {
-        const skillItem = btn.closest('.skill-item');
-        const skillId = skillItem.dataset.skillId;
-        
+    function removeSkill(skillId, skillName) {
         if (confirm("Êtes-vous sûr de vouloir supprimer cette compétence ?")) {
-            // Crée un champ caché pour indiquer la suppression lors de la soumission du formulaire
-            const hiddenInput = document.createElement('input');
-            hiddenInput.type = 'hidden';
-            hiddenInput.name = 'skill_delete[]';
-            hiddenInput.value = skillId;
-            document.querySelector('form').appendChild(hiddenInput);
-            
-            // Supprime l'élément de l'interface
-            skillItem.remove();
+            // Envoi de la requête AJAX pour supprimer la compétence
+            const xhr = new XMLHttpRequest();
+            xhr.open("POST", "../component/delete-skill.php", true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    alert("Compétence supprimée avec succès !");
+                    location.reload(); // Actualise la page pour mettre à jour la liste
+                } else {
+                    alert("Erreur lors de la suppression de la compétence.");
+                }
+            };
+
+            xhr.send("id=" + skillId + "&skill=" + skillName);
         }
-    };
+    }
 
     // Fonction pour ajouter une nouvelle compétence (template)
     document.addEventListener('click', function(event) {

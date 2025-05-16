@@ -67,26 +67,26 @@ session_start();
     // (Optionnel) Conversion inverse pour la sauvegarde
     $moisNumeriquesVersNoms = array_flip($moisNoms);
 
-    function exportDate($moisNumeriquesVersNoms, $moisAnnee, $jour = '') {
-        $date = [
-            "mois" => null, 
-            "annee" => null, 
-            "complete" => null];
-        $annee = substr($moisAnnee, 0, 4);
-        $mois = substr($moisAnnee, 5, 2);
-        if (!$jour) {
-            $moisNom = strtoupper($moisNumeriquesVersNoms[$mois]);
-            $date["mois"] = $moisNom;
-            $date["annee"] = $annee;
-            return $date;
-        }
-        $jour = str_pad($jour, 2, "0", STR_PAD_LEFT);
-        $complete = $annee . "-" . $mois . "-". $jour;
-        $date["complete"] = $complete;
+function exportDate($moisNumeriquesVersNoms, $moisAnnee, $jour = '') {
+    $date = [
+        "mois" => null, 
+        "annee" => null, 
+        "complete" => null];
+    $annee = substr($moisAnnee, 0, 4);
+    $mois = substr($moisAnnee, 5, 2);
+    if (!$jour) {
+        $moisNom = strtoupper($moisNumeriquesVersNoms[$mois]);
+        $date["mois"] = $moisNom;
+        $date["annee"] = $annee;
         return $date;
     }
+    $jour = str_pad($jour, 2, "0", STR_PAD_LEFT);
+    $complete = $annee . "-" . $mois . "-". $jour;
+    $date["complete"] = $complete;
+    return $date;
+}
 
-    function findOrCreateDateId(PDO $conn, $date) {
+function findOrCreateDateId(PDO $conn, $date) {
     // 1. Chercher si l'entrée existe
     if (isset($date['mois'])){
         $stmt = $conn->prepare("SELECT id FROM `date` WHERE mois = ? AND annee = ?");
@@ -109,7 +109,7 @@ session_start();
 
     // 3. Récupérer l'ID de l'entrée insérée
     return (int)$conn->lastInsertId();
-    }
+}
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $action = $_POST['type'] ?? '';
@@ -177,122 +177,119 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <span class="close" id="closeModalBtn">&times;</span>
         <h1 id="title-xp"><?= $title ?></h1>
 
-            <form id="xp-form" method="POST" action="./modal/experience.php" data-reload>
-                <input type="hidden" name="type" id="type" value="modifier">
+        <form id="xp-form" method="POST" action="./modal/experience.php" data-reload>
+            <input type="hidden" name="type" id="type" value="modifier">
 
-                <div class="date-row">
-                    <!-- Date de début -->
-                    <label>Date de début :</label>
+            <div class="date-row">
+                <!-- Date de début -->
+                <label>Date de début :</label>
+                <?php
+                if (!empty($debut['complete'])) {
+                    $anneeDebut = substr($debut['complete'], 0, 4);
+                    $moisDebut = substr($debut['complete'], 5, 2);
+                    $jourDebut = intval(substr($debut['complete'], 8, 2));
+                } else {
+                    $anneeDebut = $debut['annee'] ?? '';
+                    $moisDebutNom = strtolower($debut['mois'] ?? '');
+                    $moisDebut = $moisNoms[$moisDebutNom] ?? '';
+                    $jourDebut = '';
+                }
+
+                $valMoisDebut = ($anneeDebut && $moisDebut) ? htmlspecialchars($anneeDebut . '-' . $moisDebut) : '';
+                ?>
+                <input type="month" name="date_debut_mois" id="date_debut_mois" value="<?= $valMoisDebut ?>">
+
+                <select name="date_debut_jour" id="date_debut_jour">
+                    <option value="">-- Aucun jour --</option>
                     <?php
-                    if (!empty($debut['complete'])) {
-                        $anneeDebut = substr($debut['complete'], 0, 4);
-                        $moisDebut = substr($debut['complete'], 5, 2);
-                        $jourDebut = intval(substr($debut['complete'], 8, 2));
-                    } else {
-                        $anneeDebut = $debut['annee'] ?? '';
-                        $moisDebutNom = strtolower($debut['mois'] ?? '');
-                        $moisDebut = $moisNoms[$moisDebutNom] ?? '';
-                        $jourDebut = '';
-                    }
-
-                    $valMoisDebut = ($anneeDebut && $moisDebut) ? htmlspecialchars($anneeDebut . '-' . $moisDebut) : '';
-                    ?>
-                    <input type="month" name="date_debut_mois" id="date_debut_mois" value="<?= $valMoisDebut ?>">
-
-                    <select name="date_debut_jour" id="date_debut_jour">
-                        <option value="">-- Aucun jour --</option>
-                        <?php
-                        if ($moisDebut && $anneeDebut) {
-                            $nbJoursDebut = cal_days_in_month(CAL_GREGORIAN, intval($moisDebut), intval($anneeDebut));
-                            for ($i = 1; $i <= $nbJoursDebut; $i++) {
-                                $selected = ($i === intval($jourDebut)) ? 'selected' : '';
-                                echo "<option value=\"$i\" $selected>$i</option>";
-                            }
+                    if ($moisDebut && $anneeDebut) {
+                        $nbJoursDebut = cal_days_in_month(CAL_GREGORIAN, intval($moisDebut), intval($anneeDebut));
+                        for ($i = 1; $i <= $nbJoursDebut; $i++) {
+                            $selected = ($i === intval($jourDebut)) ? 'selected' : '';
+                            echo "<option value=\"$i\" $selected>$i</option>";
                         }
-                        ?>
-                    </select>
-                </div>
+                    }
+                    ?>
+                </select>
+            </div>
 
-                <div class="date-row">
-                    <!-- Date de fin -->
-                    <label>Date de fin :</label>
+            <div class="date-row">
+                <!-- Date de fin -->
+                <label>Date de fin :</label>
+                <?php
+                if (!empty($fin['complete'])) {
+                    $anneeFin = substr($fin['complete'], 0, 4);
+                    $moisFin = substr($fin['complete'], 5, 2);
+                    $jourFin = intval(substr($fin['complete'], 8, 2));
+                } else {
+                    $anneeFin = $fin['annee'] ?? '';
+                    $moisFinNom = strtolower($fin['mois'] ?? '');
+                    $moisFin = $moisNoms[$moisFinNom] ?? '';
+                    $jourFin = '';
+                }
+
+                $valMoisFin = ($anneeFin && $moisFin) ? htmlspecialchars($anneeFin . '-' . $moisFin) : '';
+                ?>
+                <input type="month" name="date_fin_mois" id="date_fin_mois" value="<?= $valMoisFin ?>" <?= $fin['aujourdhui'] ? 'disabled' : '' ?>>
+
+                <select name="date_fin_jour" id="date_fin_jour" <?= $fin['aujourdhui'] ? 'disabled' : '' ?>>
+                    <option value="">-- Aucun jour --</option>
                     <?php
-                    if (!empty($fin['complete'])) {
-                        $anneeFin = substr($fin['complete'], 0, 4);
-                        $moisFin = substr($fin['complete'], 5, 2);
-                        $jourFin = intval(substr($fin['complete'], 8, 2));
-                    } else {
-                        $anneeFin = $fin['annee'] ?? '';
-                        $moisFinNom = strtolower($fin['mois'] ?? '');
-                        $moisFin = $moisNoms[$moisFinNom] ?? '';
-                        $jourFin = '';
-                    }
-
-                    $valMoisFin = ($anneeFin && $moisFin) ? htmlspecialchars($anneeFin . '-' . $moisFin) : '';
-                    ?>
-                    <input type="month" name="date_fin_mois" id="date_fin_mois" value="<?= $valMoisFin ?>" <?= $fin['aujourdhui'] ? 'disabled' : '' ?>>
-
-                    <select name="date_fin_jour" id="date_fin_jour" <?= $fin['aujourdhui'] ? 'disabled' : '' ?>>
-                        <option value="">-- Aucun jour --</option>
-                        <?php
-                        if ($moisFin && $anneeFin) {
-                            $nbJoursFin = cal_days_in_month(CAL_GREGORIAN, intval($moisFin), intval($anneeFin));
-                            for ($i = 1; $i <= $nbJoursFin; $i++) {
-                                $selected = ($i === intval($jourFin)) ? 'selected' : '';
-                                echo "<option value=\"$i\" $selected>$i</option>";
-                            }
+                    if ($moisFin && $anneeFin) {
+                        $nbJoursFin = cal_days_in_month(CAL_GREGORIAN, intval($moisFin), intval($anneeFin));
+                        for ($i = 1; $i <= $nbJoursFin; $i++) {
+                            $selected = ($i === intval($jourFin)) ? 'selected' : '';
+                            echo "<option value=\"$i\" $selected>$i</option>";
                         }
-                        ?>
-                    </select>
+                    }
+                    ?>
+                </select>
+            </div>
+
+            <div class="checkbox-row">
+                <label>
+                    <input type="checkbox" name="encore_en_poste" id="encore_en_poste" value="1" <?= $fin['aujourdhui'] ? 'checked' : '' ?>>
+                    Je travaille ici actuellement
+                </label>
+            </div>
+
+            <div class="info-grid">
+                <!-- Lieu -->
+                <div>
+                    <label>Lieu :</label>
+                    <input type="text" name="ville" value="<?= htmlspecialchars($xp['ville']) ?>" required>
                 </div>
 
-                <div class="checkbox-row">
-                    <label>
-                        <input type="checkbox" name="encore_en_poste" id="encore_en_poste" value="1" <?= $fin['aujourdhui'] ? 'checked' : '' ?>>
-                        Je travaille ici actuellement
-                    </label>
+                <!-- Poste -->
+                <div>
+                    <label>Poste :</label>
+                    <input type="text" name="poste" value="<?= htmlspecialchars($xp['poste']) ?>" required>
                 </div>
 
-
-
-                <div class="info-grid">
-                    <!-- Lieu -->
-                    <div>
-                        <label>Lieu :</label>
-                        <input type="text" name="ville" value="<?= htmlspecialchars($xp['ville']) ?>" required>
-                    </div>
-
-                    <!-- Poste -->
-                    <div>
-                        <label>Poste :</label>
-                        <input type="text" name="poste" value="<?= htmlspecialchars($xp['poste']) ?>" required>
-                    </div>
-
-                    <!-- Entreprise -->
-                    <div>
-                        <label>Entreprise :</label>
-                        <input type="text" name="entreprise" value="<?= htmlspecialchars($xp['entreprise']) ?>" required>
-                    </div>
-                    
-                    <!-- Site web -->
-                    <div>
-                        <label>Site web :</label>
-                        <input type="url" name="site" value="<?= htmlspecialchars($xp['site']) ?>">
-                    </div>
-
-                    <!-- Description - Full width -->
-                    <div class="full-width">
-                        <label>Description :</label>
-                        <textarea name="description" rows="10" required><?= htmlspecialchars($xp['description']) ?></textarea>
-                    </div>
+                <!-- Entreprise -->
+                <div>
+                    <label>Entreprise :</label>
+                    <input type="text" name="entreprise" value="<?= htmlspecialchars($xp['entreprise']) ?>" required>
+                </div>
+                
+                <!-- Site web -->
+                <div>
+                    <label>Site web :</label>
+                    <input type="url" name="site" value="<?= htmlspecialchars($xp['site']) ?>">
                 </div>
 
-                <button id="btn-mod" class="modaleBtn" name="experience" type="submit">Enregistrer</button>
-                <?php if ($pid > 0): ?>
-                    <button id="btn-del" class="modaleBtn" name="experience" type="submit" onclick="document.getElementById('type').value='supprimer';">Supprimer</button>
-                <?php endif; ?>
-            </form>
+                <!-- Description - Full width -->
+                <div class="full-width">
+                    <label>Description :</label>
+                    <textarea name="description" rows="10" required><?= htmlspecialchars($xp['description']) ?></textarea>
+                </div>
+            </div>
+
+            <button id="btn-mod" class="modaleBtn" name="experience" type="submit">Enregistrer</button>
+            <?php if ($pid > 0): ?>
+                <button id="btn-del" class="modaleBtn" name="experience" type="submit" onclick="document.getElementById('type').value='supprimer';">Supprimer</button>
+            <?php endif; ?>
+        </form>
+
     </div>
-    
 </div>
-
