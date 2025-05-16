@@ -72,7 +72,7 @@ function saveLogo($image, $skillName){
         try {
             $target_folder = '../../images/logos-competences/';
             $target_name = renameSkill($skillName); 
-            $image = resizeAndSaveImage($image, $target_folder, $target_name, 720);
+            $image = resizeAndSaveImage($image, $target_folder, $target_name, 0, 0);
 
             echo "Image redimensionnée et enregistrée : " . $image . "\n";
         } catch (Exception $e) {

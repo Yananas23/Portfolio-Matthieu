@@ -4,7 +4,7 @@ function resizeAndSaveImage($file, $target_folder, $target_name, $new_width = 12
     $image_tmp_name = $file['tmp_name'];
     $image_size = $file['size'];
     $image_ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
-    $image_folder = $target_folder . $target_name . '.' . $image_ext;
+    $image_folder = $target_folder . $target_name . '.png';
 
     $image_name = $target_name . '.' . $image_ext;
 
@@ -27,6 +27,10 @@ function resizeAndSaveImage($file, $target_folder, $target_name, $new_width = 12
 
         // Obtenir les dimensions originales
         list($original_width, $original_height) = getimagesize($image_tmp_name);
+
+        // Si les dimensions sont à 0, utiliser les dimensions originales
+        if ($new_width == 0) $new_width = $original_width;
+        if ($new_height == 0) $new_height = $original_height;
 
         // Créer une nouvelle image redimensionnée
         $resized_image = imagecreatetruecolor($new_width, $new_height);
