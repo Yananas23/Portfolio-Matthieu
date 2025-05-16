@@ -12,6 +12,7 @@ function resizeAndSaveImage($file, $target_folder, $target_name, $new_width = 12
     $allowed_extensions = ['jpg', 'jpeg', 'png'];
     if (in_array($image_ext, $allowed_extensions) && $image_size <= 20 * 1024 * 1024) { // Limite de 20 Mo
         // Charger l'image selon l'extension
+        $image_ext = strtolower($image_ext);
         switch ($image_ext) {
             case 'jpg':
             case 'jpeg':

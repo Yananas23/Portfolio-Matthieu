@@ -137,7 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     
                     // Traiter l'image si elle est présente
                     if (isset($_FILES['new_skill_image']) && !empty($_FILES['new_skill_image']['name'][$skill_id])) {
-                        $imageInfo = recreate($_FILES['new_skill_image'], $temp_id);
+                        $imageInfo = recreate($_FILES['new_skill_image'], $skill_id);
                         saveLogo($imageInfo, $skill_name);
                     }
                 }
