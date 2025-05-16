@@ -31,6 +31,16 @@ function resizeAndSaveImage($file, $target_folder, $target_name, $new_width = 12
         // Créer une nouvelle image redimensionnée
         $resized_image = imagecreatetruecolor($new_width, $new_height);
 
+        // Préserver la transparence pour les PNG
+        if ($image_ext === 'png') {
+            // Activer la gestion de la transparence
+            imagealphaBlending($resized_image, false);
+            imageSaveAlpha($resized_image, true);
+            // Définir le fond comme transparent
+            $transparent = imagecolorallocatealpha($resized_image, 0, 0, 0, 127);
+            imagefilledrectangle($resized_image, 0, 0, $new_width, $new_height, $transparent);
+        }
+
         // Redimensionner l'image
         imagecopyresampled(
             $resized_image,
