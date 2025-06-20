@@ -130,8 +130,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         $dateDebutId = findOrCreateDateId($conn, $dateDebut);
 
+        $aujourdhui = '';
+        if(isset($_POST['encore_en_poste'])) {
+            $aujourdhui = $_POST['encore_en_poste'];
+        };
         
-        $aujourdhui = $_POST['encore_en_poste'];
         if ($aujourdhui === '') {
             $jourFin = $_POST['date_fin_jour'];
             $moisAnneeFin = $_POST['date_fin_mois'];

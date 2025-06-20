@@ -1,12 +1,35 @@
 <?php
+
+function renameImage($target_name) {
+    $name = $target_name;
+    
+    $name = str_replace("'", "", $name);
+    
+    $replacements = [
+        'à' => 'a', 'â' => 'a', 'ä' => 'a',
+        'è' => 'e', 'é' => 'e', 'ê' => 'e', 'ë' => 'e',
+        'î' => 'i', 'ï' => 'i',
+        'ô' => 'o', 'ö' => 'o',
+        'ù' => 'u', 'û' => 'u', 'ü' => 'u',
+        'ÿ' => 'y',
+        'ç' => 'c',
+        'á' => 'a', 'í' => 'i', 'ó' => 'o', 'ú' => 'u',
+        'ñ' => 'n'
+    ];
+    
+    $name = strtr($name, $replacements);
+    
+    return $name;
+}
+
 function resizeAndSaveImage($file, $target_folder, $target_name, $new_width = 1280, $new_height = 720) {
     $image = $file['name'];
     $image_tmp_name = $file['tmp_name'];
     $image_size = $file['size'];
     $image_ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
-    $image_folder = $target_folder . $target_name . '.png';
+    $image_folder = $target_folder . renameImage($target_name) . $image_ext;
 
-    $image_name = $target_name . '.' . $image_ext;
+    $image_name = renameImage($target_name) . '.' . $image_ext;
 
     // Vérification des extensions et de la taille
     $allowed_extensions = ['jpg', 'jpeg', 'png'];
