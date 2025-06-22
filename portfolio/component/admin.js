@@ -22,6 +22,7 @@ function updateTranslations() {
         .then(response => {
             if (response.ok) {
                 alert("Les fichiers de traduction ont été mis à jour !");
+                window.location.href = './po_translation_editor.php';
             } else {
                 alert("Une erreur s'est produite lors de la mise à jour.");
             }

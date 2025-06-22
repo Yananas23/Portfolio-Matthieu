@@ -1,7 +1,9 @@
 <?php
 include "connect.php";
 
-$locales = ['en_US.UTF-8', 'fr_FR']; // Liste des langues
+$locales; // Liste des langues
+$locales = array_map('basename', glob('../locales/*', GLOB_ONLYDIR));
+array_unshift($locales, 'fr_FR');
 $potFile = '../locales/messages.pot'; // Chemin du fichier template
 $localeDir = '../locales'; // Répertoire des traductions
 
@@ -80,10 +82,24 @@ try {
     }
 
     // Générer le fichier .pot
-    $potContent = "# Fichier template des traductions\nmsgid \"\"\nmsgstr \"\"\n\"Content-Type: text/plain; charset=UTF-8\"\n\n";
-    foreach ($strings as $string) {
-        $potContent .= "msgid \"$string\"\nmsgstr \"\"\n\n";
+    $potHeader = "# Fichier template des traductions\nmsgid \"\"\nmsgstr \"\"\n\"Content-Type: text/plain; charset=UTF-8\"\n\n";
+
+    // Si le fichier n'existe pas, le créer avec l'en-tête
+    if (!file_exists($potFile)) {
+        file_put_contents($potFile, $potHeader);
     }
+
+    // Lire le contenu existant
+    $potContent = file_get_contents($potFile);
+
+    // Ajouter seulement les nouvelles chaînes
+    foreach ($strings as $string) {
+        if (!str_contains($potContent, "msgid \"$string\"")) {
+            $potContent .= "msgid \"$string\"\nmsgstr \"\"\n\n";
+        }
+    }
+
+    // Sauvegarder
     if (file_put_contents($potFile, $potContent) === false) {
         throw new Exception("Impossible d'écrire le fichier .pot.");
     }
@@ -127,6 +143,7 @@ try {
 
     // Si tout s'est bien passé
     echo "Fichiers .po mis à jour avec succès !";
+    
 } catch (Exception $e) {
     // En cas d'erreur, renvoyer un code 500 et afficher un message
     echo "Erreur : " . $e->getMessage();
