@@ -335,6 +335,20 @@ form button:hover, #btn-add:hover, #btn-mod:hover, #connect:hover,
     align-items: flex-start;
   }
 
+.modal.modif-projet .general,
+.modal.add-projet .general {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  width: 100%;
+  justify-content: center; /* 👈 C’EST ÇA */
+}
+
+.modal.modif-projet .general > *,
+.modal.add-projet .general > * {
+  grid-column: span 2;
+}
+
   .general#G2{
     grid-template-columns: 1fr;
     height: auto; 
@@ -347,7 +361,6 @@ form button:hover, #btn-add:hover, #btn-mod:hover, #connect:hover,
       height: auto; 
     }
   }
-
 
 
 #synopsis-container {

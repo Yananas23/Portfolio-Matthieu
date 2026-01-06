@@ -44,11 +44,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
          }
 
          $query = "INSERT INTO `projets` 
-                  (`titre`, `type1`, `duree`, `date1`, `lien_projet`, `synopsis`, `short_synopsis`, `vue_ensemble`, `short_vue_ensemble`, `avis_perso`, `ID-video`) 
-                  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                  (`titre`, `type1`, `duree`, `role`, `date1`, `lien_projet`, `synopsis`, `short_synopsis`, `vue_ensemble`, `short_vue_ensemble`, `avis_perso`, `ID-video`) 
+                  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
          $stmt = $conn->prepare($query);
          $stmt->execute([
-            $_POST['titre'], $_POST['type1'], $_POST['duree'], $_POST['date1'], 
+            $_POST['titre'], $_POST['type1'], $_POST['role'], $_POST['duree'], $_POST['date1'], 
             $_POST['lien_proj'], $synopsis, $short_synopsis, $vue_ensemble, 
             $short_vue_ensemble, $_POST['avis_perso'], $video_id
          ]);
@@ -112,6 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
          <div class="general">
             <input type="text" name="titre" id="titre" class="boite" required placeholder="Titre">
             <input type="text" name="type1" id="type1" class="boite" required placeholder="Type">
+            <input type="text" name="role" id="role" class="boite" required placeholder="Rôle">
             <div id="duree-total">
                <label for="duree">Durée :</label>
                <input type="time" step="1" name="duree" id="duree" class="boite duo" required>

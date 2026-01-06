@@ -786,3 +786,6 @@ msgstr ""
 msgid "Langues"
 msgstr ""
 
+msgid "Stage de technicien en tant que monteur pour les réseaux sociaux de Vadrouille. Très enrichissant, autant en technique qu’en appréhension de l’environnement professionnel. (<a target='_blank' href='https://docs.google.com/document/d/1sStTlDA_wfz4dv-HGY6qNquXP--97JZ_2IDTunp90tE/edit?usp=drive_link'>lien vers mon rapport de stage</a>)"
+msgstr ""
+

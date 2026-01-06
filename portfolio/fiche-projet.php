@@ -60,7 +60,7 @@
             ?>
             <section class="projet" id="titre">
                 <h2 id="titre_projet"><?= $fetch_projects['titre']; ?></h2>
-                <h3 id="infos_projet"><?= _($fetch_projects['type1']); ?> - <?= $fetch_projects['duree']; ?> - <?= $formatteddate1; ?> - <a target="_blank" href="<?= $fetch_projects['lien_projet']; ?>"><?= $fetch_projects['titre']; ?></a></h3>
+                <h3 id="infos_projet"><?= _($fetch_projects['type1']); ?> - <?= $fetch_projects['duree']; ?> - <?= $formatteddate1; ?> - <a target="_blank" href="<?= $fetch_projects['lien_projet']; ?>"><?= $fetch_projects['titre']; ?></a> - <?= _($fetch_projects['role']); ?></h3>
             </section>
             <section class="projet" id="vue_dEnsemble">
                 <article id="article_projet">

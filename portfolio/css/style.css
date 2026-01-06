@@ -26,6 +26,10 @@ h1, h2, h3, h4, #p_other, #presentation, #projet_title, footer, footer li, foote
     text-align: center;
 }
 
+h2.role {
+    font-size: small;
+}
+
 h3{
     font-size: 1.4em;
     line-height: 20px;
